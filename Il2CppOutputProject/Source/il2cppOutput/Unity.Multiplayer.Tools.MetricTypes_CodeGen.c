@@ -319,7 +319,7 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[65] =
 };
 static const int32_t s_InvokerIndices[86] = 
 {
-	17534,
+	17535,
 	10141,
 	16142,
 	16136,
@@ -332,7 +332,7 @@ static const int32_t s_InvokerIndices[86] =
 	5585,
 	5697,
 	9930,
-	17505,
+	17506,
 	13878,
 	15983,
 	15983,
@@ -359,7 +359,7 @@ static const int32_t s_InvokerIndices[86] =
 	9862,
 	9901,
 	9931,
-	17505,
+	17506,
 	4189,
 	3517,
 	9901,
@@ -404,7 +404,7 @@ static const int32_t s_InvokerIndices[86] =
 	3495,
 	9862,
 	9931,
-	17505,
+	17506,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_MetricTypes_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_MetricTypes_CodeGenModule = 
