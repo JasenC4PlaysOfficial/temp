@@ -23,9 +23,9 @@ static Il2CppMethodPointer s_methodPointers[3] =
 };
 static const int32_t s_InvokerIndices[3] = 
 {
-	17537,
-	10141,
-	17459,
+	17541,
+	10142,
+	17463,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_NetStatsReporting_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Multiplayer_Tools_NetStatsReporting_CodeGenModule = 

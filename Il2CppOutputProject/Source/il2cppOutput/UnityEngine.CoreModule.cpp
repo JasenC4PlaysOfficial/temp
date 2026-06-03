@@ -2667,6 +2667,10 @@ struct TypeInferenceRules_tEFD8B0F1D39A1EA0A86C159333202C56FFD90B87
 struct UnityLogWriter_t2E05964E2BD4D4CD39396AA37A43D2F9175214D6  : public TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3
 {
 };
+struct UserAuthorization_tD726D18E80FB80F5A0F64B477C260BC8495BC80F 
+{
+	int32_t ___value__;
+};
 struct VRTextureUsage_t57FAA0077810142A461D74EDC5E33FC3D78BD2E8 
 {
 	int32_t ___value__;
@@ -9933,6 +9937,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_set_targetFrameRate_mB90EEA6
 	_il2cpp_icall_func = (Application_set_targetFrameRate_mB90EEA60DAE55CD71C38D4B7DFDBE2B34EA6B46F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::set_targetFrameRate(System.Int32)");
 	_il2cpp_icall_func(___0_value);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* Application_RequestUserAuthorization_mADBB6AC1C7EF417C7D11D2D8F1263985547F94AA (int32_t ___0_mode, const RuntimeMethod* method) 
+{
+	typedef AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* (*Application_RequestUserAuthorization_mADBB6AC1C7EF417C7D11D2D8F1263985547F94AA_ftn) (int32_t);
+	static Application_RequestUserAuthorization_mADBB6AC1C7EF417C7D11D2D8F1263985547F94AA_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_RequestUserAuthorization_mADBB6AC1C7EF417C7D11D2D8F1263985547F94AA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::RequestUserAuthorization(UnityEngine.UserAuthorization)");
+	AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* icallRetVal = _il2cpp_icall_func(___0_mode);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4 (int32_t ___0_mode, const RuntimeMethod* method) 
+{
+	typedef bool (*Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4_ftn) (int32_t);
+	static Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_HasUserAuthorization_mB418451E98E7C23BA2A31DDF39BFB7253023B4F4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::HasUserAuthorization(UnityEngine.UserAuthorization)");
+	bool icallRetVal = _il2cpp_icall_func(___0_mode);
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) 
 {
 	typedef int32_t (*Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138_ftn) ();
@@ -11153,6 +11175,14 @@ IL2CPP_EXTERN_C  void ApplicationMemoryUsageChange__ctor_mD1B7299FCDDF14B479AF66
 	_thisAdjusted = reinterpret_cast<ApplicationMemoryUsageChange_t6D0E5F815818103331E6C5B0D42E006408D4FFC1*>(__this + _offset);
 	ApplicationMemoryUsageChange__ctor_mD1B7299FCDDF14B479AF66AFDDFC2D710AC6A3C0(_thisAdjusted, ___0_usage, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

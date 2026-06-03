@@ -387,17 +387,6 @@ struct ConstrainedFuncInvoker1<R, T1*>
 template <typename R, typename T1, typename T2>
 struct ConstrainedFuncInvoker2;
 template <typename R, typename T1, typename T2>
-struct ConstrainedFuncInvoker2<R, T1*, T2>
-{
-	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1* p1, T2 p2)
-	{
-		R ret;
-		void* params[2] = { p1, &p2 };
-		il2cpp_codegen_runtime_constrained_call(type, constrainedMethod, boxBuffer, obj, params, &ret);
-		return ret;
-	}
-};
-template <typename R, typename T1, typename T2>
 struct ConstrainedFuncInvoker2<R, T1*, T2*>
 {
 	static inline R Invoke (RuntimeClass* type, const RuntimeMethod* constrainedMethod, void* boxBuffer, void* obj, T1* p1, T2* p2)
@@ -824,7 +813,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mF58794633948FE8284FCDACC44
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m7192473FE87D81877EA735D30AD5E90EE42BAB82_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ManagedCallWrapper_ArgumentsFromPtr_TisDisposeArguments_tA9DA14C78D9C5B0446E639988CA332FEA909969C_mC21F905FD7610DB2D7D7583C046E45993488855B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafePtr_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m136921F8DC97C45707B27ABA238A7FBE80AFEBD0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeHashMap_2__ctor_mBB94AB2F0AA760B7138E075320514E3B5DCB2E0C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeReference_1__ctor_m36038A9235C1D4F36D8ACBA8F3468712EAA705A3_RuntimeMethod_var;
@@ -6538,11 +6526,6 @@ struct RelayLayer_t08B5AFCF041905C07CD9BD9F85BDEA0B8E81DDBC
 	ConnectionDataMap_1_tAC254408AD08D5925026C7F6A109468875700A32 ___m_ConnectionsData;
 	NativeParallelHashMap_2_tAA41F1B1C723626ABFD815E62B40CDF08A2C8A41 ___m_EndpointsHashMap;
 };
-struct SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA 
-{
-	PacketsQueue_t55C35EE7F179B6EFC322A3BD4262FA0F753E0A7D ___SendQueue;
-	int64_t ___Time;
-};
 struct SimpleConnectionLayer_tD531006D1F6136DBEC5FF759F3AC58A04033AA1C 
 {
 	ConnectionList_t44A2E822FB7BF1857B165A02353B85C6A293FA42 ___m_ConnectionList;
@@ -6927,13 +6910,6 @@ struct ConstructJobList_t9B7D7E4828A1206B525AB228F2A5C31DE9C55707
 {
 	NativeStream_t624CBCF9CCEA655FC42B2129CAB3BC9AE13CE376 ___Container;
 	UntypedUnsafeList_tB7A46F76589C71832F1147292E5123FB99E199B2* ___List;
-};
-struct ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A 
-{
-	void* ___LayerPtr;
-	SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA ___JobArguments;
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___Dependency;
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___Return;
 };
 struct PendingPacket_t479815078D1E4D1B5441E44C39E685232AB4EE94 
 {
@@ -7934,9 +7910,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NetworkLayerWrapper_IsType_TisIl2CppFull
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 NetworkInterfaceLayer_1_ScheduleReceive_m63E893916563BA85DBD6E1684E21AC1EE02714E8_gshared (NetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07* __this, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 NetworkInterfaceLayer_1_ScheduleReceive_mA153212EBD2B426F52D4E9E1818B5AB9B36F6999_gshared (NetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2* __this, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 NetworkInterfaceLayer_1_ScheduleSend_mD014A52C14C4537BAC30C588B60869DB02502531_gshared (NetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 NetworkInterfaceLayer_1_ScheduleSend_mA4613BE448DDFD4092A9B948554E06FADD64ACB7_gshared (NetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Capacity_mA1DCA5E10F5482F6DBA7EA8E7869809E866340C8_gshared_inline (UnsafeList_1_t5C65DCA6782B7C9860C859C2F0C07A2C497E822D* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeList_1_get_Length_m5ADA6FC207141EE5CD110B11B1D13A9798F5F7D1_gshared_inline (UnsafeList_1_t3B699AD7B2AAAB1ECC45766BCC7D8994E28DF28D* __this, const RuntimeMethod* method) ;
@@ -9288,22 +9261,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 StreamToDatagramLayer_ScheduleReceive_m3495A5DB193EB5D5809756C3C5DF86D564A33500 (StreamToDatagramLayer_t77F07C638267A9488B388EA9BF04DE6610AC81A3* __this, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dep, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 TLSLayer_ScheduleReceive_m987766AF4C7D64CA5F904A52452338C4F6724E16 (TLSLayer_t1ECDC286A9C9DFF8E20786DAF5F18C29C6C50F28* __this, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 TopLayer_ScheduleReceive_mDCA73F38F75CD071A8C77DA602630E61EA8E7037 (TopLayer_tE585BE354EB6A9B70674C134A5351972100D15F0* __this, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 WebSocketLayer_ScheduleReceive_m97856F5D3E82C2AB34D547009D42194B0F87533F (WebSocketLayer_t77A2E9DB6E4CF6AF3D231E35DD42C627621C8BF5* __this, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dep, const RuntimeMethod* method) ;
-inline ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450 (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method)
-{
-	return ((  ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* (*) (void*, int32_t, const RuntimeMethod*))ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_gshared)(___0_argumentsPtr, ___1_size, method);
-}
-inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 NetworkInterfaceLayer_1_ScheduleSend_mD014A52C14C4537BAC30C588B60869DB02502531 (NetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method)
-{
-	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (NetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07*, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))NetworkInterfaceLayer_1_ScheduleSend_mD014A52C14C4537BAC30C588B60869DB02502531_gshared)(__this, ___0_arguments, ___1_dependency, method);
-}
-inline JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 NetworkInterfaceLayer_1_ScheduleSend_mA4613BE448DDFD4092A9B948554E06FADD64ACB7 (NetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method)
-{
-	return ((  JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 (*) (NetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2*, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, const RuntimeMethod*))NetworkInterfaceLayer_1_ScheduleSend_mA4613BE448DDFD4092A9B948554E06FADD64ACB7_gshared)(__this, ___0_arguments, ___1_dependency, method);
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 AnalyticsLayer_ScheduleSend_mD77D6F3CDC63A0493C2EE696CF8184B3E7286F7E (AnalyticsLayer_tCCAE7200F4B269A91810B64530013B05CE556CED* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 BottomLayer_ScheduleSend_mC62613955363606A9D833DE3829846C2303BCA1F (BottomLayer_tA1F6446B4F1BEB0D85D5968F4FE47778F2F9C7A9* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 DTLSLayer_ScheduleSend_m184F0BC16974E99555BC890F5E25F200064BFE3E (DTLSLayer_tF381678C9D6624EC062417DA52D48D59F1FB226C* __this, SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* ___0_arguments, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___1_dependency, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FastBufferWriter_get_Length_m7266B7D8C1D5C7C6876FBC287C06655EB9593396_inline (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177 (void* ___0_destination, void* ___1_source, int64_t ___2_size, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52 (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
@@ -9398,6 +9355,249 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferWriter_TryBeginWri
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OverflowException__ctor_m2B99D79236B7B87C0BB6C9AB2E557DECE481C264 (OverflowException_t6F6AD8CACE20C37F701C05B373A215C4802FAB0C* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FastBufferReader_TryBeginReadInternal_m5C597FDF5DF8DA7AE28A0A441AF6542DD05B05B1_inline (FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99* __this, int32_t ___0_bytes, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FastBufferWriter_Grow_mAD43637D60A44A3D7DCEB09D0425822F6C2A23FB (FastBufferWriter_tE6AFE9436BD125AF309056A81B70F95625FB96EC* __this, int32_t ___0_additionalSizeRequired, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisConnectionRequestMessage_tB06FE3CD0016BEBC930EE84D68A99F55FD782876_m8730AE9157EF9F423467A0B132084C4C85F30FBD_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, ConnectionRequestMessage_tB06FE3CD0016BEBC930EE84D68A99F55FD782876* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisCreateObjectMessage_t9D7B225CE00565D52CC7BD9F6C23033CE8517792_m7550BF5DE7FCD3232D4636CF6FEAD28296758261_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, CreateObjectMessage_t9D7B225CE00565D52CC7BD9F6C23033CE8517792* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisDestroyObjectMessage_tF945B3E9EF49602411CF9FBB19E2A7EA92F4E050_mDD52056A1AD593A72A7DD25E012CD611443D899A_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, DestroyObjectMessage_tF945B3E9EF49602411CF9FBB19E2A7EA92F4E050* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisDisconnectReasonMessage_t9E24670899D700D426010C5987CA051C92E07BC4_m1AD0A01AD5C1E1CF9771083F615941E5011FA1FD_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, DisconnectReasonMessage_t9E24670899D700D426010C5987CA051C92E07BC4* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisNamedMessage_t9F7A03E65A493463A4DE58EC08A5572A08DBDE93_mB0B11EC9D696C54A570B2CB6DCC7DB54F4EBC22B_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, NamedMessage_t9F7A03E65A493463A4DE58EC08A5572A08DBDE93* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisNetworkTransformMessage_t433B7AEA5929A04F08AE0330255725E86CD57146_mB4D39963EA2BE716FF0F3F699FD2699DA3D2AA9D_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, NetworkTransformMessage_t433B7AEA5929A04F08AE0330255725E86CD57146* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisNetworkVariableDeltaMessage_t40B8A55EB37D727A801A7B527AE80510913DB41A_m4634F51CA6AC6848CE241AE195F77634383432C6_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, NetworkVariableDeltaMessage_t40B8A55EB37D727A801A7B527AE80510913DB41A* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisParentSyncMessage_t48DA84CC941D4AF403632912F1F04052217102DD_m3C0F43109E3147E5576ADE03261F0AD2D6507969_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, ParentSyncMessage_t48DA84CC941D4AF403632912F1F04052217102DD* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisProxyMessage_tF8FCA596585524136AA901CB4F80FB1EFBD09044_m0BEED4C1327402DE57543B336189335583BDFDAC_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, ProxyMessage_tF8FCA596585524136AA901CB4F80FB1EFBD09044* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
+{
+	if (!il2cpp_rgctx_is_initialized(method))
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		il2cpp_rgctx_method_init(method);
+	}
+	{
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0 = __this->___m_NetworkManager;
+		NullCheck(L_0);
+		RuntimeObject* L_1;
+		L_1 = NetworkManager_get_NetworkMetrics_mC2FC9F73570CF607741C2C02FB641D1A23FCEF13(L_0, NULL);
+		uint64_t L_2 = ___0_clientId;
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(method->rgctx_data, 0)) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_4;
+		L_4 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_3, NULL);
+		NullCheck((MemberInfo_t*)L_4);
+		String_t* L_5;
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(8, (MemberInfo_t*)L_4);
+		int32_t L_6 = ___3_messageSizeBytes;
+		NullCheck(L_1);
+		InterfaceActionInvoker3< uint64_t, String_t*, int64_t >::Invoke(3, INetworkMetrics_tE2C13758A950A5C77D2682C15F47914B13AC1C41_il2cpp_TypeInfo_var, L_1, L_2, L_5, ((int64_t)L_6));
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MetricHooks_OnAfterSendMessage_TisRpcMessage_t17348F9B6955A0235FF29AF289D7855D67AB0C15_m796F1C32BD433398CD21E1D356441BE10E6CE291_gshared (MetricHooks_t2F025F1B9F45BCE5555E5EC094215FD9BE6FFBD8* __this, uint64_t ___0_clientId, RpcMessage_t17348F9B6955A0235FF29AF289D7855D67AB0C15* ___1_message, int32_t ___2_delivery, int32_t ___3_messageSizeBytes, const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
@@ -29428,210 +29628,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleReceiveWrapp
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
 		L_11 = TopLayer_ScheduleReceive_mDCA73F38F75CD071A8C77DA602630E61EA8E7037(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
-		L_3->___Return = L_11;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleReceiveWrapper_TisWebSocketLayer_t77A2E9DB6E4CF6AF3D231E35DD42C627621C8BF5_m4BF9E75217DA9332FA8890D8BC7B3466066CE68D_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_3 = V_0;
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		WebSocketLayer_t77A2E9DB6E4CF6AF3D231E35DD42C627621C8BF5* L_6;
-		L_6 = UnsafeUtility_AsRef_TisWebSocketLayer_t77A2E9DB6E4CF6AF3D231E35DD42C627621C8BF5_m20A59BE5CB51A0C69A49862041E471295E9A391C_inline(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_7 = V_0;
-		ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* L_8 = (ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126*)(&L_7->___JobArguments);
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
-		L_11 = WebSocketLayer_ScheduleReceive_m97856F5D3E82C2AB34D547009D42194B0F87533F(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
-		L_3->___Return = L_11;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleReceiveWrapper_TisIl2CppFullySharedGenericStruct_mFCF57C9BCD2D3F94F1860B8469F13A3B0EF30CE7_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	void* L_11 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(method->rgctx_data, 2)));
-	ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D_m92463E522CE9ED5C16D3A3497E08F38C7AFA3E2E_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_3 = V_0;
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		Il2CppFullySharedGenericStruct* L_6;
-		L_6 = ((  Il2CppFullySharedGenericStruct* (*) (void*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->rgctx_data, 0)))(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_7 = V_0;
-		ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126* L_8 = (ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126*)(&L_7->___JobArguments);
-		ScheduleReceiveArguments_t0ADB5900FB93F135C18B5ED3E4F1BBE98993648D* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_12;
-		L_12 = ConstrainedFuncInvoker2< JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08, ReceiveJobArguments_tA06B37FCE42E7517CCC2445A3CEE0A83F7DF4126*, JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 >::Invoke(il2cpp_rgctx_data(method->rgctx_data, 2), il2cpp_rgctx_method(method->rgctx_data, 3), L_11, (void*)L_6, L_8, L_10);
-		L_3->___Return = L_12;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleSendWrapper_TisNetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07_m0D568227B70B1968D1A568CA0914225CF22B5A69_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_3 = V_0;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		NetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07* L_6;
-		L_6 = UnsafeUtility_AsRef_TisNetworkInterfaceLayer_1_t83865C13B852A1C356306BF86648BF31CA286A07_m53FB9CA745D11675FED8C615B8D8E4BFBD3488D0_inline(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_7 = V_0;
-		SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* L_8 = (SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*)(&L_7->___JobArguments);
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
-		L_11 = NetworkInterfaceLayer_1_ScheduleSend_mD014A52C14C4537BAC30C588B60869DB02502531(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
-		L_3->___Return = L_11;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleSendWrapper_TisNetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2_m6FE14A57BFDCEA5321CC8E92FFDC6041BE395849_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_3 = V_0;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		NetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2* L_6;
-		L_6 = UnsafeUtility_AsRef_TisNetworkInterfaceLayer_1_t137FF8CEBD813A727A95B72225D3AC9459D591B2_m797AEC73D93A43C3C5FAF19F3FE2AD822B004FE8_inline(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_7 = V_0;
-		SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* L_8 = (SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*)(&L_7->___JobArguments);
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
-		L_11 = NetworkInterfaceLayer_1_ScheduleSend_mA4613BE448DDFD4092A9B948554E06FADD64ACB7(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
-		L_3->___Return = L_11;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleSendWrapper_TisAnalyticsLayer_tCCAE7200F4B269A91810B64530013B05CE556CED_mB8E269ADA83D2D7B80EBF5874BF2CA605039A982_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_3 = V_0;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		AnalyticsLayer_tCCAE7200F4B269A91810B64530013B05CE556CED* L_6;
-		L_6 = UnsafeUtility_AsRef_TisAnalyticsLayer_tCCAE7200F4B269A91810B64530013B05CE556CED_mB4325C717053113D80F4846624000E1003A60C1E_inline(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_7 = V_0;
-		SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* L_8 = (SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*)(&L_7->___JobArguments);
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
-		L_11 = AnalyticsLayer_ScheduleSend_mD77D6F3CDC63A0493C2EE696CF8184B3E7286F7E(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
-		L_3->___Return = L_11;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleSendWrapper_TisBottomLayer_tA1F6446B4F1BEB0D85D5968F4FE47778F2F9C7A9_m09D7805138222920A6E0ADC55D844297322A3E61_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_3 = V_0;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		BottomLayer_tA1F6446B4F1BEB0D85D5968F4FE47778F2F9C7A9* L_6;
-		L_6 = UnsafeUtility_AsRef_TisBottomLayer_tA1F6446B4F1BEB0D85D5968F4FE47778F2F9C7A9_m1189475791AF9E1AF722F55E97D569619F0B12A7_inline(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_7 = V_0;
-		SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* L_8 = (SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*)(&L_7->___JobArguments);
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
-		L_11 = BottomLayer_ScheduleSend_mC62613955363606A9D833DE3829846C2303BCA1F(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
-		L_3->___Return = L_11;
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkLayerWrapper_ScheduleSendWrapper_TisDTLSLayer_tF381678C9D6624EC062417DA52D48D59F1FB226C_m7517AA734E4633A5F4016E61A4A2215B8DB2CABA_gshared (void* ___0_argumentsPtr, int32_t ___1_size, const RuntimeMethod* method) 
-{
-	if (!il2cpp_rgctx_is_initialized(method))
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		il2cpp_rgctx_method_init(method);
-	}
-	ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* V_0 = NULL;
-	{
-		void* L_0 = ___0_argumentsPtr;
-		int32_t L_1 = ___1_size;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_2;
-		L_2 = ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450(L_0, L_1, ManagedCallWrapper_ArgumentsFromPtr_TisScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A_mEAFE936B71E757C3FFB47C09865955BB62103450_RuntimeMethod_var);
-		V_0 = L_2;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_3 = V_0;
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_4 = V_0;
-		void* L_5 = L_4->___LayerPtr;
-		DTLSLayer_tF381678C9D6624EC062417DA52D48D59F1FB226C* L_6;
-		L_6 = UnsafeUtility_AsRef_TisDTLSLayer_tF381678C9D6624EC062417DA52D48D59F1FB226C_m9E18EED532E5F8007B4E550F78EEAC6AD50A2736_inline(L_5, il2cpp_rgctx_method(method->rgctx_data, 0));
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_7 = V_0;
-		SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA* L_8 = (SendJobArguments_t865F67507C7FAF3AA4E700E04A6B9F8FA3D86AFA*)(&L_7->___JobArguments);
-		ScheduleSendArguments_tFA71DDDFECB30A53AFFC154B2D47E87EDD01928A* L_9 = V_0;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_10 = L_9->___Dependency;
-		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_11;
-		L_11 = DTLSLayer_ScheduleSend_m184F0BC16974E99555BC890F5E25F200064BFE3E(L_6, L_8, L_10, il2cpp_rgctx_method(method->rgctx_data, 3));
 		L_3->___Return = L_11;
 		return;
 	}

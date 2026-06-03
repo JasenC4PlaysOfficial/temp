@@ -914,6 +914,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Application
 
+		//System.Boolean UnityEngine.Application::HasUserAuthorization(UnityEngine.UserAuthorization)
+		void Register_UnityEngine_Application_HasUserAuthorization();
+		Register_UnityEngine_Application_HasUserAuthorization();
+
 		//System.Boolean UnityEngine.Application::get_isBatchMode()
 		void Register_UnityEngine_Application_get_isBatchMode();
 		Register_UnityEngine_Application_get_isBatchMode();
@@ -958,6 +962,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_set_targetFrameRate();
 		Register_UnityEngine_Application_set_targetFrameRate();
 
+		//UnityEngine.AsyncOperation UnityEngine.Application::RequestUserAuthorization(UnityEngine.UserAuthorization)
+		void Register_UnityEngine_Application_RequestUserAuthorization();
+		Register_UnityEngine_Application_RequestUserAuthorization();
+
 		//UnityEngine.NetworkReachability UnityEngine.Application::get_internetReachability()
 		void Register_UnityEngine_Application_get_internetReachability();
 		Register_UnityEngine_Application_get_internetReachability();
@@ -990,13 +998,33 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.AudioClip
 
+		//System.Boolean UnityEngine.AudioClip::GetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
+		void Register_UnityEngine_AudioClip_GetData();
+		Register_UnityEngine_AudioClip_GetData();
+
 		//System.Boolean UnityEngine.AudioClip::LoadAudioData()
 		void Register_UnityEngine_AudioClip_LoadAudioData();
 		Register_UnityEngine_AudioClip_LoadAudioData();
 
+		//System.Boolean UnityEngine.AudioClip::SetData(UnityEngine.AudioClip,System.Single[],System.Int32,System.Int32)
+		void Register_UnityEngine_AudioClip_SetData();
+		Register_UnityEngine_AudioClip_SetData();
+
+		//System.Int32 UnityEngine.AudioClip::get_channels()
+		void Register_UnityEngine_AudioClip_get_channels();
+		Register_UnityEngine_AudioClip_get_channels();
+
+		//System.Int32 UnityEngine.AudioClip::get_samples()
+		void Register_UnityEngine_AudioClip_get_samples();
+		Register_UnityEngine_AudioClip_get_samples();
+
 		//System.Single UnityEngine.AudioClip::get_length()
 		void Register_UnityEngine_AudioClip_get_length();
 		Register_UnityEngine_AudioClip_get_length();
+
+		//System.String UnityEngine.AudioClip::GetName()
+		void Register_UnityEngine_AudioClip_GetName();
+		Register_UnityEngine_AudioClip_GetName();
 
 		//System.Void UnityEngine.AudioClip::CreateUserSound(System.String,System.Int32,System.Int32,System.Int32,System.Boolean)
 		void Register_UnityEngine_AudioClip_CreateUserSound();
@@ -1066,9 +1094,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_set_loop();
 		Register_UnityEngine_AudioSource_set_loop();
 
+		//System.Void UnityEngine.AudioSource::set_maxDistance(System.Single)
+		void Register_UnityEngine_AudioSource_set_maxDistance();
+		Register_UnityEngine_AudioSource_set_maxDistance();
+
+		//System.Void UnityEngine.AudioSource::set_minDistance(System.Single)
+		void Register_UnityEngine_AudioSource_set_minDistance();
+		Register_UnityEngine_AudioSource_set_minDistance();
+
 		//System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
 		void Register_UnityEngine_AudioSource_set_playOnAwake();
 		Register_UnityEngine_AudioSource_set_playOnAwake();
+
+		//System.Void UnityEngine.AudioSource::set_rolloffMode(UnityEngine.AudioRolloffMode)
+		void Register_UnityEngine_AudioSource_set_rolloffMode();
+		Register_UnityEngine_AudioSource_set_rolloffMode();
 
 		//System.Void UnityEngine.AudioSource::set_spatialBlend(System.Single)
 		void Register_UnityEngine_AudioSource_set_spatialBlend();
@@ -2783,6 +2823,30 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_MeshFilter_get_mesh();
 
 	//End Registrations for type : UnityEngine.MeshFilter
+
+	//Start Registrations for type : UnityEngine.Microphone
+
+		//System.Int32 UnityEngine.Microphone::GetMicrophoneDeviceIDFromName(System.String)
+		void Register_UnityEngine_Microphone_GetMicrophoneDeviceIDFromName();
+		Register_UnityEngine_Microphone_GetMicrophoneDeviceIDFromName();
+
+		//System.Int32 UnityEngine.Microphone::GetRecordPosition(System.Int32)
+		void Register_UnityEngine_Microphone_GetRecordPosition();
+		Register_UnityEngine_Microphone_GetRecordPosition();
+
+		//System.String[] UnityEngine.Microphone::get_devices()
+		void Register_UnityEngine_Microphone_get_devices();
+		Register_UnityEngine_Microphone_get_devices();
+
+		//System.Void UnityEngine.Microphone::EndRecord(System.Int32)
+		void Register_UnityEngine_Microphone_EndRecord();
+		Register_UnityEngine_Microphone_EndRecord();
+
+		//UnityEngine.AudioClip UnityEngine.Microphone::StartRecord(System.Int32,System.Boolean,System.Single,System.Int32)
+		void Register_UnityEngine_Microphone_StartRecord();
+		Register_UnityEngine_Microphone_StartRecord();
+
+	//End Registrations for type : UnityEngine.Microphone
 
 	//Start Registrations for type : UnityEngine.MonoBehaviour
 
