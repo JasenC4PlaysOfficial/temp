@@ -1100,7 +1100,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
-struct Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 
+struct Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 
 {
 	Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A ___register;
 };
@@ -1169,9 +1169,9 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 {
 	intptr_t ___value;
 };
-struct VectorSizeHelper_tC26CEAD1B0D88F765A24D653A74900C4C7FEBD18 
+struct VectorSizeHelper_tD935DCA9AE29822CBAA1799D76E04D21E01D14E4 
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ____placeholder;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ____placeholder;
 	uint8_t ____byte;
 };
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
@@ -1216,12 +1216,12 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 {
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1;
 };
-struct Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields
+struct Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields
 {
 	int32_t ___s_count;
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___s_zero;
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___s_one;
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___s_allOnes;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___s_zero;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___s_one;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___s_allOnes;
 };
 struct Vector_1_t566D05A9DE75BCD8F12F1E09AC3F8A4BC01BF92A_StaticFields
 {
@@ -1245,68 +1245,68 @@ struct Type_t_StaticFields
 #endif
 
 
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, uint16_t ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, void* ___0_dataPointer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, int32_t ___0_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_other, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_gshared_inline (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_gshared_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_GetHashCode_m3C7CFE908C6BB2DC94F94F7615F2D1AF0E2777D9_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_m2444D8FDCF0568D259DAE989EB7BCC77D37B2D6D_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_gshared_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_gshared_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_op_Multiply_m5CA735B6B2260F9B246AA827F4979825F6F64631_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_op_Equality_mB42F3DAE52C3BC7579B302E623196C45A5DEAC6B_gshared_inline (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, void* ___0_dataPointer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_other, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_gshared_inline (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_gshared_inline (float ___0_left, float ___1_right, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_GetHashCode_mE37A586E5D69F63B05EAB11304E7768926FE6B8A_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_mA05A7A1895B6D3BBB548ED983629FA5453CEF031_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_gshared_inline (float ___0_left, float ___1_right, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_gshared_inline (float ___0_left, float ___1_right, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_op_Multiply_m6D0DF4F813CF914B8C44CEC4A5756790D3E901B7_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_op_Equality_m77E3A0C2F3E3C8CF8089131D9EB950D7ED1570A6_gshared_inline (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_mEA86543744A54FCE590FDBF012FAE9037A5F1606_gshared (Vector_1_t566D05A9DE75BCD8F12F1E09AC3F8A4BC01BF92A* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_InitializeCount_m43BBDDA05FDAB290038584331DB79CB33C523B83_gshared (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_GetOneValue_m7E814AFD17E4D390C12EF731DA01203D262D9953_gshared_inline (const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_GetAllBitsSetValue_m854DE079EA89F97089D3EF29D7C31F081F420580_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_InitializeCount_m16B02D3BFD2C2B6FA27197C7E8B7D469141F3FA6_gshared (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_GetOneValue_m36106BB6A0988A8B1B534B437EE992C200D27AF2_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_GetAllBitsSetValue_m98B418BFAC0D02B9175F85386B50AA7CCA14BF06_gshared_inline (const RuntimeMethod* method) ;
 
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___0_left, Type_t* ___1_right, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_get_IsHardwareAccelerated_m783509258751EBED64CBD9F387EC1BB4A15088AA (const RuntimeMethod* method) ;
-inline int32_t Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline (const RuntimeMethod* method)
+inline int32_t Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline (const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (const RuntimeMethod*))Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_gshared_inline)(method);
+	return ((  int32_t (*) (const RuntimeMethod*))Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_gshared_inline)(method);
 }
-inline void Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, uint16_t ___0_value, const RuntimeMethod* method)
+inline void Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93 (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, float ___0_value, const RuntimeMethod* method)
 {
-	((  void (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, uint16_t, const RuntimeMethod*))Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427_gshared)(__this, ___0_value, method);
+	((  void (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, float, const RuntimeMethod*))Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93_gshared)(__this, ___0_value, method);
 }
-inline void Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method)
+inline void Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73 (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method)
 {
-	((  void (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, void*, int32_t, const RuntimeMethod*))Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359_gshared)(__this, ___0_dataPointer, ___1_offset, method);
+	((  void (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, void*, int32_t, const RuntimeMethod*))Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73_gshared)(__this, ___0_dataPointer, ___1_offset, method);
 }
-inline void Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, void* ___0_dataPointer, const RuntimeMethod* method)
+inline void Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, void* ___0_dataPointer, const RuntimeMethod* method)
 {
-	((  void (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, void*, const RuntimeMethod*))Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3_gshared)(__this, ___0_dataPointer, method);
+	((  void (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, void*, const RuntimeMethod*))Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F_gshared)(__this, ___0_dataPointer, method);
 }
-inline void Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method)
+inline void Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method)
 {
-	((  void (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*, const RuntimeMethod*))Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A_gshared)(__this, ___0_existingRegister, method);
+	((  void (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*, const RuntimeMethod*))Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F_gshared)(__this, ___0_existingRegister, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9E8DC9AEFDC34AC67473EFAEAB78C5066C1A0D09 (String_t* ___0_resourceFormat, RuntimeObject* ___1_p1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_mFD06819F05B815BE2D6E826D4E04F4C449D0A425 (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* __this, String_t* ___0_message, const RuntimeMethod* method) ;
-inline uint16_t Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, int32_t ___0_index, const RuntimeMethod* method)
+inline float Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  uint16_t (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, int32_t, const RuntimeMethod*))Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27_gshared)(__this, ___0_index, method);
+	return ((  float (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, int32_t, const RuntimeMethod*))Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED_gshared)(__this, ___0_index, method);
 }
-inline bool Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_other, const RuntimeMethod* method)
+inline bool Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8 (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_other, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489, const RuntimeMethod*))Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8_gshared)(__this, ___0_other, method);
+	return ((  bool (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241, const RuntimeMethod*))Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8_gshared)(__this, ___0_other, method);
 }
-inline bool Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_inline (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+inline bool Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_inline (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, RuntimeObject*, const RuntimeMethod*))Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_gshared_inline)(__this, ___0_obj, method);
+	return ((  bool (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, RuntimeObject*, const RuntimeMethod*))Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_gshared_inline)(__this, ___0_obj, method);
 }
-inline bool Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method)
+inline bool Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline (float ___0_left, float ___1_right, const RuntimeMethod* method)
 {
-	return ((  bool (*) (uint16_t, uint16_t, const RuntimeMethod*))Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_gshared_inline)(___0_left, ___1_right, method);
+	return ((  bool (*) (float, float, const RuntimeMethod*))Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_gshared_inline)(___0_left, ___1_right, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Byte_GetHashCode_mB42A844E310593D124CE92EBA90F3755C9B10678 (uint8_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashHelpers_Combine_mBE398FF248FE6B082F5E254BCD36E3B3351608D7 (int32_t ___0_h1, int32_t ___1_h2, const RuntimeMethod* method) ;
@@ -1319,39 +1319,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UInt64_GetHashCode_m65D9FD0102B6B01BF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int64_GetHashCode_mDB050BE2AC244D92B14D1DF725AAD279CDC48496 (int64_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2 (float* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Double_GetHashCode_m3761FC05AD24D97A68FA1E8412A9454DF3880E32_inline (double* __this, const RuntimeMethod* method) ;
-inline int32_t Vector_1_GetHashCode_m3C7CFE908C6BB2DC94F94F7615F2D1AF0E2777D9 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, const RuntimeMethod* method)
+inline int32_t Vector_1_GetHashCode_mE37A586E5D69F63B05EAB11304E7768926FE6B8A (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, const RuntimeMethod*))Vector_1_GetHashCode_m3C7CFE908C6BB2DC94F94F7615F2D1AF0E2777D9_gshared)(__this, method);
+	return ((  int32_t (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, const RuntimeMethod*))Vector_1_GetHashCode_mE37A586E5D69F63B05EAB11304E7768926FE6B8A_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* CultureInfo_get_CurrentCulture_m8A4580F49DDD7E9DB34C699965423DB8E3BBA9A5 (const RuntimeMethod* method) ;
-inline String_t* Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
+inline String_t* Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676 (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, String_t*, RuntimeObject*, const RuntimeMethod*))Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7_gshared)(__this, ___0_format, ___1_formatProvider, method);
+	return ((  String_t* (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, String_t*, RuntimeObject*, const RuntimeMethod*))Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676_gshared)(__this, ___0_format, ___1_formatProvider, method);
 }
-inline String_t* Vector_1_ToString_m2444D8FDCF0568D259DAE989EB7BCC77D37B2D6D (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, const RuntimeMethod* method)
+inline String_t* Vector_1_ToString_mA05A7A1895B6D3BBB548ED983629FA5453CEF031 (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*, const RuntimeMethod*))Vector_1_ToString_m2444D8FDCF0568D259DAE989EB7BCC77D37B2D6D_gshared)(__this, method);
+	return ((  String_t* (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*, const RuntimeMethod*))Vector_1_ToString_mA05A7A1895B6D3BBB548ED983629FA5453CEF031_gshared)(__this, method);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* NumberFormatInfo_GetInstance_m705987E5E7D3E5EC5C5DD2D088FBC9BCBA0FC31F (RuntimeObject* ___0_formatProvider, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* NumberFormatInfo_get_NumberGroupSeparator_m0556B092AA471513B1EDC31C047712226D39BEB6_inline (NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m71228B30F05724CD2CD96D9611DCD61BFB96A6E1 (StringBuilder_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-inline uint16_t Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method)
+inline float Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline (float ___0_left, float ___1_right, const RuntimeMethod* method)
 {
-	return ((  uint16_t (*) (uint16_t, uint16_t, const RuntimeMethod*))Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_gshared_inline)(___0_left, ___1_right, method);
+	return ((  float (*) (float, float, const RuntimeMethod*))Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_gshared_inline)(___0_left, ___1_right, method);
 }
-inline uint16_t Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method)
+inline float Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline (float ___0_left, float ___1_right, const RuntimeMethod* method)
 {
-	return ((  uint16_t (*) (uint16_t, uint16_t, const RuntimeMethod*))Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_gshared_inline)(___0_left, ___1_right, method);
+	return ((  float (*) (float, float, const RuntimeMethod*))Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_gshared_inline)(___0_left, ___1_right, method);
 }
-inline Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_op_Multiply_m5CA735B6B2260F9B246AA827F4979825F6F64631 (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method)
+inline Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_op_Multiply_m6D0DF4F813CF914B8C44CEC4A5756790D3E901B7 (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method)
 {
-	return ((  Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489, const RuntimeMethod*))Vector_1_op_Multiply_m5CA735B6B2260F9B246AA827F4979825F6F64631_gshared)(___0_left, ___1_right, method);
+	return ((  Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241, const RuntimeMethod*))Vector_1_op_Multiply_m6D0DF4F813CF914B8C44CEC4A5756790D3E901B7_gshared)(___0_left, ___1_right, method);
 }
-inline bool Vector_1_op_Equality_mB42F3DAE52C3BC7579B302E623196C45A5DEAC6B_inline (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method)
+inline bool Vector_1_op_Equality_m77E3A0C2F3E3C8CF8089131D9EB950D7ED1570A6_inline (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489, const RuntimeMethod*))Vector_1_op_Equality_mB42F3DAE52C3BC7579B302E623196C45A5DEAC6B_gshared_inline)(___0_left, ___1_right, method);
+	return ((  bool (*) (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241, const RuntimeMethod*))Vector_1_op_Equality_m77E3A0C2F3E3C8CF8089131D9EB950D7ED1570A6_gshared_inline)(___0_left, ___1_right, method);
 }
 inline void Vector_1__ctor_mEA86543744A54FCE590FDBF012FAE9037A5F1606 (Vector_1_t566D05A9DE75BCD8F12F1E09AC3F8A4BC01BF92A* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method)
 {
@@ -1367,17 +1367,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t ConstantHelper_GetUInt64
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t ConstantHelper_GetInt64WithAllBitsSet_m56A9AB64BA5DDD9ECC99424875824591DEFD5C40_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ConstantHelper_GetSingleWithAllBitsSet_m66FC11C0680F744EB8315278910061C9535818C0_inline (const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ConstantHelper_GetDoubleWithAllBitsSet_mF43AF77A6C93B7590B35B20458E80F2BC66AD5F2_inline (const RuntimeMethod* method) ;
-inline int32_t Vector_1_InitializeCount_m43BBDDA05FDAB290038584331DB79CB33C523B83 (const RuntimeMethod* method)
+inline int32_t Vector_1_InitializeCount_m16B02D3BFD2C2B6FA27197C7E8B7D469141F3FA6 (const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (const RuntimeMethod*))Vector_1_InitializeCount_m43BBDDA05FDAB290038584331DB79CB33C523B83_gshared)(method);
+	return ((  int32_t (*) (const RuntimeMethod*))Vector_1_InitializeCount_m16B02D3BFD2C2B6FA27197C7E8B7D469141F3FA6_gshared)(method);
 }
-inline uint16_t Vector_1_GetOneValue_m7E814AFD17E4D390C12EF731DA01203D262D9953_inline (const RuntimeMethod* method)
+inline float Vector_1_GetOneValue_m36106BB6A0988A8B1B534B437EE992C200D27AF2_inline (const RuntimeMethod* method)
 {
-	return ((  uint16_t (*) (const RuntimeMethod*))Vector_1_GetOneValue_m7E814AFD17E4D390C12EF731DA01203D262D9953_gshared_inline)(method);
+	return ((  float (*) (const RuntimeMethod*))Vector_1_GetOneValue_m36106BB6A0988A8B1B534B437EE992C200D27AF2_gshared_inline)(method);
 }
-inline uint16_t Vector_1_GetAllBitsSetValue_m854DE079EA89F97089D3EF29D7C31F081F420580_inline (const RuntimeMethod* method)
+inline float Vector_1_GetAllBitsSetValue_m98B418BFAC0D02B9175F85386B50AA7CCA14BF06_inline (const RuntimeMethod* method)
 {
-	return ((  uint16_t (*) (const RuntimeMethod*))Vector_1_GetAllBitsSetValue_m854DE079EA89F97089D3EF29D7C31F081F420580_gshared_inline)(method);
+	return ((  float (*) (const RuntimeMethod*))Vector_1_GetAllBitsSetValue_m98B418BFAC0D02B9175F85386B50AA7CCA14BF06_gshared_inline)(method);
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt64Bits_m4F42741818550F9956B5FBAF88C051F4DE5B0AE6_inline (double ___0_value, const RuntimeMethod* method) ;
 #ifdef __clang__
@@ -1385,23 +1385,23 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int64_t BitConverter_DoubleToInt6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_gshared (const RuntimeMethod* method) 
 {
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_0 = ((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_count;
+		int32_t L_0 = ((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_count;
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_get_Zero_mDB2680DF070B1C7F273400548848C621F96343A4_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_get_Zero_m838190EE70C807B4FCBF2BE94F20A29018DAE785_gshared (const RuntimeMethod* method) 
 {
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_0 = ((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_zero;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_0 = ((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_zero;
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_InitializeCount_m43BBDDA05FDAB290038584331DB79CB33C523B83_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_InitializeCount_m16B02D3BFD2C2B6FA27197C7E8B7D469141F3FA6_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1419,7 +1419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_InitializeCount_m43BBDDA05FD
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_0_0_0_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	VectorSizeHelper_tC26CEAD1B0D88F765A24D653A74900C4C7FEBD18 V_0;
+	VectorSizeHelper_tD935DCA9AE29822CBAA1799D76E04D21E01D14E4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	uint8_t* V_1 = NULL;
 	int32_t V_2 = 0;
@@ -1445,7 +1445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_InitializeCount_m43BBDDA05FD
 	int32_t G_B20_0 = 0;
 	int32_t G_B19_0 = 0;
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* L_0 = (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)(&(&V_0)->____placeholder);
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* L_0 = (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)(&(&V_0)->____placeholder);
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_1 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&L_0->___register);
 		uint8_t* L_2 = (uint8_t*)(&L_1->___byte_0);
 		V_1 = (uint8_t*)((uintptr_t)L_2);
@@ -1703,7 +1703,7 @@ IL_0176:
 		return ((int32_t)(G_B21_0/L_56));
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, uint16_t ___0_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1762,7 +1762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_mDA4A6115C4120BFDD773FD4D
 	double* V_28 = NULL;
 	int32_t V_29 = 0;
 	{
-		il2cpp_codegen_initobj(__this, sizeof(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489));
+		il2cpp_codegen_initobj(__this, sizeof(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241));
 		bool L_0;
 		L_0 = Vector_get_IsHardwareAccelerated_m783509258751EBED64CBD9F387EC1BB4A15088AA(NULL);
 		if (!L_0)
@@ -1799,8 +1799,8 @@ IL_003f:
 	{
 		uint8_t* L_9 = V_0;
 		int32_t L_10 = V_2;
-		uint16_t L_11 = ___0_value;
-		uint16_t L_12 = L_11;
+		float L_11 = ___0_value;
+		float L_12 = L_11;
 		RuntimeObject* L_13 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_12);
 		*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_9, L_10))) = (int8_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_13, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		int32_t L_14 = V_2;
@@ -1812,7 +1812,7 @@ IL_0052:
 		int32_t L_15 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_16;
-		L_16 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_16 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
 		{
 			goto IL_003f;
@@ -1853,8 +1853,8 @@ IL_008f:
 	{
 		int8_t* L_25 = V_3;
 		int32_t L_26 = V_5;
-		uint16_t L_27 = ___0_value;
-		uint16_t L_28 = L_27;
+		float L_27 = ___0_value;
+		float L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_28);
 		*((int8_t*)((int8_t*)il2cpp_codegen_add((intptr_t)L_25, L_26))) = (int8_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_29, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		int32_t L_30 = V_5;
@@ -1866,7 +1866,7 @@ IL_00a5:
 		int32_t L_31 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_32;
-		L_32 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_32 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_31) < ((int32_t)L_32)))
 		{
 			goto IL_008f;
@@ -1907,8 +1907,8 @@ IL_00e5:
 	{
 		uint16_t* L_41 = V_6;
 		int32_t L_42 = V_8;
-		uint16_t L_43 = ___0_value;
-		uint16_t L_44 = L_43;
+		float L_43 = ___0_value;
+		float L_44 = L_43;
 		RuntimeObject* L_45 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_44);
 		*((int16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_41, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_42), 2))))) = (int16_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_45, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		int32_t L_46 = V_8;
@@ -1920,7 +1920,7 @@ IL_00ff:
 		int32_t L_47 = V_8;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_48;
-		L_48 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_48 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_47) < ((int32_t)L_48)))
 		{
 			goto IL_00e5;
@@ -1961,8 +1961,8 @@ IL_013f:
 	{
 		int16_t* L_57 = V_9;
 		int32_t L_58 = V_11;
-		uint16_t L_59 = ___0_value;
-		uint16_t L_60 = L_59;
+		float L_59 = ___0_value;
+		float L_60 = L_59;
 		RuntimeObject* L_61 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_60);
 		*((int16_t*)((int16_t*)il2cpp_codegen_add((intptr_t)L_57, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_58), 2))))) = (int16_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_61, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		int32_t L_62 = V_11;
@@ -1974,7 +1974,7 @@ IL_0159:
 		int32_t L_63 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_64;
-		L_64 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_64 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_63) < ((int32_t)L_64)))
 		{
 			goto IL_013f;
@@ -2015,8 +2015,8 @@ IL_0199:
 	{
 		uint32_t* L_73 = V_12;
 		int32_t L_74 = V_14;
-		uint16_t L_75 = ___0_value;
-		uint16_t L_76 = L_75;
+		float L_75 = ___0_value;
+		float L_76 = L_75;
 		RuntimeObject* L_77 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_76);
 		*((int32_t*)((uint32_t*)il2cpp_codegen_add((intptr_t)L_73, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_74), 4))))) = (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_77, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		int32_t L_78 = V_14;
@@ -2028,7 +2028,7 @@ IL_01b3:
 		int32_t L_79 = V_14;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_80;
-		L_80 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_80 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_79) < ((int32_t)L_80)))
 		{
 			goto IL_0199;
@@ -2069,8 +2069,8 @@ IL_01f3:
 	{
 		int32_t* L_89 = V_15;
 		int32_t L_90 = V_17;
-		uint16_t L_91 = ___0_value;
-		uint16_t L_92 = L_91;
+		float L_91 = ___0_value;
+		float L_92 = L_91;
 		RuntimeObject* L_93 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_92);
 		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_89, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_90), 4))))) = (int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_93, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		int32_t L_94 = V_17;
@@ -2082,7 +2082,7 @@ IL_020d:
 		int32_t L_95 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_96;
-		L_96 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_96 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_95) < ((int32_t)L_96)))
 		{
 			goto IL_01f3;
@@ -2123,8 +2123,8 @@ IL_024d:
 	{
 		uint64_t* L_105 = V_18;
 		int32_t L_106 = V_20;
-		uint16_t L_107 = ___0_value;
-		uint16_t L_108 = L_107;
+		float L_107 = ___0_value;
+		float L_108 = L_107;
 		RuntimeObject* L_109 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_108);
 		*((int64_t*)((uint64_t*)il2cpp_codegen_add((intptr_t)L_105, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_106), 8))))) = (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_109, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))));
 		int32_t L_110 = V_20;
@@ -2136,7 +2136,7 @@ IL_0267:
 		int32_t L_111 = V_20;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_112;
-		L_112 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_112 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_111) < ((int32_t)L_112)))
 		{
 			goto IL_024d;
@@ -2177,8 +2177,8 @@ IL_02a7:
 	{
 		int64_t* L_121 = V_21;
 		int32_t L_122 = V_23;
-		uint16_t L_123 = ___0_value;
-		uint16_t L_124 = L_123;
+		float L_123 = ___0_value;
+		float L_124 = L_123;
 		RuntimeObject* L_125 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_124);
 		*((int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_121, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_122), 8))))) = (int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_125, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))));
 		int32_t L_126 = V_23;
@@ -2190,7 +2190,7 @@ IL_02c1:
 		int32_t L_127 = V_23;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_128;
-		L_128 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_128 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_127) < ((int32_t)L_128)))
 		{
 			goto IL_02a7;
@@ -2231,8 +2231,8 @@ IL_0301:
 	{
 		float* L_137 = V_24;
 		int32_t L_138 = V_26;
-		uint16_t L_139 = ___0_value;
-		uint16_t L_140 = L_139;
+		float L_139 = ___0_value;
+		float L_140 = L_139;
 		RuntimeObject* L_141 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_140);
 		*((float*)((float*)il2cpp_codegen_add((intptr_t)L_137, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_138), 4))))) = (float)((*(float*)((float*)(float*)UnBox(L_141, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		int32_t L_142 = V_26;
@@ -2244,7 +2244,7 @@ IL_031b:
 		int32_t L_143 = V_26;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_144;
-		L_144 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_144 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_143) < ((int32_t)L_144)))
 		{
 			goto IL_0301;
@@ -2285,8 +2285,8 @@ IL_035e:
 	{
 		double* L_153 = V_27;
 		int32_t L_154 = V_29;
-		uint16_t L_155 = ___0_value;
-		uint16_t L_156 = L_155;
+		float L_155 = ___0_value;
+		float L_156 = L_155;
 		RuntimeObject* L_157 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_156);
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_153, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_154), 8))))) = (double)((*(double*)((double*)(double*)UnBox(L_157, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))));
 		int32_t L_158 = V_29;
@@ -2298,7 +2298,7 @@ IL_0378:
 		int32_t L_159 = V_29;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_160;
-		L_160 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_160 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_159) < ((int32_t)L_160)))
 		{
 			goto IL_035e;
@@ -2327,83 +2327,83 @@ IL_0386:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_166 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_167 = ___0_value;
-		uint16_t L_168 = L_167;
+		float L_167 = ___0_value;
+		float L_168 = L_167;
 		RuntimeObject* L_169 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_168);
 		L_166->___byte_0 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_169, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_170 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_171 = ___0_value;
-		uint16_t L_172 = L_171;
+		float L_171 = ___0_value;
+		float L_172 = L_171;
 		RuntimeObject* L_173 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_172);
 		L_170->___byte_1 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_173, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_174 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_175 = ___0_value;
-		uint16_t L_176 = L_175;
+		float L_175 = ___0_value;
+		float L_176 = L_175;
 		RuntimeObject* L_177 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_176);
 		L_174->___byte_2 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_177, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_178 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_179 = ___0_value;
-		uint16_t L_180 = L_179;
+		float L_179 = ___0_value;
+		float L_180 = L_179;
 		RuntimeObject* L_181 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_180);
 		L_178->___byte_3 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_181, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_182 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_183 = ___0_value;
-		uint16_t L_184 = L_183;
+		float L_183 = ___0_value;
+		float L_184 = L_183;
 		RuntimeObject* L_185 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_184);
 		L_182->___byte_4 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_185, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_186 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_187 = ___0_value;
-		uint16_t L_188 = L_187;
+		float L_187 = ___0_value;
+		float L_188 = L_187;
 		RuntimeObject* L_189 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_188);
 		L_186->___byte_5 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_189, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_190 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_191 = ___0_value;
-		uint16_t L_192 = L_191;
+		float L_191 = ___0_value;
+		float L_192 = L_191;
 		RuntimeObject* L_193 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_192);
 		L_190->___byte_6 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_193, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_194 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_195 = ___0_value;
-		uint16_t L_196 = L_195;
+		float L_195 = ___0_value;
+		float L_196 = L_195;
 		RuntimeObject* L_197 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_196);
 		L_194->___byte_7 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_197, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_198 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_199 = ___0_value;
-		uint16_t L_200 = L_199;
+		float L_199 = ___0_value;
+		float L_200 = L_199;
 		RuntimeObject* L_201 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_200);
 		L_198->___byte_8 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_201, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_202 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_203 = ___0_value;
-		uint16_t L_204 = L_203;
+		float L_203 = ___0_value;
+		float L_204 = L_203;
 		RuntimeObject* L_205 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_204);
 		L_202->___byte_9 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_205, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_206 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_207 = ___0_value;
-		uint16_t L_208 = L_207;
+		float L_207 = ___0_value;
+		float L_208 = L_207;
 		RuntimeObject* L_209 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_208);
 		L_206->___byte_10 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_209, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_210 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_211 = ___0_value;
-		uint16_t L_212 = L_211;
+		float L_211 = ___0_value;
+		float L_212 = L_211;
 		RuntimeObject* L_213 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_212);
 		L_210->___byte_11 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_213, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_214 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_215 = ___0_value;
-		uint16_t L_216 = L_215;
+		float L_215 = ___0_value;
+		float L_216 = L_215;
 		RuntimeObject* L_217 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_216);
 		L_214->___byte_12 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_217, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_218 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_219 = ___0_value;
-		uint16_t L_220 = L_219;
+		float L_219 = ___0_value;
+		float L_220 = L_219;
 		RuntimeObject* L_221 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_220);
 		L_218->___byte_13 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_221, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_222 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_223 = ___0_value;
-		uint16_t L_224 = L_223;
+		float L_223 = ___0_value;
+		float L_224 = L_223;
 		RuntimeObject* L_225 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_224);
 		L_222->___byte_14 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_225, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_226 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_227 = ___0_value;
-		uint16_t L_228 = L_227;
+		float L_227 = ___0_value;
+		float L_228 = L_227;
 		RuntimeObject* L_229 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_228);
 		L_226->___byte_15 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_229, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		return;
@@ -2427,83 +2427,83 @@ IL_0505:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_235 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_236 = ___0_value;
-		uint16_t L_237 = L_236;
+		float L_236 = ___0_value;
+		float L_237 = L_236;
 		RuntimeObject* L_238 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_237);
 		L_235->___sbyte_0 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_238, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_239 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_240 = ___0_value;
-		uint16_t L_241 = L_240;
+		float L_240 = ___0_value;
+		float L_241 = L_240;
 		RuntimeObject* L_242 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_241);
 		L_239->___sbyte_1 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_242, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_243 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_244 = ___0_value;
-		uint16_t L_245 = L_244;
+		float L_244 = ___0_value;
+		float L_245 = L_244;
 		RuntimeObject* L_246 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_245);
 		L_243->___sbyte_2 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_246, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_247 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_248 = ___0_value;
-		uint16_t L_249 = L_248;
+		float L_248 = ___0_value;
+		float L_249 = L_248;
 		RuntimeObject* L_250 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_249);
 		L_247->___sbyte_3 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_250, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_251 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_252 = ___0_value;
-		uint16_t L_253 = L_252;
+		float L_252 = ___0_value;
+		float L_253 = L_252;
 		RuntimeObject* L_254 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_253);
 		L_251->___sbyte_4 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_254, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_255 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_256 = ___0_value;
-		uint16_t L_257 = L_256;
+		float L_256 = ___0_value;
+		float L_257 = L_256;
 		RuntimeObject* L_258 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_257);
 		L_255->___sbyte_5 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_258, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_259 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_260 = ___0_value;
-		uint16_t L_261 = L_260;
+		float L_260 = ___0_value;
+		float L_261 = L_260;
 		RuntimeObject* L_262 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_261);
 		L_259->___sbyte_6 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_262, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_263 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_264 = ___0_value;
-		uint16_t L_265 = L_264;
+		float L_264 = ___0_value;
+		float L_265 = L_264;
 		RuntimeObject* L_266 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_265);
 		L_263->___sbyte_7 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_266, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_267 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_268 = ___0_value;
-		uint16_t L_269 = L_268;
+		float L_268 = ___0_value;
+		float L_269 = L_268;
 		RuntimeObject* L_270 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_269);
 		L_267->___sbyte_8 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_270, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_271 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_272 = ___0_value;
-		uint16_t L_273 = L_272;
+		float L_272 = ___0_value;
+		float L_273 = L_272;
 		RuntimeObject* L_274 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_273);
 		L_271->___sbyte_9 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_274, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_275 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_276 = ___0_value;
-		uint16_t L_277 = L_276;
+		float L_276 = ___0_value;
+		float L_277 = L_276;
 		RuntimeObject* L_278 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_277);
 		L_275->___sbyte_10 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_278, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_279 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_280 = ___0_value;
-		uint16_t L_281 = L_280;
+		float L_280 = ___0_value;
+		float L_281 = L_280;
 		RuntimeObject* L_282 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_281);
 		L_279->___sbyte_11 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_282, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_283 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_284 = ___0_value;
-		uint16_t L_285 = L_284;
+		float L_284 = ___0_value;
+		float L_285 = L_284;
 		RuntimeObject* L_286 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_285);
 		L_283->___sbyte_12 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_286, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_287 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_288 = ___0_value;
-		uint16_t L_289 = L_288;
+		float L_288 = ___0_value;
+		float L_289 = L_288;
 		RuntimeObject* L_290 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_289);
 		L_287->___sbyte_13 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_290, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_291 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_292 = ___0_value;
-		uint16_t L_293 = L_292;
+		float L_292 = ___0_value;
+		float L_293 = L_292;
 		RuntimeObject* L_294 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_293);
 		L_291->___sbyte_14 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_294, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_295 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_296 = ___0_value;
-		uint16_t L_297 = L_296;
+		float L_296 = ___0_value;
+		float L_297 = L_296;
 		RuntimeObject* L_298 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_297);
 		L_295->___sbyte_15 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_298, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		return;
@@ -2527,43 +2527,43 @@ IL_0684:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_304 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_305 = ___0_value;
-		uint16_t L_306 = L_305;
+		float L_305 = ___0_value;
+		float L_306 = L_305;
 		RuntimeObject* L_307 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_306);
 		L_304->___uint16_0 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_307, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_308 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_309 = ___0_value;
-		uint16_t L_310 = L_309;
+		float L_309 = ___0_value;
+		float L_310 = L_309;
 		RuntimeObject* L_311 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_310);
 		L_308->___uint16_1 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_311, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_312 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_313 = ___0_value;
-		uint16_t L_314 = L_313;
+		float L_313 = ___0_value;
+		float L_314 = L_313;
 		RuntimeObject* L_315 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_314);
 		L_312->___uint16_2 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_315, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_316 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_317 = ___0_value;
-		uint16_t L_318 = L_317;
+		float L_317 = ___0_value;
+		float L_318 = L_317;
 		RuntimeObject* L_319 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_318);
 		L_316->___uint16_3 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_319, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_320 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_321 = ___0_value;
-		uint16_t L_322 = L_321;
+		float L_321 = ___0_value;
+		float L_322 = L_321;
 		RuntimeObject* L_323 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_322);
 		L_320->___uint16_4 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_323, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_324 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_325 = ___0_value;
-		uint16_t L_326 = L_325;
+		float L_325 = ___0_value;
+		float L_326 = L_325;
 		RuntimeObject* L_327 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_326);
 		L_324->___uint16_5 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_327, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_328 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_329 = ___0_value;
-		uint16_t L_330 = L_329;
+		float L_329 = ___0_value;
+		float L_330 = L_329;
 		RuntimeObject* L_331 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_330);
 		L_328->___uint16_6 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_331, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_332 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_333 = ___0_value;
-		uint16_t L_334 = L_333;
+		float L_333 = ___0_value;
+		float L_334 = L_333;
 		RuntimeObject* L_335 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_334);
 		L_332->___uint16_7 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_335, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		return;
@@ -2587,43 +2587,43 @@ IL_0753:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_341 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_342 = ___0_value;
-		uint16_t L_343 = L_342;
+		float L_342 = ___0_value;
+		float L_343 = L_342;
 		RuntimeObject* L_344 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_343);
 		L_341->___int16_0 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_344, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_345 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_346 = ___0_value;
-		uint16_t L_347 = L_346;
+		float L_346 = ___0_value;
+		float L_347 = L_346;
 		RuntimeObject* L_348 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_347);
 		L_345->___int16_1 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_348, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_349 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_350 = ___0_value;
-		uint16_t L_351 = L_350;
+		float L_350 = ___0_value;
+		float L_351 = L_350;
 		RuntimeObject* L_352 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_351);
 		L_349->___int16_2 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_352, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_353 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_354 = ___0_value;
-		uint16_t L_355 = L_354;
+		float L_354 = ___0_value;
+		float L_355 = L_354;
 		RuntimeObject* L_356 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_355);
 		L_353->___int16_3 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_356, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_357 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_358 = ___0_value;
-		uint16_t L_359 = L_358;
+		float L_358 = ___0_value;
+		float L_359 = L_358;
 		RuntimeObject* L_360 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_359);
 		L_357->___int16_4 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_360, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_361 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_362 = ___0_value;
-		uint16_t L_363 = L_362;
+		float L_362 = ___0_value;
+		float L_363 = L_362;
 		RuntimeObject* L_364 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_363);
 		L_361->___int16_5 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_364, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_365 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_366 = ___0_value;
-		uint16_t L_367 = L_366;
+		float L_366 = ___0_value;
+		float L_367 = L_366;
 		RuntimeObject* L_368 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_367);
 		L_365->___int16_6 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_368, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_369 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_370 = ___0_value;
-		uint16_t L_371 = L_370;
+		float L_370 = ___0_value;
+		float L_371 = L_370;
 		RuntimeObject* L_372 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_371);
 		L_369->___int16_7 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_372, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		return;
@@ -2647,23 +2647,23 @@ IL_0822:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_378 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_379 = ___0_value;
-		uint16_t L_380 = L_379;
+		float L_379 = ___0_value;
+		float L_380 = L_379;
 		RuntimeObject* L_381 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_380);
 		L_378->___uint32_0 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_381, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_382 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_383 = ___0_value;
-		uint16_t L_384 = L_383;
+		float L_383 = ___0_value;
+		float L_384 = L_383;
 		RuntimeObject* L_385 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_384);
 		L_382->___uint32_1 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_385, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_386 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_387 = ___0_value;
-		uint16_t L_388 = L_387;
+		float L_387 = ___0_value;
+		float L_388 = L_387;
 		RuntimeObject* L_389 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_388);
 		L_386->___uint32_2 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_389, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_390 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_391 = ___0_value;
-		uint16_t L_392 = L_391;
+		float L_391 = ___0_value;
+		float L_392 = L_391;
 		RuntimeObject* L_393 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_392);
 		L_390->___uint32_3 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_393, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		return;
@@ -2687,23 +2687,23 @@ IL_0896:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_399 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_400 = ___0_value;
-		uint16_t L_401 = L_400;
+		float L_400 = ___0_value;
+		float L_401 = L_400;
 		RuntimeObject* L_402 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_401);
 		L_399->___int32_0 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_402, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_403 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_404 = ___0_value;
-		uint16_t L_405 = L_404;
+		float L_404 = ___0_value;
+		float L_405 = L_404;
 		RuntimeObject* L_406 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_405);
 		L_403->___int32_1 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_406, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_407 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_408 = ___0_value;
-		uint16_t L_409 = L_408;
+		float L_408 = ___0_value;
+		float L_409 = L_408;
 		RuntimeObject* L_410 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_409);
 		L_407->___int32_2 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_410, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_411 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_412 = ___0_value;
-		uint16_t L_413 = L_412;
+		float L_412 = ___0_value;
+		float L_413 = L_412;
 		RuntimeObject* L_414 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_413);
 		L_411->___int32_3 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_414, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		return;
@@ -2727,13 +2727,13 @@ IL_090a:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_420 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_421 = ___0_value;
-		uint16_t L_422 = L_421;
+		float L_421 = ___0_value;
+		float L_422 = L_421;
 		RuntimeObject* L_423 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_422);
 		L_420->___uint64_0 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_423, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_424 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_425 = ___0_value;
-		uint16_t L_426 = L_425;
+		float L_425 = ___0_value;
+		float L_426 = L_425;
 		RuntimeObject* L_427 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_426);
 		L_424->___uint64_1 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_427, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))));
 		return;
@@ -2757,13 +2757,13 @@ IL_0952:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_433 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_434 = ___0_value;
-		uint16_t L_435 = L_434;
+		float L_434 = ___0_value;
+		float L_435 = L_434;
 		RuntimeObject* L_436 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_435);
 		L_433->___int64_0 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_436, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_437 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_438 = ___0_value;
-		uint16_t L_439 = L_438;
+		float L_438 = ___0_value;
+		float L_439 = L_438;
 		RuntimeObject* L_440 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_439);
 		L_437->___int64_1 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_440, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))));
 		return;
@@ -2787,23 +2787,23 @@ IL_099a:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_446 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_447 = ___0_value;
-		uint16_t L_448 = L_447;
+		float L_447 = ___0_value;
+		float L_448 = L_447;
 		RuntimeObject* L_449 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_448);
 		L_446->___single_0 = ((*(float*)((float*)(float*)UnBox(L_449, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_450 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_451 = ___0_value;
-		uint16_t L_452 = L_451;
+		float L_451 = ___0_value;
+		float L_452 = L_451;
 		RuntimeObject* L_453 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_452);
 		L_450->___single_1 = ((*(float*)((float*)(float*)UnBox(L_453, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_454 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_455 = ___0_value;
-		uint16_t L_456 = L_455;
+		float L_455 = ___0_value;
+		float L_456 = L_455;
 		RuntimeObject* L_457 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_456);
 		L_454->___single_2 = ((*(float*)((float*)(float*)UnBox(L_457, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_458 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_459 = ___0_value;
-		uint16_t L_460 = L_459;
+		float L_459 = ___0_value;
+		float L_460 = L_459;
 		RuntimeObject* L_461 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_460);
 		L_458->___single_3 = ((*(float*)((float*)(float*)UnBox(L_461, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		return;
@@ -2827,13 +2827,13 @@ IL_0a0e:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_467 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_468 = ___0_value;
-		uint16_t L_469 = L_468;
+		float L_468 = ___0_value;
+		float L_469 = L_468;
 		RuntimeObject* L_470 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_469);
 		L_467->___double_0 = ((*(double*)((double*)(double*)UnBox(L_470, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_471 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
-		uint16_t L_472 = ___0_value;
-		uint16_t L_473 = L_472;
+		float L_472 = ___0_value;
+		float L_473 = L_472;
 		RuntimeObject* L_474 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_473);
 		L_471->___double_1 = ((*(double*)((double*)(double*)UnBox(L_474, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))));
 	}
@@ -2843,30 +2843,30 @@ IL_0a55:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427_AdjustorThunk (RuntimeObject* __this, uint16_t ___0_value, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93_AdjustorThunk (RuntimeObject* __this, float ___0_value, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
-	Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427(_thisAdjusted, ___0_value, method);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
+	Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93(_thisAdjusted, ___0_value, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, void* ___0_dataPointer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, void* ___0_dataPointer, const RuntimeMethod* method) 
 {
 	{
 		void* L_0 = ___0_dataPointer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359(__this, L_0, 0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73(__this, L_0, 0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3_AdjustorThunk (RuntimeObject* __this, void* ___0_dataPointer, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F_AdjustorThunk (RuntimeObject* __this, void* ___0_dataPointer, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
-	Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3(_thisAdjusted, ___0_dataPointer, method);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
+	Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F(_thisAdjusted, ___0_dataPointer, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2925,7 +2925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m8212BCFF76673CC904541B2D
 	double* V_38 = NULL;
 	int32_t V_39 = 0;
 	{
-		il2cpp_codegen_initobj(__this, sizeof(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489));
+		il2cpp_codegen_initobj(__this, sizeof(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_1;
@@ -2972,7 +2972,7 @@ IL_0047:
 		int32_t L_17 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_18;
-		L_18 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_18 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_17) < ((int32_t)L_18)))
 		{
 			goto IL_003b;
@@ -3031,7 +3031,7 @@ IL_00a0:
 		int32_t L_36 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_37;
-		L_37 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_37 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_36) < ((int32_t)L_37)))
 		{
 			goto IL_008e;
@@ -3090,7 +3090,7 @@ IL_0104:
 		int32_t L_55 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_56;
-		L_56 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_56 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_55) < ((int32_t)L_56)))
 		{
 			goto IL_00ec;
@@ -3149,7 +3149,7 @@ IL_0168:
 		int32_t L_74 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_75;
-		L_75 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_75 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_74) < ((int32_t)L_75)))
 		{
 			goto IL_0150;
@@ -3208,7 +3208,7 @@ IL_01cc:
 		int32_t L_93 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_94;
-		L_94 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_94 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_93) < ((int32_t)L_94)))
 		{
 			goto IL_01b4;
@@ -3267,7 +3267,7 @@ IL_0230:
 		int32_t L_112 = V_23;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_113;
-		L_113 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_113 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_112) < ((int32_t)L_113)))
 		{
 			goto IL_0218;
@@ -3326,7 +3326,7 @@ IL_0294:
 		int32_t L_131 = V_27;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_132;
-		L_132 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_132 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_131) < ((int32_t)L_132)))
 		{
 			goto IL_027c;
@@ -3385,7 +3385,7 @@ IL_02f8:
 		int32_t L_150 = V_31;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_151;
-		L_151 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_151 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_150) < ((int32_t)L_151)))
 		{
 			goto IL_02e0;
@@ -3444,7 +3444,7 @@ IL_035c:
 		int32_t L_169 = V_35;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_170;
-		L_170 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_170 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_169) < ((int32_t)L_170)))
 		{
 			goto IL_0344;
@@ -3503,7 +3503,7 @@ IL_03c0:
 		int32_t L_188 = V_39;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_189;
-		L_189 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_189 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_188) < ((int32_t)L_189)))
 		{
 			goto IL_03a8;
@@ -3521,14 +3521,14 @@ IL_03ce:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_190, method);
 	}
 }
-IL2CPP_EXTERN_C  void Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359_AdjustorThunk (RuntimeObject* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73_AdjustorThunk (RuntimeObject* __this, void* ___0_dataPointer, int32_t ___1_offset, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
-	Vector_1__ctor_m8212BCFF76673CC904541B2D9AF39E5FF124B359(_thisAdjusted, ___0_dataPointer, ___1_offset, method);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
+	Vector_1__ctor_m48E1A8A5ACA17070DCBF3EE63BABCC2E33FDCE73(_thisAdjusted, ___0_dataPointer, ___1_offset, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method) 
 {
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_0 = ___0_existingRegister;
@@ -3537,14 +3537,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__ctor_m48CD7847B9597F3193C9C0BA
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A_AdjustorThunk (RuntimeObject* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F_AdjustorThunk (RuntimeObject* __this, Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* ___0_existingRegister, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
-	Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A(_thisAdjusted, ___0_existingRegister, method);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
+	Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F(_thisAdjusted, ___0_existingRegister, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, int32_t ___0_index, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3586,7 +3586,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_get_Item_m248FFF521980A3A43
 		int32_t L_0 = ___0_index;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_1;
-		L_1 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_1 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_0) >= ((int32_t)L_1)))
 		{
 			goto IL_000c;
@@ -3637,7 +3637,7 @@ IL_0022:
 		int32_t L_17 = *((uint8_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_15), L_16)));
 		uint8_t L_18 = ((uint8_t)L_17);
 		RuntimeObject* L_19 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_18);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_19, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_19, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0059:
@@ -3665,7 +3665,7 @@ IL_0059:
 		int32_t L_29 = *((int8_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_27), L_28)));
 		int8_t L_30 = ((int8_t)L_29);
 		RuntimeObject* L_31 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_30);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_31, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_31, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0090:
@@ -3693,7 +3693,7 @@ IL_0090:
 		int32_t L_41 = *((uint16_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_39), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_40), 2)))));
 		uint16_t L_42 = ((uint16_t)L_41);
 		RuntimeObject* L_43 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_42);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_43, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_43, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ca:
@@ -3721,7 +3721,7 @@ IL_00ca:
 		int32_t L_53 = *((int16_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_51), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_52), 2)))));
 		int16_t L_54 = ((int16_t)L_53);
 		RuntimeObject* L_55 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_54);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0104:
@@ -3749,7 +3749,7 @@ IL_0104:
 		int32_t L_65 = *((uint32_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_63), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_64), 4)))));
 		uint32_t L_66 = ((uint32_t)L_65);
 		RuntimeObject* L_67 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_66);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_67, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_67, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0140:
@@ -3777,7 +3777,7 @@ IL_0140:
 		int32_t L_77 = *((int32_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_75), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_76), 4)))));
 		int32_t L_78 = L_77;
 		RuntimeObject* L_79 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_78);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_79, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_79, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_017c:
@@ -3805,7 +3805,7 @@ IL_017c:
 		int64_t L_89 = *((int64_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_87), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_88), 8)))));
 		uint64_t L_90 = ((uint64_t)L_89);
 		RuntimeObject* L_91 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_90);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_91, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_91, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01b8:
@@ -3833,7 +3833,7 @@ IL_01b8:
 		int64_t L_101 = *((int64_t*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_99), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_100), 8)))));
 		int64_t L_102 = L_101;
 		RuntimeObject* L_103 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_102);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01f4:
@@ -3861,7 +3861,7 @@ IL_01f4:
 		float L_113 = *((float*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_111), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_112), 4)))));
 		float L_114 = L_113;
 		RuntimeObject* L_115 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_114);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_115, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_115, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0230:
@@ -3889,7 +3889,7 @@ IL_0230:
 		double L_125 = *((double*)((intptr_t)il2cpp_codegen_add((intptr_t)((uintptr_t)L_123), ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_124), 8)))));
 		double L_126 = L_125;
 		RuntimeObject* L_127 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_126);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_127, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_127, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_026c:
@@ -3899,16 +3899,16 @@ IL_026c:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_128, method);
 	}
 }
-IL2CPP_EXTERN_C  uint16_t Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27_AdjustorThunk (RuntimeObject* __this, int32_t ___0_index, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  float Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED_AdjustorThunk (RuntimeObject* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
-	uint16_t _returnValue;
-	_returnValue = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(_thisAdjusted, ___0_index, method);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
+	float _returnValue;
+	_returnValue = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(_thisAdjusted, ___0_index, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = ___0_obj;
@@ -3926,20 +3926,20 @@ IL_000a:
 		RuntimeObject* L_1 = ___0_obj;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_2;
-		L_2 = Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8(__this, ((*(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)UnBox(L_1, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0))))), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
+		L_2 = Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8(__this, ((*(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)UnBox(L_1, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0))))), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		return L_2;
 	}
 }
-IL2CPP_EXTERN_C  bool Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_AdjustorThunk (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
 	bool _returnValue;
-	_returnValue = Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_inline(_thisAdjusted, ___0_obj, method);
+	_returnValue = Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_inline(_thisAdjusted, ___0_obj, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_other, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_other, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3975,13 +3975,13 @@ IL_000b:
 	{
 		int32_t L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_2;
-		L_2 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_2;
+		L_2 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_3 = V_0;
-		uint16_t L_4;
-		L_4 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_other), L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_4;
+		L_4 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_other), L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_5;
-		L_5 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_2, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_5 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_2, L_4, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_5)
 		{
 			goto IL_0023;
@@ -4002,7 +4002,7 @@ IL_0027:
 		int32_t L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_8;
-		L_8 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_8 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_7) < ((int32_t)L_8)))
 		{
 			goto IL_000b;
@@ -4031,7 +4031,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_14 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_15 = L_14->___byte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_16 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_16 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_17 = L_16.___register;
 		uint8_t L_18 = L_17.___byte_0;
 		if ((!(((uint32_t)L_15) == ((uint32_t)L_18))))
@@ -4042,7 +4042,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_19 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_20 = L_19->___byte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_21 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_21 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_22 = L_21.___register;
 		uint8_t L_23 = L_22.___byte_1;
 		if ((!(((uint32_t)L_20) == ((uint32_t)L_23))))
@@ -4053,7 +4053,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_24 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_25 = L_24->___byte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_26 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_26 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_27 = L_26.___register;
 		uint8_t L_28 = L_27.___byte_2;
 		if ((!(((uint32_t)L_25) == ((uint32_t)L_28))))
@@ -4064,7 +4064,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_29 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_30 = L_29->___byte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_31 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_31 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_32 = L_31.___register;
 		uint8_t L_33 = L_32.___byte_3;
 		if ((!(((uint32_t)L_30) == ((uint32_t)L_33))))
@@ -4075,7 +4075,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_34 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_35 = L_34->___byte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_36 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_36 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_37 = L_36.___register;
 		uint8_t L_38 = L_37.___byte_4;
 		if ((!(((uint32_t)L_35) == ((uint32_t)L_38))))
@@ -4086,7 +4086,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_39 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_40 = L_39->___byte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_41 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_41 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_42 = L_41.___register;
 		uint8_t L_43 = L_42.___byte_5;
 		if ((!(((uint32_t)L_40) == ((uint32_t)L_43))))
@@ -4097,7 +4097,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_44 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_45 = L_44->___byte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_46 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_46 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_47 = L_46.___register;
 		uint8_t L_48 = L_47.___byte_6;
 		if ((!(((uint32_t)L_45) == ((uint32_t)L_48))))
@@ -4108,7 +4108,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_49 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_50 = L_49->___byte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_51 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_51 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_52 = L_51.___register;
 		uint8_t L_53 = L_52.___byte_7;
 		if ((!(((uint32_t)L_50) == ((uint32_t)L_53))))
@@ -4119,7 +4119,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_54 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_55 = L_54->___byte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_56 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_56 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_57 = L_56.___register;
 		uint8_t L_58 = L_57.___byte_8;
 		if ((!(((uint32_t)L_55) == ((uint32_t)L_58))))
@@ -4130,7 +4130,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_59 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_60 = L_59->___byte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_61 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_61 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_62 = L_61.___register;
 		uint8_t L_63 = L_62.___byte_9;
 		if ((!(((uint32_t)L_60) == ((uint32_t)L_63))))
@@ -4141,7 +4141,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_64 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_65 = L_64->___byte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_66 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_66 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_67 = L_66.___register;
 		uint8_t L_68 = L_67.___byte_10;
 		if ((!(((uint32_t)L_65) == ((uint32_t)L_68))))
@@ -4152,7 +4152,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_69 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_70 = L_69->___byte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_71 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_71 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_72 = L_71.___register;
 		uint8_t L_73 = L_72.___byte_11;
 		if ((!(((uint32_t)L_70) == ((uint32_t)L_73))))
@@ -4163,7 +4163,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_74 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_75 = L_74->___byte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_76 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_76 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_77 = L_76.___register;
 		uint8_t L_78 = L_77.___byte_12;
 		if ((!(((uint32_t)L_75) == ((uint32_t)L_78))))
@@ -4174,7 +4174,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_79 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_80 = L_79->___byte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_81 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_81 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_82 = L_81.___register;
 		uint8_t L_83 = L_82.___byte_13;
 		if ((!(((uint32_t)L_80) == ((uint32_t)L_83))))
@@ -4185,7 +4185,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_84 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_85 = L_84->___byte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_86 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_86 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_87 = L_86.___register;
 		uint8_t L_88 = L_87.___byte_14;
 		if ((!(((uint32_t)L_85) == ((uint32_t)L_88))))
@@ -4196,7 +4196,7 @@ IL_0031:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_89 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint8_t L_90 = L_89->___byte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_91 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_91 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_92 = L_91.___register;
 		uint8_t L_93 = L_92.___byte_15;
 		return (bool)((((int32_t)L_90) == ((int32_t)L_93))? 1 : 0);
@@ -4226,7 +4226,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_99 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_100 = L_99->___sbyte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_101 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_101 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_102 = L_101.___register;
 		int8_t L_103 = L_102.___sbyte_0;
 		if ((!(((uint32_t)L_100) == ((uint32_t)L_103))))
@@ -4237,7 +4237,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_104 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_105 = L_104->___sbyte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_106 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_106 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_107 = L_106.___register;
 		int8_t L_108 = L_107.___sbyte_1;
 		if ((!(((uint32_t)L_105) == ((uint32_t)L_108))))
@@ -4248,7 +4248,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_109 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_110 = L_109->___sbyte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_111 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_111 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_112 = L_111.___register;
 		int8_t L_113 = L_112.___sbyte_2;
 		if ((!(((uint32_t)L_110) == ((uint32_t)L_113))))
@@ -4259,7 +4259,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_114 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_115 = L_114->___sbyte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_116 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_116 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_117 = L_116.___register;
 		int8_t L_118 = L_117.___sbyte_3;
 		if ((!(((uint32_t)L_115) == ((uint32_t)L_118))))
@@ -4270,7 +4270,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_119 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_120 = L_119->___sbyte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_121 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_121 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_122 = L_121.___register;
 		int8_t L_123 = L_122.___sbyte_4;
 		if ((!(((uint32_t)L_120) == ((uint32_t)L_123))))
@@ -4281,7 +4281,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_124 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_125 = L_124->___sbyte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_126 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_126 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_127 = L_126.___register;
 		int8_t L_128 = L_127.___sbyte_5;
 		if ((!(((uint32_t)L_125) == ((uint32_t)L_128))))
@@ -4292,7 +4292,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_129 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_130 = L_129->___sbyte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_131 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_131 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_132 = L_131.___register;
 		int8_t L_133 = L_132.___sbyte_6;
 		if ((!(((uint32_t)L_130) == ((uint32_t)L_133))))
@@ -4303,7 +4303,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_134 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_135 = L_134->___sbyte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_136 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_136 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_137 = L_136.___register;
 		int8_t L_138 = L_137.___sbyte_7;
 		if ((!(((uint32_t)L_135) == ((uint32_t)L_138))))
@@ -4314,7 +4314,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_139 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_140 = L_139->___sbyte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_141 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_141 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_142 = L_141.___register;
 		int8_t L_143 = L_142.___sbyte_8;
 		if ((!(((uint32_t)L_140) == ((uint32_t)L_143))))
@@ -4325,7 +4325,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_144 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_145 = L_144->___sbyte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_146 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_146 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_147 = L_146.___register;
 		int8_t L_148 = L_147.___sbyte_9;
 		if ((!(((uint32_t)L_145) == ((uint32_t)L_148))))
@@ -4336,7 +4336,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_149 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_150 = L_149->___sbyte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_151 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_151 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_152 = L_151.___register;
 		int8_t L_153 = L_152.___sbyte_10;
 		if ((!(((uint32_t)L_150) == ((uint32_t)L_153))))
@@ -4347,7 +4347,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_154 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_155 = L_154->___sbyte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_156 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_156 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_157 = L_156.___register;
 		int8_t L_158 = L_157.___sbyte_11;
 		if ((!(((uint32_t)L_155) == ((uint32_t)L_158))))
@@ -4358,7 +4358,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_159 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_160 = L_159->___sbyte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_161 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_161 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_162 = L_161.___register;
 		int8_t L_163 = L_162.___sbyte_12;
 		if ((!(((uint32_t)L_160) == ((uint32_t)L_163))))
@@ -4369,7 +4369,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_164 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_165 = L_164->___sbyte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_166 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_166 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_167 = L_166.___register;
 		int8_t L_168 = L_167.___sbyte_13;
 		if ((!(((uint32_t)L_165) == ((uint32_t)L_168))))
@@ -4380,7 +4380,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_169 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_170 = L_169->___sbyte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_171 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_171 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_172 = L_171.___register;
 		int8_t L_173 = L_172.___sbyte_14;
 		if ((!(((uint32_t)L_170) == ((uint32_t)L_173))))
@@ -4391,7 +4391,7 @@ IL_01f0:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_174 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int8_t L_175 = L_174->___sbyte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_176 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_176 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_177 = L_176.___register;
 		int8_t L_178 = L_177.___sbyte_15;
 		return (bool)((((int32_t)L_175) == ((int32_t)L_178))? 1 : 0);
@@ -4421,7 +4421,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_184 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_185 = L_184->___uint16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_186 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_186 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_187 = L_186.___register;
 		uint16_t L_188 = L_187.___uint16_0;
 		if ((!(((uint32_t)L_185) == ((uint32_t)L_188))))
@@ -4432,7 +4432,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_189 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_190 = L_189->___uint16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_191 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_191 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_192 = L_191.___register;
 		uint16_t L_193 = L_192.___uint16_1;
 		if ((!(((uint32_t)L_190) == ((uint32_t)L_193))))
@@ -4443,7 +4443,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_194 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_195 = L_194->___uint16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_196 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_196 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_197 = L_196.___register;
 		uint16_t L_198 = L_197.___uint16_2;
 		if ((!(((uint32_t)L_195) == ((uint32_t)L_198))))
@@ -4454,7 +4454,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_199 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_200 = L_199->___uint16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_201 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_201 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_202 = L_201.___register;
 		uint16_t L_203 = L_202.___uint16_3;
 		if ((!(((uint32_t)L_200) == ((uint32_t)L_203))))
@@ -4465,7 +4465,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_204 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_205 = L_204->___uint16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_206 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_206 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_207 = L_206.___register;
 		uint16_t L_208 = L_207.___uint16_4;
 		if ((!(((uint32_t)L_205) == ((uint32_t)L_208))))
@@ -4476,7 +4476,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_209 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_210 = L_209->___uint16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_211 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_211 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_212 = L_211.___register;
 		uint16_t L_213 = L_212.___uint16_5;
 		if ((!(((uint32_t)L_210) == ((uint32_t)L_213))))
@@ -4487,7 +4487,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_214 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_215 = L_214->___uint16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_216 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_216 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_217 = L_216.___register;
 		uint16_t L_218 = L_217.___uint16_6;
 		if ((!(((uint32_t)L_215) == ((uint32_t)L_218))))
@@ -4498,7 +4498,7 @@ IL_03af:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_219 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint16_t L_220 = L_219->___uint16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_221 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_221 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_222 = L_221.___register;
 		uint16_t L_223 = L_222.___uint16_7;
 		return (bool)((((int32_t)L_220) == ((int32_t)L_223))? 1 : 0);
@@ -4528,7 +4528,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_229 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_230 = L_229->___int16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_231 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_231 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_232 = L_231.___register;
 		int16_t L_233 = L_232.___int16_0;
 		if ((!(((uint32_t)L_230) == ((uint32_t)L_233))))
@@ -4539,7 +4539,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_234 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_235 = L_234->___int16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_236 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_236 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_237 = L_236.___register;
 		int16_t L_238 = L_237.___int16_1;
 		if ((!(((uint32_t)L_235) == ((uint32_t)L_238))))
@@ -4550,7 +4550,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_239 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_240 = L_239->___int16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_241 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_241 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_242 = L_241.___register;
 		int16_t L_243 = L_242.___int16_2;
 		if ((!(((uint32_t)L_240) == ((uint32_t)L_243))))
@@ -4561,7 +4561,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_244 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_245 = L_244->___int16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_246 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_246 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_247 = L_246.___register;
 		int16_t L_248 = L_247.___int16_3;
 		if ((!(((uint32_t)L_245) == ((uint32_t)L_248))))
@@ -4572,7 +4572,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_249 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_250 = L_249->___int16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_251 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_251 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_252 = L_251.___register;
 		int16_t L_253 = L_252.___int16_4;
 		if ((!(((uint32_t)L_250) == ((uint32_t)L_253))))
@@ -4583,7 +4583,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_254 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_255 = L_254->___int16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_256 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_256 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_257 = L_256.___register;
 		int16_t L_258 = L_257.___int16_5;
 		if ((!(((uint32_t)L_255) == ((uint32_t)L_258))))
@@ -4594,7 +4594,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_259 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_260 = L_259->___int16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_261 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_261 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_262 = L_261.___register;
 		int16_t L_263 = L_262.___int16_6;
 		if ((!(((uint32_t)L_260) == ((uint32_t)L_263))))
@@ -4605,7 +4605,7 @@ IL_0496:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_264 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int16_t L_265 = L_264->___int16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_266 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_266 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_267 = L_266.___register;
 		int16_t L_268 = L_267.___int16_7;
 		return (bool)((((int32_t)L_265) == ((int32_t)L_268))? 1 : 0);
@@ -4635,7 +4635,7 @@ IL_057d:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_274 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint32_t L_275 = L_274->___uint32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_276 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_276 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_277 = L_276.___register;
 		uint32_t L_278 = L_277.___uint32_0;
 		if ((!(((uint32_t)L_275) == ((uint32_t)L_278))))
@@ -4646,7 +4646,7 @@ IL_057d:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_279 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint32_t L_280 = L_279->___uint32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_281 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_281 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_282 = L_281.___register;
 		uint32_t L_283 = L_282.___uint32_1;
 		if ((!(((uint32_t)L_280) == ((uint32_t)L_283))))
@@ -4657,7 +4657,7 @@ IL_057d:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_284 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint32_t L_285 = L_284->___uint32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_286 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_286 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_287 = L_286.___register;
 		uint32_t L_288 = L_287.___uint32_2;
 		if ((!(((uint32_t)L_285) == ((uint32_t)L_288))))
@@ -4668,7 +4668,7 @@ IL_057d:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_289 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint32_t L_290 = L_289->___uint32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_291 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_291 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_292 = L_291.___register;
 		uint32_t L_293 = L_292.___uint32_3;
 		return (bool)((((int32_t)L_290) == ((int32_t)L_293))? 1 : 0);
@@ -4698,7 +4698,7 @@ IL_05fb:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_299 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int32_t L_300 = L_299->___int32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_301 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_301 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_302 = L_301.___register;
 		int32_t L_303 = L_302.___int32_0;
 		if ((!(((uint32_t)L_300) == ((uint32_t)L_303))))
@@ -4709,7 +4709,7 @@ IL_05fb:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_304 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int32_t L_305 = L_304->___int32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_306 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_306 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_307 = L_306.___register;
 		int32_t L_308 = L_307.___int32_1;
 		if ((!(((uint32_t)L_305) == ((uint32_t)L_308))))
@@ -4720,7 +4720,7 @@ IL_05fb:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_309 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int32_t L_310 = L_309->___int32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_311 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_311 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_312 = L_311.___register;
 		int32_t L_313 = L_312.___int32_2;
 		if ((!(((uint32_t)L_310) == ((uint32_t)L_313))))
@@ -4731,7 +4731,7 @@ IL_05fb:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_314 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int32_t L_315 = L_314->___int32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_316 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_316 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_317 = L_316.___register;
 		int32_t L_318 = L_317.___int32_3;
 		return (bool)((((int32_t)L_315) == ((int32_t)L_318))? 1 : 0);
@@ -4761,7 +4761,7 @@ IL_0679:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_324 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint64_t L_325 = L_324->___uint64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_326 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_326 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_327 = L_326.___register;
 		uint64_t L_328 = L_327.___uint64_0;
 		if ((!(((uint64_t)L_325) == ((uint64_t)L_328))))
@@ -4772,7 +4772,7 @@ IL_0679:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_329 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		uint64_t L_330 = L_329->___uint64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_331 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_331 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_332 = L_331.___register;
 		uint64_t L_333 = L_332.___uint64_1;
 		return (bool)((((int64_t)L_330) == ((int64_t)L_333))? 1 : 0);
@@ -4802,7 +4802,7 @@ IL_06c7:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_339 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int64_t L_340 = L_339->___int64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_341 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_341 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_342 = L_341.___register;
 		int64_t L_343 = L_342.___int64_0;
 		if ((!(((uint64_t)L_340) == ((uint64_t)L_343))))
@@ -4813,7 +4813,7 @@ IL_06c7:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_344 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		int64_t L_345 = L_344->___int64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_346 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_346 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_347 = L_346.___register;
 		int64_t L_348 = L_347.___int64_1;
 		return (bool)((((int64_t)L_345) == ((int64_t)L_348))? 1 : 0);
@@ -4843,7 +4843,7 @@ IL_0715:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_354 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		float L_355 = L_354->___single_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_356 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_356 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_357 = L_356.___register;
 		float L_358 = L_357.___single_0;
 		if ((!(((float)L_355) == ((float)L_358))))
@@ -4854,7 +4854,7 @@ IL_0715:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_359 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		float L_360 = L_359->___single_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_361 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_361 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_362 = L_361.___register;
 		float L_363 = L_362.___single_1;
 		if ((!(((float)L_360) == ((float)L_363))))
@@ -4865,7 +4865,7 @@ IL_0715:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_364 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		float L_365 = L_364->___single_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_366 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_366 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_367 = L_366.___register;
 		float L_368 = L_367.___single_2;
 		if ((!(((float)L_365) == ((float)L_368))))
@@ -4876,7 +4876,7 @@ IL_0715:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_369 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		float L_370 = L_369->___single_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_371 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_371 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_372 = L_371.___register;
 		float L_373 = L_372.___single_3;
 		return (bool)((((float)L_370) == ((float)L_373))? 1 : 0);
@@ -4906,7 +4906,7 @@ IL_0793:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_379 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		double L_380 = L_379->___double_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_381 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_381 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_382 = L_381.___register;
 		double L_383 = L_382.___double_0;
 		if ((!(((double)L_380) == ((double)L_383))))
@@ -4917,7 +4917,7 @@ IL_0793:
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_384 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&__this->___register);
 		double L_385 = L_384->___double_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_386 = ___0_other;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_386 = ___0_other;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_387 = L_386.___register;
 		double L_388 = L_387.___double_1;
 		return (bool)((((double)L_385) == ((double)L_388))? 1 : 0);
@@ -4935,16 +4935,16 @@ IL_07e1:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_389, method);
 	}
 }
-IL2CPP_EXTERN_C  bool Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8_AdjustorThunk (RuntimeObject* __this, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_other, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8_AdjustorThunk (RuntimeObject* __this, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_other, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
 	bool _returnValue;
-	_returnValue = Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8(_thisAdjusted, ___0_other, method);
+	_returnValue = Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_GetHashCode_m3C7CFE908C6BB2DC94F94F7615F2D1AF0E2777D9_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector_1_GetHashCode_mE37A586E5D69F63B05EAB11304E7768926FE6B8A_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5028,9 +5028,9 @@ IL_002b:
 		int32_t L_6 = V_0;
 		int32_t L_7 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_8;
-		L_8 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_9 = L_8;
+		float L_8;
+		L_8 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		V_2 = ((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		int32_t L_11;
@@ -5048,7 +5048,7 @@ IL_004f:
 		int32_t L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_15;
-		L_15 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_15 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_14) < ((int32_t)L_15)))
 		{
 			goto IL_002b;
@@ -5085,9 +5085,9 @@ IL_0078:
 		int32_t L_22 = V_0;
 		int32_t L_23 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_24;
-		L_24 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_23, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_25 = L_24;
+		float L_24;
+		L_24 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_23, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_25 = L_24;
 		RuntimeObject* L_26 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_25);
 		V_4 = ((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_26, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		int32_t L_27;
@@ -5105,7 +5105,7 @@ IL_009d:
 		int32_t L_30 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_31;
-		L_31 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_31 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_30) < ((int32_t)L_31)))
 		{
 			goto IL_0078;
@@ -5142,9 +5142,9 @@ IL_00c7:
 		int32_t L_38 = V_0;
 		int32_t L_39 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_40;
-		L_40 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_39, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_41 = L_40;
+		float L_40;
+		L_40 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_39, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_41 = L_40;
 		RuntimeObject* L_42 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_41);
 		V_6 = ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_42, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		int32_t L_43;
@@ -5162,7 +5162,7 @@ IL_00ef:
 		int32_t L_46 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_47;
-		L_47 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_47 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_46) < ((int32_t)L_47)))
 		{
 			goto IL_00c7;
@@ -5199,9 +5199,9 @@ IL_011a:
 		int32_t L_54 = V_0;
 		int32_t L_55 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_56;
-		L_56 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_57 = L_56;
+		float L_56;
+		L_56 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_57 = L_56;
 		RuntimeObject* L_58 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_57);
 		V_8 = ((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_58, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		int32_t L_59;
@@ -5219,7 +5219,7 @@ IL_0142:
 		int32_t L_62 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_63;
-		L_63 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_63 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_62) < ((int32_t)L_63)))
 		{
 			goto IL_011a;
@@ -5256,9 +5256,9 @@ IL_016d:
 		int32_t L_70 = V_0;
 		int32_t L_71 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_72;
-		L_72 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_71, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_73 = L_72;
+		float L_72;
+		L_72 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_71, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_73 = L_72;
 		RuntimeObject* L_74 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_73);
 		V_10 = ((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_74, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		int32_t L_75;
@@ -5276,7 +5276,7 @@ IL_0195:
 		int32_t L_78 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_79;
-		L_79 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_79 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_78) < ((int32_t)L_79)))
 		{
 			goto IL_016d;
@@ -5313,9 +5313,9 @@ IL_01c0:
 		int32_t L_86 = V_0;
 		int32_t L_87 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_88;
-		L_88 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_87, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_89 = L_88;
+		float L_88;
+		L_88 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_87, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_89 = L_88;
 		RuntimeObject* L_90 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_89);
 		V_12 = ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_90, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		int32_t L_91;
@@ -5333,7 +5333,7 @@ IL_01e8:
 		int32_t L_94 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_95;
-		L_95 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_95 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_94) < ((int32_t)L_95)))
 		{
 			goto IL_01c0;
@@ -5370,9 +5370,9 @@ IL_0213:
 		int32_t L_102 = V_0;
 		int32_t L_103 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_104;
-		L_104 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_103, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_105 = L_104;
+		float L_104;
+		L_104 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_103, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_105 = L_104;
 		RuntimeObject* L_106 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_105);
 		V_14 = ((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_106, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))));
 		int32_t L_107;
@@ -5390,7 +5390,7 @@ IL_023b:
 		int32_t L_110 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_111;
-		L_111 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_111 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_110) < ((int32_t)L_111)))
 		{
 			goto IL_0213;
@@ -5427,9 +5427,9 @@ IL_0266:
 		int32_t L_118 = V_0;
 		int32_t L_119 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_120;
-		L_120 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_119, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_121 = L_120;
+		float L_120;
+		L_120 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_119, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_121 = L_120;
 		RuntimeObject* L_122 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_121);
 		V_16 = ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_122, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))));
 		int32_t L_123;
@@ -5447,7 +5447,7 @@ IL_028e:
 		int32_t L_126 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_127;
-		L_127 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_127 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_126) < ((int32_t)L_127)))
 		{
 			goto IL_0266;
@@ -5484,9 +5484,9 @@ IL_02b9:
 		int32_t L_134 = V_0;
 		int32_t L_135 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_136;
-		L_136 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_135, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_137 = L_136;
+		float L_136;
+		L_136 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_135, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_137 = L_136;
 		RuntimeObject* L_138 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_137);
 		V_18 = ((*(float*)((float*)(float*)UnBox(L_138, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		int32_t L_139;
@@ -5504,7 +5504,7 @@ IL_02e1:
 		int32_t L_142 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_143;
-		L_143 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_143 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_142) < ((int32_t)L_143)))
 		{
 			goto IL_02b9;
@@ -5541,9 +5541,9 @@ IL_030c:
 		int32_t L_150 = V_0;
 		int32_t L_151 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_152;
-		L_152 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_151, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_153 = L_152;
+		float L_152;
+		L_152 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_151, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_153 = L_152;
 		RuntimeObject* L_154 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_153);
 		V_20 = ((*(double*)((double*)(double*)UnBox(L_154, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))));
 		int32_t L_155;
@@ -5561,7 +5561,7 @@ IL_0334:
 		int32_t L_158 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_159;
-		L_159 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_159 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_158) < ((int32_t)L_159)))
 		{
 			goto IL_030c;
@@ -6334,16 +6334,16 @@ IL_0a66:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_552, method);
 	}
 }
-IL2CPP_EXTERN_C  int32_t Vector_1_GetHashCode_m3C7CFE908C6BB2DC94F94F7615F2D1AF0E2777D9_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  int32_t Vector_1_GetHashCode_mE37A586E5D69F63B05EAB11304E7768926FE6B8A_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
 	int32_t _returnValue;
-	_returnValue = Vector_1_GetHashCode_m3C7CFE908C6BB2DC94F94F7615F2D1AF0E2777D9(_thisAdjusted, method);
+	_returnValue = Vector_1_GetHashCode_mE37A586E5D69F63B05EAB11304E7768926FE6B8A(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_m2444D8FDCF0568D259DAE989EB7BCC77D37B2D6D_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_mA05A7A1895B6D3BBB548ED983629FA5453CEF031_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6358,20 +6358,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_m2444D8FDCF0568D2
 		L_0 = CultureInfo_get_CurrentCulture_m8A4580F49DDD7E9DB34C699965423DB8E3BBA9A5(NULL);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		String_t* L_1;
-		L_1 = Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7(__this, _stringLiteral3DCC6243286938BE75C3FA773B9BA71160A2E869, (RuntimeObject*)L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10));
+		L_1 = Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676(__this, _stringLiteral3DCC6243286938BE75C3FA773B9BA71160A2E869, (RuntimeObject*)L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 10));
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C  String_t* Vector_1_ToString_m2444D8FDCF0568D259DAE989EB7BCC77D37B2D6D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  String_t* Vector_1_ToString_mA05A7A1895B6D3BBB548ED983629FA5453CEF031_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
 	String_t* _returnValue;
-	_returnValue = Vector_1_ToString_m2444D8FDCF0568D259DAE989EB7BCC77D37B2D6D(_thisAdjusted, method);
+	_returnValue = Vector_1_ToString_mA05A7A1895B6D3BBB548ED983629FA5453CEF031(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6407,9 +6407,9 @@ IL_001f:
 		StringBuilder_t* L_6 = V_0;
 		int32_t L_7 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_8;
-		L_8 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_9 = L_8;
+		float L_8;
+		L_8 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		String_t* L_11 = ___0_format;
 		RuntimeObject* L_12 = ___1_formatProvider;
@@ -6436,7 +6436,7 @@ IL_0053:
 		int32_t L_21 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_22;
-		L_22 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_22 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_21) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_22, 1)))))
 		{
 			goto IL_001f;
@@ -6446,10 +6446,10 @@ IL_0053:
 		StringBuilder_t* L_23 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_24;
-		L_24 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
-		uint16_t L_25;
-		L_25 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27(__this, ((int32_t)il2cpp_codegen_subtract(L_24, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_26 = L_25;
+		L_24 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		float L_25;
+		L_25 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED(__this, ((int32_t)il2cpp_codegen_subtract(L_24, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_26 = L_25;
 		RuntimeObject* L_27 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_26);
 		String_t* L_28 = ___0_format;
 		RuntimeObject* L_29 = ___1_formatProvider;
@@ -6469,16 +6469,16 @@ IL_0053:
 		return L_35;
 	}
 }
-IL2CPP_EXTERN_C  String_t* Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  String_t* Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method)
 {
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* _thisAdjusted;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*>(__this + _offset);
 	String_t* _returnValue;
-	_returnValue = Vector_1_ToString_mA9FEB41834880EF7C7688EB8C3F83286697B0BC7(_thisAdjusted, ___0_format, ___1_formatProvider, method);
+	_returnValue = Vector_1_ToString_mE51C6CBF4A3D91A6D1EF178F9D1FDE1CCE555676(_thisAdjusted, ___0_format, ___1_formatProvider, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_op_Addition_m360F765154C48EB069B4149343E444750C15918B_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_op_Addition_m07477FE38B26752AFF6C6766632EC4B4100EF65A_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6526,7 +6526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 	int32_t V_17 = 0;
 	double* V_18 = NULL;
 	int32_t V_19 = 0;
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 V_20;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 V_20;
 	memset((&V_20), 0, sizeof(V_20));
 	{
 		bool L_0;
@@ -6554,7 +6554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_6;
-		L_6 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_6 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		uintptr_t L_7 = ((uintptr_t)L_6);
 		int8_t* L_8 = (int8_t*) (L_7 ? alloca(L_7) : NULL);
 		memset(L_8, 0, L_7);
@@ -6569,14 +6569,14 @@ IL_0032:
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_12;
-		L_12 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_11, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_12;
+		L_12 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_11, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_13 = V_1;
-		uint16_t L_14;
-		L_14 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_15;
-		L_15 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_12, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_16 = L_15;
+		float L_14;
+		L_14 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_15;
+		L_15 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_12, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_16 = L_15;
 		RuntimeObject* L_17 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_16);
 		*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_9, L_10))) = (int8_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_17, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		int32_t L_18 = V_1;
@@ -6588,7 +6588,7 @@ IL_0059:
 		int32_t L_19 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_20;
-		L_20 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_20 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_19) < ((int32_t)L_20)))
 		{
 			goto IL_0032;
@@ -6596,9 +6596,9 @@ IL_0059:
 	}
 	{
 		uint8_t* L_21 = V_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_22;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_22;
 		memset((&L_22), 0, sizeof(L_22));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_22), (void*)L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_22), (void*)L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_22;
 	}
 
@@ -6621,7 +6621,7 @@ IL_0068:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_28;
-		L_28 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_28 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		uintptr_t L_29 = ((uintptr_t)L_28);
 		int8_t* L_30 = (int8_t*) (L_29 ? alloca(L_29) : NULL);
 		memset(L_30, 0, L_29);
@@ -6636,14 +6636,14 @@ IL_0090:
 		int32_t L_32 = V_3;
 		int32_t L_33 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_34;
-		L_34 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_34;
+		L_34 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_35 = V_3;
-		uint16_t L_36;
-		L_36 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_37;
-		L_37 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_34, L_36, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_38 = L_37;
+		float L_36;
+		L_36 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_37;
+		L_37 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_34, L_36, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_38 = L_37;
 		RuntimeObject* L_39 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_38);
 		*((int8_t*)((int8_t*)il2cpp_codegen_add((intptr_t)L_31, L_32))) = (int8_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_39, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		int32_t L_40 = V_3;
@@ -6655,7 +6655,7 @@ IL_00b7:
 		int32_t L_41 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_42;
-		L_42 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_42 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_41) < ((int32_t)L_42)))
 		{
 			goto IL_0090;
@@ -6663,9 +6663,9 @@ IL_00b7:
 	}
 	{
 		int8_t* L_43 = V_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_44;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_44;
 		memset((&L_44), 0, sizeof(L_44));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_44), (void*)L_43, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_44), (void*)L_43, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_44;
 	}
 
@@ -6688,7 +6688,7 @@ IL_00c6:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_50;
-		L_50 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_50 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_50) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_51 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_50), 2));
@@ -6705,14 +6705,14 @@ IL_00f2:
 		int32_t L_54 = V_5;
 		int32_t L_55 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_56;
-		L_56 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_56;
+		L_56 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_57 = V_5;
-		uint16_t L_58;
-		L_58 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_57, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_59;
-		L_59 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_56, L_58, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_60 = L_59;
+		float L_58;
+		L_58 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_57, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_59;
+		L_59 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_56, L_58, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_60 = L_59;
 		RuntimeObject* L_61 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_60);
 		*((int16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_53, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_54), 2))))) = (int16_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_61, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		int32_t L_62 = V_5;
@@ -6724,7 +6724,7 @@ IL_0122:
 		int32_t L_63 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_64;
-		L_64 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_64 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_63) < ((int32_t)L_64)))
 		{
 			goto IL_00f2;
@@ -6732,9 +6732,9 @@ IL_0122:
 	}
 	{
 		uint16_t* L_65 = V_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_66;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_66;
 		memset((&L_66), 0, sizeof(L_66));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_66), (void*)L_65, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_66), (void*)L_65, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_66;
 	}
 
@@ -6757,7 +6757,7 @@ IL_0133:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_72;
-		L_72 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_72 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_72) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_73 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_72), 2));
@@ -6774,14 +6774,14 @@ IL_015f:
 		int32_t L_76 = V_7;
 		int32_t L_77 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_78;
-		L_78 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_77, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_78;
+		L_78 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_77, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_79 = V_7;
-		uint16_t L_80;
-		L_80 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_79, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_81;
-		L_81 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_78, L_80, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_82 = L_81;
+		float L_80;
+		L_80 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_79, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_81;
+		L_81 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_78, L_80, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_82 = L_81;
 		RuntimeObject* L_83 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_82);
 		*((int16_t*)((int16_t*)il2cpp_codegen_add((intptr_t)L_75, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_76), 2))))) = (int16_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_83, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		int32_t L_84 = V_7;
@@ -6793,7 +6793,7 @@ IL_018f:
 		int32_t L_85 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_86;
-		L_86 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_86 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_85) < ((int32_t)L_86)))
 		{
 			goto IL_015f;
@@ -6801,9 +6801,9 @@ IL_018f:
 	}
 	{
 		int16_t* L_87 = V_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_88;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_88;
 		memset((&L_88), 0, sizeof(L_88));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_88), (void*)L_87, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_88), (void*)L_87, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_88;
 	}
 
@@ -6826,7 +6826,7 @@ IL_01a0:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_94;
-		L_94 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_94 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_94) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_95 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_94), 4));
@@ -6843,14 +6843,14 @@ IL_01cc:
 		int32_t L_98 = V_9;
 		int32_t L_99 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_100;
-		L_100 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_99, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_100;
+		L_100 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_99, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_101 = V_9;
-		uint16_t L_102;
-		L_102 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_101, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_103;
-		L_103 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_100, L_102, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_104 = L_103;
+		float L_102;
+		L_102 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_101, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_103;
+		L_103 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_100, L_102, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_104);
 		*((int32_t*)((uint32_t*)il2cpp_codegen_add((intptr_t)L_97, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_98), 4))))) = (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_105, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		int32_t L_106 = V_9;
@@ -6862,7 +6862,7 @@ IL_01fc:
 		int32_t L_107 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_108;
-		L_108 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_108 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_107) < ((int32_t)L_108)))
 		{
 			goto IL_01cc;
@@ -6870,9 +6870,9 @@ IL_01fc:
 	}
 	{
 		uint32_t* L_109 = V_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_110;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_110;
 		memset((&L_110), 0, sizeof(L_110));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_110), (void*)L_109, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_110), (void*)L_109, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_110;
 	}
 
@@ -6895,7 +6895,7 @@ IL_020d:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_116;
-		L_116 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_116 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_116) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_117 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_116), 4));
@@ -6912,14 +6912,14 @@ IL_0239:
 		int32_t L_120 = V_11;
 		int32_t L_121 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_122;
-		L_122 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_121, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_122;
+		L_122 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_121, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_123 = V_11;
-		uint16_t L_124;
-		L_124 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_123, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_125;
-		L_125 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_122, L_124, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_126 = L_125;
+		float L_124;
+		L_124 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_123, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_125;
+		L_125 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_122, L_124, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_126 = L_125;
 		RuntimeObject* L_127 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_126);
 		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_120), 4))))) = (int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_127, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		int32_t L_128 = V_11;
@@ -6931,7 +6931,7 @@ IL_0269:
 		int32_t L_129 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_130;
-		L_130 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_130 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_129) < ((int32_t)L_130)))
 		{
 			goto IL_0239;
@@ -6939,9 +6939,9 @@ IL_0269:
 	}
 	{
 		int32_t* L_131 = V_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_132;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_132;
 		memset((&L_132), 0, sizeof(L_132));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_132), (void*)L_131, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_132), (void*)L_131, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_132;
 	}
 
@@ -6964,7 +6964,7 @@ IL_027a:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_138;
-		L_138 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_138 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_138) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_139 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_138), 8));
@@ -6981,14 +6981,14 @@ IL_02a6:
 		int32_t L_142 = V_13;
 		int32_t L_143 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_144;
-		L_144 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_143, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_144;
+		L_144 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_143, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_145 = V_13;
-		uint16_t L_146;
-		L_146 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_145, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_147;
-		L_147 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_144, L_146, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_148 = L_147;
+		float L_146;
+		L_146 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_145, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_147;
+		L_147 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_144, L_146, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_148 = L_147;
 		RuntimeObject* L_149 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_148);
 		*((int64_t*)((uint64_t*)il2cpp_codegen_add((intptr_t)L_141, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_142), 8))))) = (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_149, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))));
 		int32_t L_150 = V_13;
@@ -7000,7 +7000,7 @@ IL_02d6:
 		int32_t L_151 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_152;
-		L_152 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_152 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_151) < ((int32_t)L_152)))
 		{
 			goto IL_02a6;
@@ -7008,9 +7008,9 @@ IL_02d6:
 	}
 	{
 		uint64_t* L_153 = V_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_154;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_154;
 		memset((&L_154), 0, sizeof(L_154));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_154), (void*)L_153, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_154), (void*)L_153, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_154;
 	}
 
@@ -7033,7 +7033,7 @@ IL_02e7:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_160;
-		L_160 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_160 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_160) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_161 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_160), 8));
@@ -7050,14 +7050,14 @@ IL_0313:
 		int32_t L_164 = V_15;
 		int32_t L_165 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_166;
-		L_166 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_165, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_166;
+		L_166 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_165, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_167 = V_15;
-		uint16_t L_168;
-		L_168 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_167, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_169;
-		L_169 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_166, L_168, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_170 = L_169;
+		float L_168;
+		L_168 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_167, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_169;
+		L_169 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_166, L_168, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_170 = L_169;
 		RuntimeObject* L_171 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_170);
 		*((int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_163, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_164), 8))))) = (int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_171, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))));
 		int32_t L_172 = V_15;
@@ -7069,7 +7069,7 @@ IL_0343:
 		int32_t L_173 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_174;
-		L_174 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_174 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_173) < ((int32_t)L_174)))
 		{
 			goto IL_0313;
@@ -7077,9 +7077,9 @@ IL_0343:
 	}
 	{
 		int64_t* L_175 = V_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_176;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_176;
 		memset((&L_176), 0, sizeof(L_176));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_176), (void*)L_175, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_176), (void*)L_175, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_176;
 	}
 
@@ -7102,7 +7102,7 @@ IL_0354:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_182;
-		L_182 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_182 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_182) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_183 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_182), 4));
@@ -7119,14 +7119,14 @@ IL_0380:
 		int32_t L_186 = V_17;
 		int32_t L_187 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_188;
-		L_188 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_187, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_188;
+		L_188 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_187, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_189 = V_17;
-		uint16_t L_190;
-		L_190 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_189, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_191;
-		L_191 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_188, L_190, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_192 = L_191;
+		float L_190;
+		L_190 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_189, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_191;
+		L_191 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_188, L_190, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_192 = L_191;
 		RuntimeObject* L_193 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_192);
 		*((float*)((float*)il2cpp_codegen_add((intptr_t)L_185, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_186), 4))))) = (float)((*(float*)((float*)(float*)UnBox(L_193, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		int32_t L_194 = V_17;
@@ -7138,7 +7138,7 @@ IL_03b0:
 		int32_t L_195 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_196;
-		L_196 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_196 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_195) < ((int32_t)L_196)))
 		{
 			goto IL_0380;
@@ -7146,9 +7146,9 @@ IL_03b0:
 	}
 	{
 		float* L_197 = V_16;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_198;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_198;
 		memset((&L_198), 0, sizeof(L_198));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_198), (void*)L_197, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_198), (void*)L_197, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_198;
 	}
 
@@ -7171,7 +7171,7 @@ IL_03c1:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_204;
-		L_204 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_204 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_204) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_205 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_204), 8));
@@ -7188,14 +7188,14 @@ IL_03ed:
 		int32_t L_208 = V_19;
 		int32_t L_209 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_210;
-		L_210 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_209, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_210;
+		L_210 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_209, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_211 = V_19;
-		uint16_t L_212;
-		L_212 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_211, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_213;
-		L_213 = Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_inline(L_210, L_212, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
-		uint16_t L_214 = L_213;
+		float L_212;
+		L_212 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_211, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_213;
+		L_213 = Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_inline(L_210, L_212, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 11));
+		float L_214 = L_213;
 		RuntimeObject* L_215 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_214);
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_207, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_208), 8))))) = (double)((*(double*)((double*)(double*)UnBox(L_215, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))));
 		int32_t L_216 = V_19;
@@ -7207,7 +7207,7 @@ IL_041d:
 		int32_t L_217 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_218;
-		L_218 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_218 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_217) < ((int32_t)L_218)))
 		{
 			goto IL_03ed;
@@ -7215,9 +7215,9 @@ IL_041d:
 	}
 	{
 		double* L_219 = V_18;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_220;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_220;
 		memset((&L_220), 0, sizeof(L_220));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_220), (void*)L_219, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_220), (void*)L_219, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_220;
 	}
 
@@ -7230,7 +7230,7 @@ IL_042e:
 
 IL_0439:
 	{
-		il2cpp_codegen_initobj((&V_20), sizeof(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489));
+		il2cpp_codegen_initobj((&V_20), sizeof(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_222 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_223;
@@ -7247,130 +7247,130 @@ IL_0439:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_227 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_228 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_228 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_229 = L_228.___register;
 		uint8_t L_230 = L_229.___byte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_231 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_231 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_232 = L_231.___register;
 		uint8_t L_233 = L_232.___byte_0;
 		L_227->___byte_0 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_230, (int32_t)L_233)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_234 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_235 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_235 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_236 = L_235.___register;
 		uint8_t L_237 = L_236.___byte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_238 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_238 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_239 = L_238.___register;
 		uint8_t L_240 = L_239.___byte_1;
 		L_234->___byte_1 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_237, (int32_t)L_240)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_241 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_242 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_242 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_243 = L_242.___register;
 		uint8_t L_244 = L_243.___byte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_245 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_245 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_246 = L_245.___register;
 		uint8_t L_247 = L_246.___byte_2;
 		L_241->___byte_2 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_244, (int32_t)L_247)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_248 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_249 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_249 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_250 = L_249.___register;
 		uint8_t L_251 = L_250.___byte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_252 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_252 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_253 = L_252.___register;
 		uint8_t L_254 = L_253.___byte_3;
 		L_248->___byte_3 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_251, (int32_t)L_254)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_255 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_256 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_256 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_257 = L_256.___register;
 		uint8_t L_258 = L_257.___byte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_259 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_259 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_260 = L_259.___register;
 		uint8_t L_261 = L_260.___byte_4;
 		L_255->___byte_4 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_258, (int32_t)L_261)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_262 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_263 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_263 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_264 = L_263.___register;
 		uint8_t L_265 = L_264.___byte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_266 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_266 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_267 = L_266.___register;
 		uint8_t L_268 = L_267.___byte_5;
 		L_262->___byte_5 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_265, (int32_t)L_268)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_269 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_270 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_270 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_271 = L_270.___register;
 		uint8_t L_272 = L_271.___byte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_273 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_273 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_274 = L_273.___register;
 		uint8_t L_275 = L_274.___byte_6;
 		L_269->___byte_6 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_272, (int32_t)L_275)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_276 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_277 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_277 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_278 = L_277.___register;
 		uint8_t L_279 = L_278.___byte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_280 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_280 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_281 = L_280.___register;
 		uint8_t L_282 = L_281.___byte_7;
 		L_276->___byte_7 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_279, (int32_t)L_282)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_283 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_284 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_284 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_285 = L_284.___register;
 		uint8_t L_286 = L_285.___byte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_287 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_287 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_288 = L_287.___register;
 		uint8_t L_289 = L_288.___byte_8;
 		L_283->___byte_8 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_286, (int32_t)L_289)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_290 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_291 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_291 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_292 = L_291.___register;
 		uint8_t L_293 = L_292.___byte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_294 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_294 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_295 = L_294.___register;
 		uint8_t L_296 = L_295.___byte_9;
 		L_290->___byte_9 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_293, (int32_t)L_296)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_297 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_298 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_298 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_299 = L_298.___register;
 		uint8_t L_300 = L_299.___byte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_301 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_301 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_302 = L_301.___register;
 		uint8_t L_303 = L_302.___byte_10;
 		L_297->___byte_10 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_300, (int32_t)L_303)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_304 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_305 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_305 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_306 = L_305.___register;
 		uint8_t L_307 = L_306.___byte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_308 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_308 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_309 = L_308.___register;
 		uint8_t L_310 = L_309.___byte_11;
 		L_304->___byte_11 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_307, (int32_t)L_310)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_311 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_312 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_312 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_313 = L_312.___register;
 		uint8_t L_314 = L_313.___byte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_315 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_315 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_316 = L_315.___register;
 		uint8_t L_317 = L_316.___byte_12;
 		L_311->___byte_12 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_314, (int32_t)L_317)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_318 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_319 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_319 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_320 = L_319.___register;
 		uint8_t L_321 = L_320.___byte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_322 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_322 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_323 = L_322.___register;
 		uint8_t L_324 = L_323.___byte_13;
 		L_318->___byte_13 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_321, (int32_t)L_324)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_325 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_326 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_326 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_327 = L_326.___register;
 		uint8_t L_328 = L_327.___byte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_329 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_329 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_330 = L_329.___register;
 		uint8_t L_331 = L_330.___byte_14;
 		L_325->___byte_14 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_328, (int32_t)L_331)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_332 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_333 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_333 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_334 = L_333.___register;
 		uint8_t L_335 = L_334.___byte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_336 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_336 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_337 = L_336.___register;
 		uint8_t L_338 = L_337.___byte_15;
 		L_332->___byte_15 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_335, (int32_t)L_338)));
@@ -7395,130 +7395,130 @@ IL_06a4:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_344 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_345 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_345 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_346 = L_345.___register;
 		int8_t L_347 = L_346.___sbyte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_348 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_348 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_349 = L_348.___register;
 		int8_t L_350 = L_349.___sbyte_0;
 		L_344->___sbyte_0 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_347, (int32_t)L_350)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_351 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_352 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_352 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_353 = L_352.___register;
 		int8_t L_354 = L_353.___sbyte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_355 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_355 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_356 = L_355.___register;
 		int8_t L_357 = L_356.___sbyte_1;
 		L_351->___sbyte_1 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_354, (int32_t)L_357)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_358 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_359 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_359 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_360 = L_359.___register;
 		int8_t L_361 = L_360.___sbyte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_362 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_362 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_363 = L_362.___register;
 		int8_t L_364 = L_363.___sbyte_2;
 		L_358->___sbyte_2 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_361, (int32_t)L_364)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_365 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_366 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_366 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_367 = L_366.___register;
 		int8_t L_368 = L_367.___sbyte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_369 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_369 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_370 = L_369.___register;
 		int8_t L_371 = L_370.___sbyte_3;
 		L_365->___sbyte_3 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_368, (int32_t)L_371)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_372 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_373 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_373 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_374 = L_373.___register;
 		int8_t L_375 = L_374.___sbyte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_376 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_376 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_377 = L_376.___register;
 		int8_t L_378 = L_377.___sbyte_4;
 		L_372->___sbyte_4 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_375, (int32_t)L_378)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_379 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_380 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_380 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_381 = L_380.___register;
 		int8_t L_382 = L_381.___sbyte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_383 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_383 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_384 = L_383.___register;
 		int8_t L_385 = L_384.___sbyte_5;
 		L_379->___sbyte_5 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_382, (int32_t)L_385)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_386 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_387 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_387 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_388 = L_387.___register;
 		int8_t L_389 = L_388.___sbyte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_390 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_390 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_391 = L_390.___register;
 		int8_t L_392 = L_391.___sbyte_6;
 		L_386->___sbyte_6 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_389, (int32_t)L_392)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_393 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_394 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_394 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_395 = L_394.___register;
 		int8_t L_396 = L_395.___sbyte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_397 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_397 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_398 = L_397.___register;
 		int8_t L_399 = L_398.___sbyte_7;
 		L_393->___sbyte_7 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_396, (int32_t)L_399)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_400 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_401 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_401 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_402 = L_401.___register;
 		int8_t L_403 = L_402.___sbyte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_404 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_404 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_405 = L_404.___register;
 		int8_t L_406 = L_405.___sbyte_8;
 		L_400->___sbyte_8 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_403, (int32_t)L_406)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_407 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_408 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_408 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_409 = L_408.___register;
 		int8_t L_410 = L_409.___sbyte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_411 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_411 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_412 = L_411.___register;
 		int8_t L_413 = L_412.___sbyte_9;
 		L_407->___sbyte_9 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_410, (int32_t)L_413)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_414 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_415 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_415 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_416 = L_415.___register;
 		int8_t L_417 = L_416.___sbyte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_418 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_418 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_419 = L_418.___register;
 		int8_t L_420 = L_419.___sbyte_10;
 		L_414->___sbyte_10 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_417, (int32_t)L_420)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_421 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_422 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_422 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_423 = L_422.___register;
 		int8_t L_424 = L_423.___sbyte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_425 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_425 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_426 = L_425.___register;
 		int8_t L_427 = L_426.___sbyte_11;
 		L_421->___sbyte_11 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_424, (int32_t)L_427)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_428 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_429 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_429 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_430 = L_429.___register;
 		int8_t L_431 = L_430.___sbyte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_432 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_432 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_433 = L_432.___register;
 		int8_t L_434 = L_433.___sbyte_12;
 		L_428->___sbyte_12 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_431, (int32_t)L_434)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_435 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_436 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_436 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_437 = L_436.___register;
 		int8_t L_438 = L_437.___sbyte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_439 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_439 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_440 = L_439.___register;
 		int8_t L_441 = L_440.___sbyte_13;
 		L_435->___sbyte_13 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_438, (int32_t)L_441)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_442 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_443 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_443 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_444 = L_443.___register;
 		int8_t L_445 = L_444.___sbyte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_446 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_446 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_447 = L_446.___register;
 		int8_t L_448 = L_447.___sbyte_14;
 		L_442->___sbyte_14 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_445, (int32_t)L_448)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_449 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_450 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_450 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_451 = L_450.___register;
 		int8_t L_452 = L_451.___sbyte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_453 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_453 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_454 = L_453.___register;
 		int8_t L_455 = L_454.___sbyte_15;
 		L_449->___sbyte_15 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)L_452, (int32_t)L_455)));
@@ -7543,66 +7543,66 @@ IL_0907:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_461 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_462 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_462 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_463 = L_462.___register;
 		uint16_t L_464 = L_463.___uint16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_465 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_465 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_466 = L_465.___register;
 		uint16_t L_467 = L_466.___uint16_0;
 		L_461->___uint16_0 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_464, (int32_t)L_467)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_468 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_469 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_469 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_470 = L_469.___register;
 		uint16_t L_471 = L_470.___uint16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_472 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_472 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_473 = L_472.___register;
 		uint16_t L_474 = L_473.___uint16_1;
 		L_468->___uint16_1 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_471, (int32_t)L_474)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_475 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_476 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_476 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_477 = L_476.___register;
 		uint16_t L_478 = L_477.___uint16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_479 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_479 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_480 = L_479.___register;
 		uint16_t L_481 = L_480.___uint16_2;
 		L_475->___uint16_2 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_478, (int32_t)L_481)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_482 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_483 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_483 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_484 = L_483.___register;
 		uint16_t L_485 = L_484.___uint16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_486 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_486 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_487 = L_486.___register;
 		uint16_t L_488 = L_487.___uint16_3;
 		L_482->___uint16_3 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_485, (int32_t)L_488)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_489 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_490 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_490 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_491 = L_490.___register;
 		uint16_t L_492 = L_491.___uint16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_493 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_493 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_494 = L_493.___register;
 		uint16_t L_495 = L_494.___uint16_4;
 		L_489->___uint16_4 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_492, (int32_t)L_495)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_496 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_497 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_497 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_498 = L_497.___register;
 		uint16_t L_499 = L_498.___uint16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_500 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_500 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_501 = L_500.___register;
 		uint16_t L_502 = L_501.___uint16_5;
 		L_496->___uint16_5 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_499, (int32_t)L_502)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_503 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_504 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_504 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_505 = L_504.___register;
 		uint16_t L_506 = L_505.___uint16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_507 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_507 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_508 = L_507.___register;
 		uint16_t L_509 = L_508.___uint16_6;
 		L_503->___uint16_6 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_506, (int32_t)L_509)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_510 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_511 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_511 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_512 = L_511.___register;
 		uint16_t L_513 = L_512.___uint16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_514 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_514 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_515 = L_514.___register;
 		uint16_t L_516 = L_515.___uint16_7;
 		L_510->___uint16_7 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_513, (int32_t)L_516)));
@@ -7627,66 +7627,66 @@ IL_0a4a:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_522 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_523 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_523 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_524 = L_523.___register;
 		int16_t L_525 = L_524.___int16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_526 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_526 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_527 = L_526.___register;
 		int16_t L_528 = L_527.___int16_0;
 		L_522->___int16_0 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_525, (int32_t)L_528)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_529 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_530 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_530 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_531 = L_530.___register;
 		int16_t L_532 = L_531.___int16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_533 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_533 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_534 = L_533.___register;
 		int16_t L_535 = L_534.___int16_1;
 		L_529->___int16_1 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_532, (int32_t)L_535)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_536 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_537 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_537 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_538 = L_537.___register;
 		int16_t L_539 = L_538.___int16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_540 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_540 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_541 = L_540.___register;
 		int16_t L_542 = L_541.___int16_2;
 		L_536->___int16_2 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_539, (int32_t)L_542)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_543 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_544 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_544 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_545 = L_544.___register;
 		int16_t L_546 = L_545.___int16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_547 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_547 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_548 = L_547.___register;
 		int16_t L_549 = L_548.___int16_3;
 		L_543->___int16_3 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_546, (int32_t)L_549)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_550 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_551 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_551 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_552 = L_551.___register;
 		int16_t L_553 = L_552.___int16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_554 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_554 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_555 = L_554.___register;
 		int16_t L_556 = L_555.___int16_4;
 		L_550->___int16_4 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_553, (int32_t)L_556)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_557 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_558 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_558 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_559 = L_558.___register;
 		int16_t L_560 = L_559.___int16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_561 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_561 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_562 = L_561.___register;
 		int16_t L_563 = L_562.___int16_5;
 		L_557->___int16_5 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_560, (int32_t)L_563)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_564 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_565 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_565 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_566 = L_565.___register;
 		int16_t L_567 = L_566.___int16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_568 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_568 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_569 = L_568.___register;
 		int16_t L_570 = L_569.___int16_6;
 		L_564->___int16_6 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_567, (int32_t)L_570)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_571 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_572 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_572 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_573 = L_572.___register;
 		int16_t L_574 = L_573.___int16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_575 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_575 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_576 = L_575.___register;
 		int16_t L_577 = L_576.___int16_7;
 		L_571->___int16_7 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)L_574, (int32_t)L_577)));
@@ -7711,34 +7711,34 @@ IL_0b8d:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_583 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_584 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_584 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_585 = L_584.___register;
 		uint32_t L_586 = L_585.___uint32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_587 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_587 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_588 = L_587.___register;
 		uint32_t L_589 = L_588.___uint32_0;
 		L_583->___uint32_0 = (uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_586, (int32_t)L_589));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_590 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_591 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_591 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_592 = L_591.___register;
 		uint32_t L_593 = L_592.___uint32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_594 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_594 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_595 = L_594.___register;
 		uint32_t L_596 = L_595.___uint32_1;
 		L_590->___uint32_1 = (uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_593, (int32_t)L_596));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_597 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_598 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_598 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_599 = L_598.___register;
 		uint32_t L_600 = L_599.___uint32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_601 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_601 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_602 = L_601.___register;
 		uint32_t L_603 = L_602.___uint32_2;
 		L_597->___uint32_2 = (uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_600, (int32_t)L_603));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_604 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_605 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_605 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_606 = L_605.___register;
 		uint32_t L_607 = L_606.___uint32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_608 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_608 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_609 = L_608.___register;
 		uint32_t L_610 = L_609.___uint32_3;
 		L_604->___uint32_3 = (uint32_t)((int32_t)il2cpp_codegen_add((int32_t)L_607, (int32_t)L_610));
@@ -7763,34 +7763,34 @@ IL_0c3c:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_616 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_617 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_617 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_618 = L_617.___register;
 		int32_t L_619 = L_618.___int32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_620 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_620 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_621 = L_620.___register;
 		int32_t L_622 = L_621.___int32_0;
 		L_616->___int32_0 = ((int32_t)il2cpp_codegen_add(L_619, L_622));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_623 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_624 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_624 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_625 = L_624.___register;
 		int32_t L_626 = L_625.___int32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_627 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_627 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_628 = L_627.___register;
 		int32_t L_629 = L_628.___int32_1;
 		L_623->___int32_1 = ((int32_t)il2cpp_codegen_add(L_626, L_629));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_630 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_631 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_631 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_632 = L_631.___register;
 		int32_t L_633 = L_632.___int32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_634 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_634 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_635 = L_634.___register;
 		int32_t L_636 = L_635.___int32_2;
 		L_630->___int32_2 = ((int32_t)il2cpp_codegen_add(L_633, L_636));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_637 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_638 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_638 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_639 = L_638.___register;
 		int32_t L_640 = L_639.___int32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_641 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_641 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_642 = L_641.___register;
 		int32_t L_643 = L_642.___int32_3;
 		L_637->___int32_3 = ((int32_t)il2cpp_codegen_add(L_640, L_643));
@@ -7815,18 +7815,18 @@ IL_0ceb:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_649 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_650 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_650 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_651 = L_650.___register;
 		uint64_t L_652 = L_651.___uint64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_653 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_653 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_654 = L_653.___register;
 		uint64_t L_655 = L_654.___uint64_0;
 		L_649->___uint64_0 = (uint64_t)((int64_t)il2cpp_codegen_add((int64_t)L_652, (int64_t)L_655));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_656 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_657 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_657 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_658 = L_657.___register;
 		uint64_t L_659 = L_658.___uint64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_660 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_660 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_661 = L_660.___register;
 		uint64_t L_662 = L_661.___uint64_1;
 		L_656->___uint64_1 = (uint64_t)((int64_t)il2cpp_codegen_add((int64_t)L_659, (int64_t)L_662));
@@ -7851,18 +7851,18 @@ IL_0d51:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_668 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_669 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_669 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_670 = L_669.___register;
 		int64_t L_671 = L_670.___int64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_672 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_672 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_673 = L_672.___register;
 		int64_t L_674 = L_673.___int64_0;
 		L_668->___int64_0 = ((int64_t)il2cpp_codegen_add(L_671, L_674));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_675 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_676 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_676 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_677 = L_676.___register;
 		int64_t L_678 = L_677.___int64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_679 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_679 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_680 = L_679.___register;
 		int64_t L_681 = L_680.___int64_1;
 		L_675->___int64_1 = ((int64_t)il2cpp_codegen_add(L_678, L_681));
@@ -7887,34 +7887,34 @@ IL_0db7:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_687 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_688 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_688 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_689 = L_688.___register;
 		float L_690 = L_689.___single_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_691 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_691 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_692 = L_691.___register;
 		float L_693 = L_692.___single_0;
 		L_687->___single_0 = ((float)((float)il2cpp_codegen_add(L_690, L_693)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_694 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_695 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_695 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_696 = L_695.___register;
 		float L_697 = L_696.___single_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_698 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_698 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_699 = L_698.___register;
 		float L_700 = L_699.___single_1;
 		L_694->___single_1 = ((float)((float)il2cpp_codegen_add(L_697, L_700)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_701 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_702 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_702 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_703 = L_702.___register;
 		float L_704 = L_703.___single_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_705 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_705 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_706 = L_705.___register;
 		float L_707 = L_706.___single_2;
 		L_701->___single_2 = ((float)((float)il2cpp_codegen_add(L_704, L_707)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_708 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_709 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_709 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_710 = L_709.___register;
 		float L_711 = L_710.___single_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_712 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_712 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_713 = L_712.___register;
 		float L_714 = L_713.___single_3;
 		L_708->___single_3 = ((float)((float)il2cpp_codegen_add(L_711, L_714)));
@@ -7939,18 +7939,18 @@ IL_0e67:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_720 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_721 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_721 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_722 = L_721.___register;
 		double L_723 = L_722.___double_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_724 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_724 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_725 = L_724.___register;
 		double L_726 = L_725.___double_0;
 		L_720->___double_0 = ((double)((double)il2cpp_codegen_add(L_723, L_726)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_727 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_728 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_728 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_729 = L_728.___register;
 		double L_730 = L_729.___double_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_731 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_731 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_732 = L_731.___register;
 		double L_733 = L_732.___double_1;
 		L_727->___double_1 = ((double)((double)il2cpp_codegen_add(L_730, L_733)));
@@ -7958,11 +7958,11 @@ IL_0e67:
 
 IL_0eca:
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_734 = V_20;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_734 = V_20;
 		return L_734;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_op_Multiply_m5CA735B6B2260F9B246AA827F4979825F6F64631_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_op_Multiply_m6D0DF4F813CF914B8C44CEC4A5756790D3E901B7_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8010,7 +8010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 	int32_t V_17 = 0;
 	double* V_18 = NULL;
 	int32_t V_19 = 0;
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 V_20;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 V_20;
 	memset((&V_20), 0, sizeof(V_20));
 	{
 		bool L_0;
@@ -8038,7 +8038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_6;
-		L_6 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_6 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		uintptr_t L_7 = ((uintptr_t)L_6);
 		int8_t* L_8 = (int8_t*) (L_7 ? alloca(L_7) : NULL);
 		memset(L_8, 0, L_7);
@@ -8053,14 +8053,14 @@ IL_0032:
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_12;
-		L_12 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_11, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_12;
+		L_12 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_11, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_13 = V_1;
-		uint16_t L_14;
-		L_14 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_15;
-		L_15 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_12, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_16 = L_15;
+		float L_14;
+		L_14 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_15;
+		L_15 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_12, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_16 = L_15;
 		RuntimeObject* L_17 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_16);
 		*((int8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_9, L_10))) = (int8_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_17, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))));
 		int32_t L_18 = V_1;
@@ -8072,7 +8072,7 @@ IL_0059:
 		int32_t L_19 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_20;
-		L_20 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_20 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_19) < ((int32_t)L_20)))
 		{
 			goto IL_0032;
@@ -8080,9 +8080,9 @@ IL_0059:
 	}
 	{
 		uint8_t* L_21 = V_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_22;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_22;
 		memset((&L_22), 0, sizeof(L_22));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_22), (void*)L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_22), (void*)L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_22;
 	}
 
@@ -8105,7 +8105,7 @@ IL_0068:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_28;
-		L_28 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_28 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		uintptr_t L_29 = ((uintptr_t)L_28);
 		int8_t* L_30 = (int8_t*) (L_29 ? alloca(L_29) : NULL);
 		memset(L_30, 0, L_29);
@@ -8120,14 +8120,14 @@ IL_0090:
 		int32_t L_32 = V_3;
 		int32_t L_33 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_34;
-		L_34 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_34;
+		L_34 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_33, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_35 = V_3;
-		uint16_t L_36;
-		L_36 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_37;
-		L_37 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_34, L_36, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_38 = L_37;
+		float L_36;
+		L_36 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_37;
+		L_37 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_34, L_36, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_38 = L_37;
 		RuntimeObject* L_39 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_38);
 		*((int8_t*)((int8_t*)il2cpp_codegen_add((intptr_t)L_31, L_32))) = (int8_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_39, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))));
 		int32_t L_40 = V_3;
@@ -8139,7 +8139,7 @@ IL_00b7:
 		int32_t L_41 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_42;
-		L_42 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_42 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_41) < ((int32_t)L_42)))
 		{
 			goto IL_0090;
@@ -8147,9 +8147,9 @@ IL_00b7:
 	}
 	{
 		int8_t* L_43 = V_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_44;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_44;
 		memset((&L_44), 0, sizeof(L_44));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_44), (void*)L_43, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_44), (void*)L_43, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_44;
 	}
 
@@ -8172,7 +8172,7 @@ IL_00c6:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_50;
-		L_50 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_50 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_50) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_51 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_50), 2));
@@ -8189,14 +8189,14 @@ IL_00f2:
 		int32_t L_54 = V_5;
 		int32_t L_55 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_56;
-		L_56 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_56;
+		L_56 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_57 = V_5;
-		uint16_t L_58;
-		L_58 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_57, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_59;
-		L_59 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_56, L_58, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_60 = L_59;
+		float L_58;
+		L_58 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_57, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_59;
+		L_59 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_56, L_58, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_60 = L_59;
 		RuntimeObject* L_61 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_60);
 		*((int16_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_53, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_54), 2))))) = (int16_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_61, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))));
 		int32_t L_62 = V_5;
@@ -8208,7 +8208,7 @@ IL_0122:
 		int32_t L_63 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_64;
-		L_64 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_64 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_63) < ((int32_t)L_64)))
 		{
 			goto IL_00f2;
@@ -8216,9 +8216,9 @@ IL_0122:
 	}
 	{
 		uint16_t* L_65 = V_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_66;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_66;
 		memset((&L_66), 0, sizeof(L_66));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_66), (void*)L_65, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_66), (void*)L_65, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_66;
 	}
 
@@ -8241,7 +8241,7 @@ IL_0133:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_72;
-		L_72 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_72 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_72) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_73 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_72), 2));
@@ -8258,14 +8258,14 @@ IL_015f:
 		int32_t L_76 = V_7;
 		int32_t L_77 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_78;
-		L_78 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_77, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_78;
+		L_78 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_77, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_79 = V_7;
-		uint16_t L_80;
-		L_80 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_79, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_81;
-		L_81 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_78, L_80, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_82 = L_81;
+		float L_80;
+		L_80 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_79, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_81;
+		L_81 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_78, L_80, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_82 = L_81;
 		RuntimeObject* L_83 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_82);
 		*((int16_t*)((int16_t*)il2cpp_codegen_add((intptr_t)L_75, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_76), 2))))) = (int16_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_83, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))));
 		int32_t L_84 = V_7;
@@ -8277,7 +8277,7 @@ IL_018f:
 		int32_t L_85 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_86;
-		L_86 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_86 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_85) < ((int32_t)L_86)))
 		{
 			goto IL_015f;
@@ -8285,9 +8285,9 @@ IL_018f:
 	}
 	{
 		int16_t* L_87 = V_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_88;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_88;
 		memset((&L_88), 0, sizeof(L_88));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_88), (void*)L_87, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_88), (void*)L_87, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_88;
 	}
 
@@ -8310,7 +8310,7 @@ IL_01a0:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_94;
-		L_94 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_94 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_94) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_95 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_94), 4));
@@ -8327,14 +8327,14 @@ IL_01cc:
 		int32_t L_98 = V_9;
 		int32_t L_99 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_100;
-		L_100 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_99, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_100;
+		L_100 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_99, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_101 = V_9;
-		uint16_t L_102;
-		L_102 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_101, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_103;
-		L_103 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_100, L_102, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_104 = L_103;
+		float L_102;
+		L_102 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_101, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_103;
+		L_103 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_100, L_102, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_104 = L_103;
 		RuntimeObject* L_105 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_104);
 		*((int32_t*)((uint32_t*)il2cpp_codegen_add((intptr_t)L_97, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_98), 4))))) = (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_105, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))));
 		int32_t L_106 = V_9;
@@ -8346,7 +8346,7 @@ IL_01fc:
 		int32_t L_107 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_108;
-		L_108 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_108 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_107) < ((int32_t)L_108)))
 		{
 			goto IL_01cc;
@@ -8354,9 +8354,9 @@ IL_01fc:
 	}
 	{
 		uint32_t* L_109 = V_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_110;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_110;
 		memset((&L_110), 0, sizeof(L_110));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_110), (void*)L_109, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_110), (void*)L_109, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_110;
 	}
 
@@ -8379,7 +8379,7 @@ IL_020d:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_116;
-		L_116 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_116 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_116) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_117 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_116), 4));
@@ -8396,14 +8396,14 @@ IL_0239:
 		int32_t L_120 = V_11;
 		int32_t L_121 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_122;
-		L_122 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_121, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_122;
+		L_122 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_121, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_123 = V_11;
-		uint16_t L_124;
-		L_124 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_123, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_125;
-		L_125 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_122, L_124, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_126 = L_125;
+		float L_124;
+		L_124 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_123, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_125;
+		L_125 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_122, L_124, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_126 = L_125;
 		RuntimeObject* L_127 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_126);
 		*((int32_t*)((int32_t*)il2cpp_codegen_add((intptr_t)L_119, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_120), 4))))) = (int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_127, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))));
 		int32_t L_128 = V_11;
@@ -8415,7 +8415,7 @@ IL_0269:
 		int32_t L_129 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_130;
-		L_130 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_130 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_129) < ((int32_t)L_130)))
 		{
 			goto IL_0239;
@@ -8423,9 +8423,9 @@ IL_0269:
 	}
 	{
 		int32_t* L_131 = V_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_132;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_132;
 		memset((&L_132), 0, sizeof(L_132));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_132), (void*)L_131, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_132), (void*)L_131, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_132;
 	}
 
@@ -8448,7 +8448,7 @@ IL_027a:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_138;
-		L_138 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_138 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_138) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_139 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_138), 8));
@@ -8465,14 +8465,14 @@ IL_02a6:
 		int32_t L_142 = V_13;
 		int32_t L_143 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_144;
-		L_144 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_143, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_144;
+		L_144 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_143, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_145 = V_13;
-		uint16_t L_146;
-		L_146 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_145, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_147;
-		L_147 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_144, L_146, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_148 = L_147;
+		float L_146;
+		L_146 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_145, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_147;
+		L_147 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_144, L_146, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_148 = L_147;
 		RuntimeObject* L_149 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_148);
 		*((int64_t*)((uint64_t*)il2cpp_codegen_add((intptr_t)L_141, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_142), 8))))) = (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_149, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))));
 		int32_t L_150 = V_13;
@@ -8484,7 +8484,7 @@ IL_02d6:
 		int32_t L_151 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_152;
-		L_152 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_152 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_151) < ((int32_t)L_152)))
 		{
 			goto IL_02a6;
@@ -8492,9 +8492,9 @@ IL_02d6:
 	}
 	{
 		uint64_t* L_153 = V_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_154;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_154;
 		memset((&L_154), 0, sizeof(L_154));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_154), (void*)L_153, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_154), (void*)L_153, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_154;
 	}
 
@@ -8517,7 +8517,7 @@ IL_02e7:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_160;
-		L_160 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_160 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_160) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_161 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_160), 8));
@@ -8534,14 +8534,14 @@ IL_0313:
 		int32_t L_164 = V_15;
 		int32_t L_165 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_166;
-		L_166 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_165, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_166;
+		L_166 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_165, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_167 = V_15;
-		uint16_t L_168;
-		L_168 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_167, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_169;
-		L_169 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_166, L_168, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_170 = L_169;
+		float L_168;
+		L_168 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_167, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_169;
+		L_169 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_166, L_168, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_170 = L_169;
 		RuntimeObject* L_171 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_170);
 		*((int64_t*)((int64_t*)il2cpp_codegen_add((intptr_t)L_163, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_164), 8))))) = (int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_171, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))));
 		int32_t L_172 = V_15;
@@ -8553,7 +8553,7 @@ IL_0343:
 		int32_t L_173 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_174;
-		L_174 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_174 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_173) < ((int32_t)L_174)))
 		{
 			goto IL_0313;
@@ -8561,9 +8561,9 @@ IL_0343:
 	}
 	{
 		int64_t* L_175 = V_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_176;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_176;
 		memset((&L_176), 0, sizeof(L_176));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_176), (void*)L_175, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_176), (void*)L_175, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_176;
 	}
 
@@ -8586,7 +8586,7 @@ IL_0354:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_182;
-		L_182 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_182 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_182) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_183 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_182), 4));
@@ -8603,14 +8603,14 @@ IL_0380:
 		int32_t L_186 = V_17;
 		int32_t L_187 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_188;
-		L_188 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_187, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_188;
+		L_188 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_187, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_189 = V_17;
-		uint16_t L_190;
-		L_190 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_189, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_191;
-		L_191 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_188, L_190, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_192 = L_191;
+		float L_190;
+		L_190 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_189, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_191;
+		L_191 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_188, L_190, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_192 = L_191;
 		RuntimeObject* L_193 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_192);
 		*((float*)((float*)il2cpp_codegen_add((intptr_t)L_185, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_186), 4))))) = (float)((*(float*)((float*)(float*)UnBox(L_193, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))));
 		int32_t L_194 = V_17;
@@ -8622,7 +8622,7 @@ IL_03b0:
 		int32_t L_195 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_196;
-		L_196 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_196 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_195) < ((int32_t)L_196)))
 		{
 			goto IL_0380;
@@ -8630,9 +8630,9 @@ IL_03b0:
 	}
 	{
 		float* L_197 = V_16;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_198;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_198;
 		memset((&L_198), 0, sizeof(L_198));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_198), (void*)L_197, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_198), (void*)L_197, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_198;
 	}
 
@@ -8655,7 +8655,7 @@ IL_03c1:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_204;
-		L_204 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_204 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_204) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_205 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_204), 8));
@@ -8672,14 +8672,14 @@ IL_03ed:
 		int32_t L_208 = V_19;
 		int32_t L_209 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_210;
-		L_210 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_209, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_210;
+		L_210 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_209, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_211 = V_19;
-		uint16_t L_212;
-		L_212 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_211, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
-		uint16_t L_213;
-		L_213 = Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_inline(L_210, L_212, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
-		uint16_t L_214 = L_213;
+		float L_212;
+		L_212 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_211, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_213;
+		L_213 = Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_inline(L_210, L_212, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		float L_214 = L_213;
 		RuntimeObject* L_215 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_214);
 		*((double*)((double*)il2cpp_codegen_add((intptr_t)L_207, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_208), 8))))) = (double)((*(double*)((double*)(double*)UnBox(L_215, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))));
 		int32_t L_216 = V_19;
@@ -8691,7 +8691,7 @@ IL_041d:
 		int32_t L_217 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_218;
-		L_218 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_218 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_217) < ((int32_t)L_218)))
 		{
 			goto IL_03ed;
@@ -8699,9 +8699,9 @@ IL_041d:
 	}
 	{
 		double* L_219 = V_18;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_220;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_220;
 		memset((&L_220), 0, sizeof(L_220));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_220), (void*)L_219, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_220), (void*)L_219, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_220;
 	}
 
@@ -8714,7 +8714,7 @@ IL_042e:
 
 IL_0439:
 	{
-		il2cpp_codegen_initobj((&V_20), sizeof(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489));
+		il2cpp_codegen_initobj((&V_20), sizeof(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_222 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_223;
@@ -8731,130 +8731,130 @@ IL_0439:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_227 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_228 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_228 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_229 = L_228.___register;
 		uint8_t L_230 = L_229.___byte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_231 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_231 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_232 = L_231.___register;
 		uint8_t L_233 = L_232.___byte_0;
 		L_227->___byte_0 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_230, (int32_t)L_233)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_234 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_235 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_235 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_236 = L_235.___register;
 		uint8_t L_237 = L_236.___byte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_238 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_238 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_239 = L_238.___register;
 		uint8_t L_240 = L_239.___byte_1;
 		L_234->___byte_1 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_237, (int32_t)L_240)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_241 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_242 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_242 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_243 = L_242.___register;
 		uint8_t L_244 = L_243.___byte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_245 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_245 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_246 = L_245.___register;
 		uint8_t L_247 = L_246.___byte_2;
 		L_241->___byte_2 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_244, (int32_t)L_247)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_248 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_249 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_249 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_250 = L_249.___register;
 		uint8_t L_251 = L_250.___byte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_252 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_252 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_253 = L_252.___register;
 		uint8_t L_254 = L_253.___byte_3;
 		L_248->___byte_3 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_251, (int32_t)L_254)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_255 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_256 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_256 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_257 = L_256.___register;
 		uint8_t L_258 = L_257.___byte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_259 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_259 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_260 = L_259.___register;
 		uint8_t L_261 = L_260.___byte_4;
 		L_255->___byte_4 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_258, (int32_t)L_261)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_262 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_263 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_263 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_264 = L_263.___register;
 		uint8_t L_265 = L_264.___byte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_266 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_266 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_267 = L_266.___register;
 		uint8_t L_268 = L_267.___byte_5;
 		L_262->___byte_5 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_265, (int32_t)L_268)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_269 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_270 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_270 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_271 = L_270.___register;
 		uint8_t L_272 = L_271.___byte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_273 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_273 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_274 = L_273.___register;
 		uint8_t L_275 = L_274.___byte_6;
 		L_269->___byte_6 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_272, (int32_t)L_275)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_276 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_277 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_277 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_278 = L_277.___register;
 		uint8_t L_279 = L_278.___byte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_280 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_280 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_281 = L_280.___register;
 		uint8_t L_282 = L_281.___byte_7;
 		L_276->___byte_7 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_279, (int32_t)L_282)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_283 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_284 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_284 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_285 = L_284.___register;
 		uint8_t L_286 = L_285.___byte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_287 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_287 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_288 = L_287.___register;
 		uint8_t L_289 = L_288.___byte_8;
 		L_283->___byte_8 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_286, (int32_t)L_289)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_290 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_291 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_291 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_292 = L_291.___register;
 		uint8_t L_293 = L_292.___byte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_294 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_294 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_295 = L_294.___register;
 		uint8_t L_296 = L_295.___byte_9;
 		L_290->___byte_9 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_293, (int32_t)L_296)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_297 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_298 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_298 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_299 = L_298.___register;
 		uint8_t L_300 = L_299.___byte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_301 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_301 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_302 = L_301.___register;
 		uint8_t L_303 = L_302.___byte_10;
 		L_297->___byte_10 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_300, (int32_t)L_303)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_304 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_305 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_305 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_306 = L_305.___register;
 		uint8_t L_307 = L_306.___byte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_308 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_308 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_309 = L_308.___register;
 		uint8_t L_310 = L_309.___byte_11;
 		L_304->___byte_11 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_307, (int32_t)L_310)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_311 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_312 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_312 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_313 = L_312.___register;
 		uint8_t L_314 = L_313.___byte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_315 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_315 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_316 = L_315.___register;
 		uint8_t L_317 = L_316.___byte_12;
 		L_311->___byte_12 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_314, (int32_t)L_317)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_318 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_319 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_319 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_320 = L_319.___register;
 		uint8_t L_321 = L_320.___byte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_322 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_322 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_323 = L_322.___register;
 		uint8_t L_324 = L_323.___byte_13;
 		L_318->___byte_13 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_321, (int32_t)L_324)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_325 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_326 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_326 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_327 = L_326.___register;
 		uint8_t L_328 = L_327.___byte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_329 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_329 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_330 = L_329.___register;
 		uint8_t L_331 = L_330.___byte_14;
 		L_325->___byte_14 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_328, (int32_t)L_331)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_332 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_333 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_333 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_334 = L_333.___register;
 		uint8_t L_335 = L_334.___byte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_336 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_336 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_337 = L_336.___register;
 		uint8_t L_338 = L_337.___byte_15;
 		L_332->___byte_15 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_335, (int32_t)L_338)));
@@ -8879,130 +8879,130 @@ IL_06a4:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_344 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_345 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_345 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_346 = L_345.___register;
 		int8_t L_347 = L_346.___sbyte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_348 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_348 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_349 = L_348.___register;
 		int8_t L_350 = L_349.___sbyte_0;
 		L_344->___sbyte_0 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_347, (int32_t)L_350)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_351 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_352 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_352 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_353 = L_352.___register;
 		int8_t L_354 = L_353.___sbyte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_355 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_355 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_356 = L_355.___register;
 		int8_t L_357 = L_356.___sbyte_1;
 		L_351->___sbyte_1 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_354, (int32_t)L_357)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_358 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_359 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_359 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_360 = L_359.___register;
 		int8_t L_361 = L_360.___sbyte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_362 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_362 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_363 = L_362.___register;
 		int8_t L_364 = L_363.___sbyte_2;
 		L_358->___sbyte_2 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_361, (int32_t)L_364)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_365 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_366 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_366 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_367 = L_366.___register;
 		int8_t L_368 = L_367.___sbyte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_369 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_369 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_370 = L_369.___register;
 		int8_t L_371 = L_370.___sbyte_3;
 		L_365->___sbyte_3 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_368, (int32_t)L_371)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_372 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_373 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_373 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_374 = L_373.___register;
 		int8_t L_375 = L_374.___sbyte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_376 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_376 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_377 = L_376.___register;
 		int8_t L_378 = L_377.___sbyte_4;
 		L_372->___sbyte_4 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_375, (int32_t)L_378)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_379 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_380 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_380 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_381 = L_380.___register;
 		int8_t L_382 = L_381.___sbyte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_383 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_383 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_384 = L_383.___register;
 		int8_t L_385 = L_384.___sbyte_5;
 		L_379->___sbyte_5 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_382, (int32_t)L_385)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_386 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_387 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_387 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_388 = L_387.___register;
 		int8_t L_389 = L_388.___sbyte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_390 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_390 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_391 = L_390.___register;
 		int8_t L_392 = L_391.___sbyte_6;
 		L_386->___sbyte_6 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_389, (int32_t)L_392)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_393 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_394 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_394 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_395 = L_394.___register;
 		int8_t L_396 = L_395.___sbyte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_397 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_397 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_398 = L_397.___register;
 		int8_t L_399 = L_398.___sbyte_7;
 		L_393->___sbyte_7 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_396, (int32_t)L_399)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_400 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_401 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_401 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_402 = L_401.___register;
 		int8_t L_403 = L_402.___sbyte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_404 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_404 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_405 = L_404.___register;
 		int8_t L_406 = L_405.___sbyte_8;
 		L_400->___sbyte_8 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_403, (int32_t)L_406)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_407 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_408 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_408 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_409 = L_408.___register;
 		int8_t L_410 = L_409.___sbyte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_411 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_411 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_412 = L_411.___register;
 		int8_t L_413 = L_412.___sbyte_9;
 		L_407->___sbyte_9 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_410, (int32_t)L_413)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_414 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_415 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_415 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_416 = L_415.___register;
 		int8_t L_417 = L_416.___sbyte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_418 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_418 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_419 = L_418.___register;
 		int8_t L_420 = L_419.___sbyte_10;
 		L_414->___sbyte_10 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_417, (int32_t)L_420)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_421 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_422 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_422 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_423 = L_422.___register;
 		int8_t L_424 = L_423.___sbyte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_425 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_425 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_426 = L_425.___register;
 		int8_t L_427 = L_426.___sbyte_11;
 		L_421->___sbyte_11 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_424, (int32_t)L_427)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_428 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_429 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_429 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_430 = L_429.___register;
 		int8_t L_431 = L_430.___sbyte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_432 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_432 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_433 = L_432.___register;
 		int8_t L_434 = L_433.___sbyte_12;
 		L_428->___sbyte_12 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_431, (int32_t)L_434)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_435 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_436 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_436 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_437 = L_436.___register;
 		int8_t L_438 = L_437.___sbyte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_439 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_439 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_440 = L_439.___register;
 		int8_t L_441 = L_440.___sbyte_13;
 		L_435->___sbyte_13 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_438, (int32_t)L_441)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_442 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_443 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_443 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_444 = L_443.___register;
 		int8_t L_445 = L_444.___sbyte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_446 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_446 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_447 = L_446.___register;
 		int8_t L_448 = L_447.___sbyte_14;
 		L_442->___sbyte_14 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_445, (int32_t)L_448)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_449 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_450 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_450 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_451 = L_450.___register;
 		int8_t L_452 = L_451.___sbyte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_453 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_453 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_454 = L_453.___register;
 		int8_t L_455 = L_454.___sbyte_15;
 		L_449->___sbyte_15 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_452, (int32_t)L_455)));
@@ -9027,66 +9027,66 @@ IL_0907:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_461 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_462 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_462 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_463 = L_462.___register;
 		uint16_t L_464 = L_463.___uint16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_465 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_465 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_466 = L_465.___register;
 		uint16_t L_467 = L_466.___uint16_0;
 		L_461->___uint16_0 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_464, (int32_t)L_467)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_468 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_469 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_469 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_470 = L_469.___register;
 		uint16_t L_471 = L_470.___uint16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_472 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_472 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_473 = L_472.___register;
 		uint16_t L_474 = L_473.___uint16_1;
 		L_468->___uint16_1 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_471, (int32_t)L_474)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_475 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_476 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_476 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_477 = L_476.___register;
 		uint16_t L_478 = L_477.___uint16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_479 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_479 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_480 = L_479.___register;
 		uint16_t L_481 = L_480.___uint16_2;
 		L_475->___uint16_2 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_478, (int32_t)L_481)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_482 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_483 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_483 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_484 = L_483.___register;
 		uint16_t L_485 = L_484.___uint16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_486 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_486 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_487 = L_486.___register;
 		uint16_t L_488 = L_487.___uint16_3;
 		L_482->___uint16_3 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_485, (int32_t)L_488)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_489 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_490 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_490 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_491 = L_490.___register;
 		uint16_t L_492 = L_491.___uint16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_493 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_493 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_494 = L_493.___register;
 		uint16_t L_495 = L_494.___uint16_4;
 		L_489->___uint16_4 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_492, (int32_t)L_495)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_496 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_497 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_497 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_498 = L_497.___register;
 		uint16_t L_499 = L_498.___uint16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_500 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_500 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_501 = L_500.___register;
 		uint16_t L_502 = L_501.___uint16_5;
 		L_496->___uint16_5 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_499, (int32_t)L_502)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_503 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_504 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_504 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_505 = L_504.___register;
 		uint16_t L_506 = L_505.___uint16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_507 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_507 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_508 = L_507.___register;
 		uint16_t L_509 = L_508.___uint16_6;
 		L_503->___uint16_6 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_506, (int32_t)L_509)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_510 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_511 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_511 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_512 = L_511.___register;
 		uint16_t L_513 = L_512.___uint16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_514 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_514 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_515 = L_514.___register;
 		uint16_t L_516 = L_515.___uint16_7;
 		L_510->___uint16_7 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_513, (int32_t)L_516)));
@@ -9111,66 +9111,66 @@ IL_0a4a:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_522 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_523 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_523 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_524 = L_523.___register;
 		int16_t L_525 = L_524.___int16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_526 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_526 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_527 = L_526.___register;
 		int16_t L_528 = L_527.___int16_0;
 		L_522->___int16_0 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_525, (int32_t)L_528)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_529 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_530 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_530 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_531 = L_530.___register;
 		int16_t L_532 = L_531.___int16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_533 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_533 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_534 = L_533.___register;
 		int16_t L_535 = L_534.___int16_1;
 		L_529->___int16_1 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_532, (int32_t)L_535)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_536 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_537 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_537 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_538 = L_537.___register;
 		int16_t L_539 = L_538.___int16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_540 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_540 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_541 = L_540.___register;
 		int16_t L_542 = L_541.___int16_2;
 		L_536->___int16_2 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_539, (int32_t)L_542)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_543 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_544 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_544 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_545 = L_544.___register;
 		int16_t L_546 = L_545.___int16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_547 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_547 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_548 = L_547.___register;
 		int16_t L_549 = L_548.___int16_3;
 		L_543->___int16_3 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_546, (int32_t)L_549)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_550 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_551 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_551 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_552 = L_551.___register;
 		int16_t L_553 = L_552.___int16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_554 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_554 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_555 = L_554.___register;
 		int16_t L_556 = L_555.___int16_4;
 		L_550->___int16_4 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_553, (int32_t)L_556)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_557 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_558 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_558 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_559 = L_558.___register;
 		int16_t L_560 = L_559.___int16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_561 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_561 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_562 = L_561.___register;
 		int16_t L_563 = L_562.___int16_5;
 		L_557->___int16_5 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_560, (int32_t)L_563)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_564 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_565 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_565 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_566 = L_565.___register;
 		int16_t L_567 = L_566.___int16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_568 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_568 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_569 = L_568.___register;
 		int16_t L_570 = L_569.___int16_6;
 		L_564->___int16_6 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_567, (int32_t)L_570)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_571 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_572 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_572 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_573 = L_572.___register;
 		int16_t L_574 = L_573.___int16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_575 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_575 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_576 = L_575.___register;
 		int16_t L_577 = L_576.___int16_7;
 		L_571->___int16_7 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_574, (int32_t)L_577)));
@@ -9195,34 +9195,34 @@ IL_0b8d:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_583 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_584 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_584 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_585 = L_584.___register;
 		uint32_t L_586 = L_585.___uint32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_587 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_587 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_588 = L_587.___register;
 		uint32_t L_589 = L_588.___uint32_0;
 		L_583->___uint32_0 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_586, (int32_t)L_589));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_590 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_591 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_591 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_592 = L_591.___register;
 		uint32_t L_593 = L_592.___uint32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_594 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_594 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_595 = L_594.___register;
 		uint32_t L_596 = L_595.___uint32_1;
 		L_590->___uint32_1 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_593, (int32_t)L_596));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_597 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_598 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_598 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_599 = L_598.___register;
 		uint32_t L_600 = L_599.___uint32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_601 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_601 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_602 = L_601.___register;
 		uint32_t L_603 = L_602.___uint32_2;
 		L_597->___uint32_2 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_600, (int32_t)L_603));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_604 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_605 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_605 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_606 = L_605.___register;
 		uint32_t L_607 = L_606.___uint32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_608 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_608 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_609 = L_608.___register;
 		uint32_t L_610 = L_609.___uint32_3;
 		L_604->___uint32_3 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_607, (int32_t)L_610));
@@ -9247,34 +9247,34 @@ IL_0c3c:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_616 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_617 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_617 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_618 = L_617.___register;
 		int32_t L_619 = L_618.___int32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_620 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_620 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_621 = L_620.___register;
 		int32_t L_622 = L_621.___int32_0;
 		L_616->___int32_0 = ((int32_t)il2cpp_codegen_multiply(L_619, L_622));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_623 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_624 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_624 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_625 = L_624.___register;
 		int32_t L_626 = L_625.___int32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_627 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_627 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_628 = L_627.___register;
 		int32_t L_629 = L_628.___int32_1;
 		L_623->___int32_1 = ((int32_t)il2cpp_codegen_multiply(L_626, L_629));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_630 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_631 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_631 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_632 = L_631.___register;
 		int32_t L_633 = L_632.___int32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_634 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_634 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_635 = L_634.___register;
 		int32_t L_636 = L_635.___int32_2;
 		L_630->___int32_2 = ((int32_t)il2cpp_codegen_multiply(L_633, L_636));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_637 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_638 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_638 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_639 = L_638.___register;
 		int32_t L_640 = L_639.___int32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_641 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_641 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_642 = L_641.___register;
 		int32_t L_643 = L_642.___int32_3;
 		L_637->___int32_3 = ((int32_t)il2cpp_codegen_multiply(L_640, L_643));
@@ -9299,18 +9299,18 @@ IL_0ceb:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_649 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_650 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_650 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_651 = L_650.___register;
 		uint64_t L_652 = L_651.___uint64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_653 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_653 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_654 = L_653.___register;
 		uint64_t L_655 = L_654.___uint64_0;
 		L_649->___uint64_0 = (uint64_t)((int64_t)il2cpp_codegen_multiply((int64_t)L_652, (int64_t)L_655));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_656 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_657 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_657 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_658 = L_657.___register;
 		uint64_t L_659 = L_658.___uint64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_660 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_660 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_661 = L_660.___register;
 		uint64_t L_662 = L_661.___uint64_1;
 		L_656->___uint64_1 = (uint64_t)((int64_t)il2cpp_codegen_multiply((int64_t)L_659, (int64_t)L_662));
@@ -9335,18 +9335,18 @@ IL_0d51:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_668 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_669 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_669 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_670 = L_669.___register;
 		int64_t L_671 = L_670.___int64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_672 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_672 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_673 = L_672.___register;
 		int64_t L_674 = L_673.___int64_0;
 		L_668->___int64_0 = ((int64_t)il2cpp_codegen_multiply(L_671, L_674));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_675 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_676 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_676 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_677 = L_676.___register;
 		int64_t L_678 = L_677.___int64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_679 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_679 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_680 = L_679.___register;
 		int64_t L_681 = L_680.___int64_1;
 		L_675->___int64_1 = ((int64_t)il2cpp_codegen_multiply(L_678, L_681));
@@ -9371,34 +9371,34 @@ IL_0db7:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_687 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_688 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_688 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_689 = L_688.___register;
 		float L_690 = L_689.___single_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_691 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_691 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_692 = L_691.___register;
 		float L_693 = L_692.___single_0;
 		L_687->___single_0 = ((float)((float)il2cpp_codegen_multiply(L_690, L_693)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_694 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_695 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_695 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_696 = L_695.___register;
 		float L_697 = L_696.___single_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_698 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_698 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_699 = L_698.___register;
 		float L_700 = L_699.___single_1;
 		L_694->___single_1 = ((float)((float)il2cpp_codegen_multiply(L_697, L_700)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_701 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_702 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_702 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_703 = L_702.___register;
 		float L_704 = L_703.___single_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_705 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_705 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_706 = L_705.___register;
 		float L_707 = L_706.___single_2;
 		L_701->___single_2 = ((float)((float)il2cpp_codegen_multiply(L_704, L_707)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_708 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_709 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_709 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_710 = L_709.___register;
 		float L_711 = L_710.___single_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_712 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_712 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_713 = L_712.___register;
 		float L_714 = L_713.___single_3;
 		L_708->___single_3 = ((float)((float)il2cpp_codegen_multiply(L_711, L_714)));
@@ -9423,18 +9423,18 @@ IL_0e67:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_720 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_721 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_721 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_722 = L_721.___register;
 		double L_723 = L_722.___double_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_724 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_724 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_725 = L_724.___register;
 		double L_726 = L_725.___double_0;
 		L_720->___double_0 = ((double)((double)il2cpp_codegen_multiply(L_723, L_726)));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_727 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_20)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_728 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_728 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_729 = L_728.___register;
 		double L_730 = L_729.___double_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_731 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_731 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_732 = L_731.___register;
 		double L_733 = L_732.___double_1;
 		L_727->___double_1 = ((double)((double)il2cpp_codegen_multiply(L_730, L_733)));
@@ -9442,11 +9442,11 @@ IL_0e67:
 
 IL_0eca:
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_734 = V_20;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_734 = V_20;
 		return L_734;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_op_Multiply_m29065BA8D2310623D37FC632DCBD0B124E25DDEE_gshared (uint16_t ___0_factor, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_op_Multiply_m9C6404749ADA879B755FF6117387F19C54E2AB62_gshared (float ___0_factor, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9474,7 +9474,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 V_0;
+	Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		bool L_0;
@@ -9485,20 +9485,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 		}
 	}
 	{
-		uint16_t L_1 = ___0_factor;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_2;
+		float L_1 = ___0_factor;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_2;
 		memset((&L_2), 0, sizeof(L_2));
-		Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427((&L_2), L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_3 = ___1_value;
+		Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93((&L_2), L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_3 = ___1_value;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_4;
-		L_4 = Vector_1_op_Multiply_m5CA735B6B2260F9B246AA827F4979825F6F64631(L_2, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_4;
+		L_4 = Vector_1_op_Multiply_m6D0DF4F813CF914B8C44CEC4A5756790D3E901B7(L_2, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		return L_4;
 	}
 
 IL_0014:
 	{
-		il2cpp_codegen_initobj((&V_0), sizeof(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489));
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241));
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_5 = { reinterpret_cast<intptr_t> (il2cpp_rgctx_type(InitializedTypeInfo(method->klass)->rgctx_data, 3)) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_6;
@@ -9515,131 +9515,131 @@ IL_0014:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_10 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_11 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_11 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_12 = L_11.___register;
 		uint8_t L_13 = L_12.___byte_0;
-		uint16_t L_14 = ___0_factor;
-		uint16_t L_15 = L_14;
+		float L_14 = ___0_factor;
+		float L_15 = L_14;
 		RuntimeObject* L_16 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_15);
 		L_10->___byte_0 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_13, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_16, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_17 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_18 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_18 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_19 = L_18.___register;
 		uint8_t L_20 = L_19.___byte_1;
-		uint16_t L_21 = ___0_factor;
-		uint16_t L_22 = L_21;
+		float L_21 = ___0_factor;
+		float L_22 = L_21;
 		RuntimeObject* L_23 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_22);
 		L_17->___byte_1 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_20, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_23, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_24 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_25 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_25 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_26 = L_25.___register;
 		uint8_t L_27 = L_26.___byte_2;
-		uint16_t L_28 = ___0_factor;
-		uint16_t L_29 = L_28;
+		float L_28 = ___0_factor;
+		float L_29 = L_28;
 		RuntimeObject* L_30 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_29);
 		L_24->___byte_2 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_27, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_30, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_31 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_32 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_32 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_33 = L_32.___register;
 		uint8_t L_34 = L_33.___byte_3;
-		uint16_t L_35 = ___0_factor;
-		uint16_t L_36 = L_35;
+		float L_35 = ___0_factor;
+		float L_36 = L_35;
 		RuntimeObject* L_37 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_36);
 		L_31->___byte_3 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_34, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_37, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_38 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_39 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_39 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_40 = L_39.___register;
 		uint8_t L_41 = L_40.___byte_4;
-		uint16_t L_42 = ___0_factor;
-		uint16_t L_43 = L_42;
+		float L_42 = ___0_factor;
+		float L_43 = L_42;
 		RuntimeObject* L_44 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_43);
 		L_38->___byte_4 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_41, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_44, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_45 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_46 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_46 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_47 = L_46.___register;
 		uint8_t L_48 = L_47.___byte_5;
-		uint16_t L_49 = ___0_factor;
-		uint16_t L_50 = L_49;
+		float L_49 = ___0_factor;
+		float L_50 = L_49;
 		RuntimeObject* L_51 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_50);
 		L_45->___byte_5 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_48, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_51, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_52 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_53 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_53 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_54 = L_53.___register;
 		uint8_t L_55 = L_54.___byte_6;
-		uint16_t L_56 = ___0_factor;
-		uint16_t L_57 = L_56;
+		float L_56 = ___0_factor;
+		float L_57 = L_56;
 		RuntimeObject* L_58 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_57);
 		L_52->___byte_6 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_55, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_58, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_59 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_60 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_60 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_61 = L_60.___register;
 		uint8_t L_62 = L_61.___byte_7;
-		uint16_t L_63 = ___0_factor;
-		uint16_t L_64 = L_63;
+		float L_63 = ___0_factor;
+		float L_64 = L_63;
 		RuntimeObject* L_65 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_64);
 		L_59->___byte_7 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_62, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_65, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_66 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_67 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_67 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_68 = L_67.___register;
 		uint8_t L_69 = L_68.___byte_8;
-		uint16_t L_70 = ___0_factor;
-		uint16_t L_71 = L_70;
+		float L_70 = ___0_factor;
+		float L_71 = L_70;
 		RuntimeObject* L_72 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_71);
 		L_66->___byte_8 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_69, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_72, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_73 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_74 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_74 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_75 = L_74.___register;
 		uint8_t L_76 = L_75.___byte_9;
-		uint16_t L_77 = ___0_factor;
-		uint16_t L_78 = L_77;
+		float L_77 = ___0_factor;
+		float L_78 = L_77;
 		RuntimeObject* L_79 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_78);
 		L_73->___byte_9 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_76, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_79, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_80 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_81 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_81 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_82 = L_81.___register;
 		uint8_t L_83 = L_82.___byte_10;
-		uint16_t L_84 = ___0_factor;
-		uint16_t L_85 = L_84;
+		float L_84 = ___0_factor;
+		float L_85 = L_84;
 		RuntimeObject* L_86 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_85);
 		L_80->___byte_10 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_83, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_86, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_87 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_88 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_88 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_89 = L_88.___register;
 		uint8_t L_90 = L_89.___byte_11;
-		uint16_t L_91 = ___0_factor;
-		uint16_t L_92 = L_91;
+		float L_91 = ___0_factor;
+		float L_92 = L_91;
 		RuntimeObject* L_93 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_92);
 		L_87->___byte_11 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_90, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_93, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_94 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_95 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_95 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_96 = L_95.___register;
 		uint8_t L_97 = L_96.___byte_12;
-		uint16_t L_98 = ___0_factor;
-		uint16_t L_99 = L_98;
+		float L_98 = ___0_factor;
+		float L_99 = L_98;
 		RuntimeObject* L_100 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_99);
 		L_94->___byte_12 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_97, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_100, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_101 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_102 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_102 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_103 = L_102.___register;
 		uint8_t L_104 = L_103.___byte_13;
-		uint16_t L_105 = ___0_factor;
-		uint16_t L_106 = L_105;
+		float L_105 = ___0_factor;
+		float L_106 = L_105;
 		RuntimeObject* L_107 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_106);
 		L_101->___byte_13 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_104, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_107, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_108 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_109 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_109 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_110 = L_109.___register;
 		uint8_t L_111 = L_110.___byte_14;
-		uint16_t L_112 = ___0_factor;
-		uint16_t L_113 = L_112;
+		float L_112 = ___0_factor;
+		float L_113 = L_112;
 		RuntimeObject* L_114 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_113);
 		L_108->___byte_14 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_111, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_114, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_115 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_116 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_116 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_117 = L_116.___register;
 		uint8_t L_118 = L_117.___byte_15;
-		uint16_t L_119 = ___0_factor;
-		uint16_t L_120 = L_119;
+		float L_119 = ___0_factor;
+		float L_120 = L_119;
 		RuntimeObject* L_121 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_120);
 		L_115->___byte_15 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_118, (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_121, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))))));
 		goto IL_0aa5;
@@ -9663,131 +9663,131 @@ IL_027f:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_127 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_128 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_128 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_129 = L_128.___register;
 		int8_t L_130 = L_129.___sbyte_0;
-		uint16_t L_131 = ___0_factor;
-		uint16_t L_132 = L_131;
+		float L_131 = ___0_factor;
+		float L_132 = L_131;
 		RuntimeObject* L_133 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_132);
 		L_127->___sbyte_0 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_130, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_133, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_134 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_135 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_135 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_136 = L_135.___register;
 		int8_t L_137 = L_136.___sbyte_1;
-		uint16_t L_138 = ___0_factor;
-		uint16_t L_139 = L_138;
+		float L_138 = ___0_factor;
+		float L_139 = L_138;
 		RuntimeObject* L_140 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_139);
 		L_134->___sbyte_1 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_137, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_140, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_141 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_142 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_142 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_143 = L_142.___register;
 		int8_t L_144 = L_143.___sbyte_2;
-		uint16_t L_145 = ___0_factor;
-		uint16_t L_146 = L_145;
+		float L_145 = ___0_factor;
+		float L_146 = L_145;
 		RuntimeObject* L_147 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_146);
 		L_141->___sbyte_2 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_144, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_147, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_148 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_149 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_149 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_150 = L_149.___register;
 		int8_t L_151 = L_150.___sbyte_3;
-		uint16_t L_152 = ___0_factor;
-		uint16_t L_153 = L_152;
+		float L_152 = ___0_factor;
+		float L_153 = L_152;
 		RuntimeObject* L_154 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_153);
 		L_148->___sbyte_3 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_151, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_154, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_155 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_156 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_156 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_157 = L_156.___register;
 		int8_t L_158 = L_157.___sbyte_4;
-		uint16_t L_159 = ___0_factor;
-		uint16_t L_160 = L_159;
+		float L_159 = ___0_factor;
+		float L_160 = L_159;
 		RuntimeObject* L_161 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_160);
 		L_155->___sbyte_4 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_158, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_161, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_162 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_163 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_163 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_164 = L_163.___register;
 		int8_t L_165 = L_164.___sbyte_5;
-		uint16_t L_166 = ___0_factor;
-		uint16_t L_167 = L_166;
+		float L_166 = ___0_factor;
+		float L_167 = L_166;
 		RuntimeObject* L_168 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_167);
 		L_162->___sbyte_5 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_165, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_168, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_169 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_170 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_170 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_171 = L_170.___register;
 		int8_t L_172 = L_171.___sbyte_6;
-		uint16_t L_173 = ___0_factor;
-		uint16_t L_174 = L_173;
+		float L_173 = ___0_factor;
+		float L_174 = L_173;
 		RuntimeObject* L_175 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_174);
 		L_169->___sbyte_6 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_172, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_175, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_176 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_177 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_177 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_178 = L_177.___register;
 		int8_t L_179 = L_178.___sbyte_7;
-		uint16_t L_180 = ___0_factor;
-		uint16_t L_181 = L_180;
+		float L_180 = ___0_factor;
+		float L_181 = L_180;
 		RuntimeObject* L_182 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_181);
 		L_176->___sbyte_7 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_179, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_182, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_183 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_184 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_184 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_185 = L_184.___register;
 		int8_t L_186 = L_185.___sbyte_8;
-		uint16_t L_187 = ___0_factor;
-		uint16_t L_188 = L_187;
+		float L_187 = ___0_factor;
+		float L_188 = L_187;
 		RuntimeObject* L_189 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_188);
 		L_183->___sbyte_8 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_186, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_189, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_190 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_191 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_191 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_192 = L_191.___register;
 		int8_t L_193 = L_192.___sbyte_9;
-		uint16_t L_194 = ___0_factor;
-		uint16_t L_195 = L_194;
+		float L_194 = ___0_factor;
+		float L_195 = L_194;
 		RuntimeObject* L_196 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_195);
 		L_190->___sbyte_9 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_193, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_196, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_197 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_198 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_198 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_199 = L_198.___register;
 		int8_t L_200 = L_199.___sbyte_10;
-		uint16_t L_201 = ___0_factor;
-		uint16_t L_202 = L_201;
+		float L_201 = ___0_factor;
+		float L_202 = L_201;
 		RuntimeObject* L_203 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_202);
 		L_197->___sbyte_10 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_200, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_203, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_204 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_205 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_205 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_206 = L_205.___register;
 		int8_t L_207 = L_206.___sbyte_11;
-		uint16_t L_208 = ___0_factor;
-		uint16_t L_209 = L_208;
+		float L_208 = ___0_factor;
+		float L_209 = L_208;
 		RuntimeObject* L_210 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_209);
 		L_204->___sbyte_11 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_207, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_210, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_211 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_212 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_212 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_213 = L_212.___register;
 		int8_t L_214 = L_213.___sbyte_12;
-		uint16_t L_215 = ___0_factor;
-		uint16_t L_216 = L_215;
+		float L_215 = ___0_factor;
+		float L_216 = L_215;
 		RuntimeObject* L_217 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_216);
 		L_211->___sbyte_12 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_214, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_217, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_218 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_219 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_219 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_220 = L_219.___register;
 		int8_t L_221 = L_220.___sbyte_13;
-		uint16_t L_222 = ___0_factor;
-		uint16_t L_223 = L_222;
+		float L_222 = ___0_factor;
+		float L_223 = L_222;
 		RuntimeObject* L_224 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_223);
 		L_218->___sbyte_13 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_221, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_224, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_225 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_226 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_226 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_227 = L_226.___register;
 		int8_t L_228 = L_227.___sbyte_14;
-		uint16_t L_229 = ___0_factor;
-		uint16_t L_230 = L_229;
+		float L_229 = ___0_factor;
+		float L_230 = L_229;
 		RuntimeObject* L_231 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_230);
 		L_225->___sbyte_14 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_228, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_231, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_232 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_233 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_233 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_234 = L_233.___register;
 		int8_t L_235 = L_234.___sbyte_15;
-		uint16_t L_236 = ___0_factor;
-		uint16_t L_237 = L_236;
+		float L_236 = ___0_factor;
+		float L_237 = L_236;
 		RuntimeObject* L_238 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_237);
 		L_232->___sbyte_15 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_235, (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_238, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		goto IL_0aa5;
@@ -9811,67 +9811,67 @@ IL_04e2:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_244 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_245 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_245 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_246 = L_245.___register;
 		uint16_t L_247 = L_246.___uint16_0;
-		uint16_t L_248 = ___0_factor;
-		uint16_t L_249 = L_248;
+		float L_248 = ___0_factor;
+		float L_249 = L_248;
 		RuntimeObject* L_250 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_249);
 		L_244->___uint16_0 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_247, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_250, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_251 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_252 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_252 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_253 = L_252.___register;
 		uint16_t L_254 = L_253.___uint16_1;
-		uint16_t L_255 = ___0_factor;
-		uint16_t L_256 = L_255;
+		float L_255 = ___0_factor;
+		float L_256 = L_255;
 		RuntimeObject* L_257 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_256);
 		L_251->___uint16_1 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_254, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_257, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_258 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_259 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_259 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_260 = L_259.___register;
 		uint16_t L_261 = L_260.___uint16_2;
-		uint16_t L_262 = ___0_factor;
-		uint16_t L_263 = L_262;
+		float L_262 = ___0_factor;
+		float L_263 = L_262;
 		RuntimeObject* L_264 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_263);
 		L_258->___uint16_2 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_261, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_264, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_265 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_266 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_266 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_267 = L_266.___register;
 		uint16_t L_268 = L_267.___uint16_3;
-		uint16_t L_269 = ___0_factor;
-		uint16_t L_270 = L_269;
+		float L_269 = ___0_factor;
+		float L_270 = L_269;
 		RuntimeObject* L_271 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_270);
 		L_265->___uint16_3 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_268, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_271, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_272 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_273 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_273 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_274 = L_273.___register;
 		uint16_t L_275 = L_274.___uint16_4;
-		uint16_t L_276 = ___0_factor;
-		uint16_t L_277 = L_276;
+		float L_276 = ___0_factor;
+		float L_277 = L_276;
 		RuntimeObject* L_278 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_277);
 		L_272->___uint16_4 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_275, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_278, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_279 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_280 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_280 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_281 = L_280.___register;
 		uint16_t L_282 = L_281.___uint16_5;
-		uint16_t L_283 = ___0_factor;
-		uint16_t L_284 = L_283;
+		float L_283 = ___0_factor;
+		float L_284 = L_283;
 		RuntimeObject* L_285 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_284);
 		L_279->___uint16_5 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_282, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_285, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_286 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_287 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_287 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_288 = L_287.___register;
 		uint16_t L_289 = L_288.___uint16_6;
-		uint16_t L_290 = ___0_factor;
-		uint16_t L_291 = L_290;
+		float L_290 = ___0_factor;
+		float L_291 = L_290;
 		RuntimeObject* L_292 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_291);
 		L_286->___uint16_6 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_289, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_292, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_293 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_294 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_294 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_295 = L_294.___register;
 		uint16_t L_296 = L_295.___uint16_7;
-		uint16_t L_297 = ___0_factor;
-		uint16_t L_298 = L_297;
+		float L_297 = ___0_factor;
+		float L_298 = L_297;
 		RuntimeObject* L_299 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_298);
 		L_293->___uint16_7 = (uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_296, (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_299, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))))));
 		goto IL_0aa5;
@@ -9895,67 +9895,67 @@ IL_0625:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_305 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_306 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_306 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_307 = L_306.___register;
 		int16_t L_308 = L_307.___int16_0;
-		uint16_t L_309 = ___0_factor;
-		uint16_t L_310 = L_309;
+		float L_309 = ___0_factor;
+		float L_310 = L_309;
 		RuntimeObject* L_311 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_310);
 		L_305->___int16_0 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_308, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_311, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_312 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_313 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_313 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_314 = L_313.___register;
 		int16_t L_315 = L_314.___int16_1;
-		uint16_t L_316 = ___0_factor;
-		uint16_t L_317 = L_316;
+		float L_316 = ___0_factor;
+		float L_317 = L_316;
 		RuntimeObject* L_318 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_317);
 		L_312->___int16_1 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_315, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_318, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_319 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_320 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_320 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_321 = L_320.___register;
 		int16_t L_322 = L_321.___int16_2;
-		uint16_t L_323 = ___0_factor;
-		uint16_t L_324 = L_323;
+		float L_323 = ___0_factor;
+		float L_324 = L_323;
 		RuntimeObject* L_325 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_324);
 		L_319->___int16_2 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_322, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_325, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_326 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_327 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_327 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_328 = L_327.___register;
 		int16_t L_329 = L_328.___int16_3;
-		uint16_t L_330 = ___0_factor;
-		uint16_t L_331 = L_330;
+		float L_330 = ___0_factor;
+		float L_331 = L_330;
 		RuntimeObject* L_332 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_331);
 		L_326->___int16_3 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_329, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_332, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_333 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_334 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_334 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_335 = L_334.___register;
 		int16_t L_336 = L_335.___int16_4;
-		uint16_t L_337 = ___0_factor;
-		uint16_t L_338 = L_337;
+		float L_337 = ___0_factor;
+		float L_338 = L_337;
 		RuntimeObject* L_339 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_338);
 		L_333->___int16_4 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_336, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_339, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_340 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_341 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_341 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_342 = L_341.___register;
 		int16_t L_343 = L_342.___int16_5;
-		uint16_t L_344 = ___0_factor;
-		uint16_t L_345 = L_344;
+		float L_344 = ___0_factor;
+		float L_345 = L_344;
 		RuntimeObject* L_346 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_345);
 		L_340->___int16_5 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_343, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_346, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_347 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_348 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_348 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_349 = L_348.___register;
 		int16_t L_350 = L_349.___int16_6;
-		uint16_t L_351 = ___0_factor;
-		uint16_t L_352 = L_351;
+		float L_351 = ___0_factor;
+		float L_352 = L_351;
 		RuntimeObject* L_353 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_352);
 		L_347->___int16_6 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_350, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_353, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_354 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_355 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_355 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_356 = L_355.___register;
 		int16_t L_357 = L_356.___int16_7;
-		uint16_t L_358 = ___0_factor;
-		uint16_t L_359 = L_358;
+		float L_358 = ___0_factor;
+		float L_359 = L_358;
 		RuntimeObject* L_360 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_359);
 		L_354->___int16_7 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_357, (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_360, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		goto IL_0aa5;
@@ -9979,35 +9979,35 @@ IL_0768:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_366 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_367 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_367 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_368 = L_367.___register;
 		uint32_t L_369 = L_368.___uint32_0;
-		uint16_t L_370 = ___0_factor;
-		uint16_t L_371 = L_370;
+		float L_370 = ___0_factor;
+		float L_371 = L_370;
 		RuntimeObject* L_372 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_371);
 		L_366->___uint32_0 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_369, (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_372, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_373 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_374 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_374 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_375 = L_374.___register;
 		uint32_t L_376 = L_375.___uint32_1;
-		uint16_t L_377 = ___0_factor;
-		uint16_t L_378 = L_377;
+		float L_377 = ___0_factor;
+		float L_378 = L_377;
 		RuntimeObject* L_379 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_378);
 		L_373->___uint32_1 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_376, (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_379, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_380 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_381 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_381 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_382 = L_381.___register;
 		uint32_t L_383 = L_382.___uint32_2;
-		uint16_t L_384 = ___0_factor;
-		uint16_t L_385 = L_384;
+		float L_384 = ___0_factor;
+		float L_385 = L_384;
 		RuntimeObject* L_386 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_385);
 		L_380->___uint32_2 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_383, (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_386, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_387 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_388 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_388 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_389 = L_388.___register;
 		uint32_t L_390 = L_389.___uint32_3;
-		uint16_t L_391 = ___0_factor;
-		uint16_t L_392 = L_391;
+		float L_391 = ___0_factor;
+		float L_392 = L_391;
 		RuntimeObject* L_393 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_392);
 		L_387->___uint32_3 = (uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_390, (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_393, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))));
 		goto IL_0aa5;
@@ -10031,35 +10031,35 @@ IL_0817:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_399 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_400 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_400 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_401 = L_400.___register;
 		int32_t L_402 = L_401.___int32_0;
-		uint16_t L_403 = ___0_factor;
-		uint16_t L_404 = L_403;
+		float L_403 = ___0_factor;
+		float L_404 = L_403;
 		RuntimeObject* L_405 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_404);
 		L_399->___int32_0 = ((int32_t)il2cpp_codegen_multiply(L_402, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_405, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_406 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_407 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_407 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_408 = L_407.___register;
 		int32_t L_409 = L_408.___int32_1;
-		uint16_t L_410 = ___0_factor;
-		uint16_t L_411 = L_410;
+		float L_410 = ___0_factor;
+		float L_411 = L_410;
 		RuntimeObject* L_412 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_411);
 		L_406->___int32_1 = ((int32_t)il2cpp_codegen_multiply(L_409, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_412, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_413 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_414 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_414 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_415 = L_414.___register;
 		int32_t L_416 = L_415.___int32_2;
-		uint16_t L_417 = ___0_factor;
-		uint16_t L_418 = L_417;
+		float L_417 = ___0_factor;
+		float L_418 = L_417;
 		RuntimeObject* L_419 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_418);
 		L_413->___int32_2 = ((int32_t)il2cpp_codegen_multiply(L_416, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_419, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_420 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_421 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_421 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_422 = L_421.___register;
 		int32_t L_423 = L_422.___int32_3;
-		uint16_t L_424 = ___0_factor;
-		uint16_t L_425 = L_424;
+		float L_424 = ___0_factor;
+		float L_425 = L_424;
 		RuntimeObject* L_426 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_425);
 		L_420->___int32_3 = ((int32_t)il2cpp_codegen_multiply(L_423, ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_426, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		goto IL_0aa5;
@@ -10083,19 +10083,19 @@ IL_08c6:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_432 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_433 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_433 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_434 = L_433.___register;
 		uint64_t L_435 = L_434.___uint64_0;
-		uint16_t L_436 = ___0_factor;
-		uint16_t L_437 = L_436;
+		float L_436 = ___0_factor;
+		float L_437 = L_436;
 		RuntimeObject* L_438 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_437);
 		L_432->___uint64_0 = (uint64_t)((int64_t)il2cpp_codegen_multiply((int64_t)L_435, (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_438, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_439 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_440 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_440 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_441 = L_440.___register;
 		uint64_t L_442 = L_441.___uint64_1;
-		uint16_t L_443 = ___0_factor;
-		uint16_t L_444 = L_443;
+		float L_443 = ___0_factor;
+		float L_444 = L_443;
 		RuntimeObject* L_445 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_444);
 		L_439->___uint64_1 = (uint64_t)((int64_t)il2cpp_codegen_multiply((int64_t)L_442, (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_445, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))))));
 		goto IL_0aa5;
@@ -10119,19 +10119,19 @@ IL_092c:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_451 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_452 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_452 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_453 = L_452.___register;
 		int64_t L_454 = L_453.___int64_0;
-		uint16_t L_455 = ___0_factor;
-		uint16_t L_456 = L_455;
+		float L_455 = ___0_factor;
+		float L_456 = L_455;
 		RuntimeObject* L_457 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_456);
 		L_451->___int64_0 = ((int64_t)il2cpp_codegen_multiply(L_454, ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_457, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_458 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_459 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_459 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_460 = L_459.___register;
 		int64_t L_461 = L_460.___int64_1;
-		uint16_t L_462 = ___0_factor;
-		uint16_t L_463 = L_462;
+		float L_462 = ___0_factor;
+		float L_463 = L_462;
 		RuntimeObject* L_464 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_463);
 		L_458->___int64_1 = ((int64_t)il2cpp_codegen_multiply(L_461, ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_464, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))));
 		goto IL_0aa5;
@@ -10155,35 +10155,35 @@ IL_0992:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_470 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_471 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_471 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_472 = L_471.___register;
 		float L_473 = L_472.___single_0;
-		uint16_t L_474 = ___0_factor;
-		uint16_t L_475 = L_474;
+		float L_474 = ___0_factor;
+		float L_475 = L_474;
 		RuntimeObject* L_476 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_475);
 		L_470->___single_0 = ((float)((float)il2cpp_codegen_multiply(L_473, ((*(float*)((float*)(float*)UnBox(L_476, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_477 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_478 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_478 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_479 = L_478.___register;
 		float L_480 = L_479.___single_1;
-		uint16_t L_481 = ___0_factor;
-		uint16_t L_482 = L_481;
+		float L_481 = ___0_factor;
+		float L_482 = L_481;
 		RuntimeObject* L_483 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_482);
 		L_477->___single_1 = ((float)((float)il2cpp_codegen_multiply(L_480, ((*(float*)((float*)(float*)UnBox(L_483, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_484 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_485 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_485 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_486 = L_485.___register;
 		float L_487 = L_486.___single_2;
-		uint16_t L_488 = ___0_factor;
-		uint16_t L_489 = L_488;
+		float L_488 = ___0_factor;
+		float L_489 = L_488;
 		RuntimeObject* L_490 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_489);
 		L_484->___single_2 = ((float)((float)il2cpp_codegen_multiply(L_487, ((*(float*)((float*)(float*)UnBox(L_490, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_491 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_492 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_492 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_493 = L_492.___register;
 		float L_494 = L_493.___single_3;
-		uint16_t L_495 = ___0_factor;
-		uint16_t L_496 = L_495;
+		float L_495 = ___0_factor;
+		float L_496 = L_495;
 		RuntimeObject* L_497 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_496);
 		L_491->___single_3 = ((float)((float)il2cpp_codegen_multiply(L_494, ((*(float*)((float*)(float*)UnBox(L_497, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		goto IL_0aa5;
@@ -10207,51 +10207,51 @@ IL_0a42:
 	}
 	{
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_503 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_504 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_504 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_505 = L_504.___register;
 		double L_506 = L_505.___double_0;
-		uint16_t L_507 = ___0_factor;
-		uint16_t L_508 = L_507;
+		float L_507 = ___0_factor;
+		float L_508 = L_507;
 		RuntimeObject* L_509 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_508);
 		L_503->___double_0 = ((double)((double)il2cpp_codegen_multiply(L_506, ((*(double*)((double*)(double*)UnBox(L_509, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))))));
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A* L_510 = (Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A*)(&(&V_0)->___register);
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_511 = ___1_value;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_511 = ___1_value;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_512 = L_511.___register;
 		double L_513 = L_512.___double_1;
-		uint16_t L_514 = ___0_factor;
-		uint16_t L_515 = L_514;
+		float L_514 = ___0_factor;
+		float L_515 = L_514;
 		RuntimeObject* L_516 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_515);
 		L_510->___double_1 = ((double)((double)il2cpp_codegen_multiply(L_513, ((*(double*)((double*)(double*)UnBox(L_516, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))))));
 	}
 
 IL_0aa5:
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_517 = V_0;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_517 = V_0;
 		return L_517;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_op_Equality_mB42F3DAE52C3BC7579B302E623196C45A5DEAC6B_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_op_Equality_m77E3A0C2F3E3C8CF8089131D9EB950D7ED1570A6_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) 
 {
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_0 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_0 = ___1_right;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_1;
-		L_1 = Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8((&___0_left), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
+		L_1 = Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8((&___0_left), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_op_Inequality_m32F4DFF513244591C00E23353EB6F6294E8BE9F0_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_op_Inequality_m32F2D4D6DF7B60F5ECFE2E8A778B7594103D79ED_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) 
 {
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_0 = ___0_left;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_1 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_0 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_1 = ___1_right;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_2;
-		L_2 = Vector_1_op_Equality_mB42F3DAE52C3BC7579B302E623196C45A5DEAC6B_inline(L_0, L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
+		L_2 = Vector_1_op_Equality_m77E3A0C2F3E3C8CF8089131D9EB950D7ED1570A6_inline(L_0, L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t566D05A9DE75BCD8F12F1E09AC3F8A4BC01BF92A Vector_1_op_Explicit_m5E44D3923BF92F437AEC34CDE0CBD6130883B0B7_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t566D05A9DE75BCD8F12F1E09AC3F8A4BC01BF92A Vector_1_op_Explicit_m7AF0EC5BB6F0474F9A5D939E89F4815C8E051180_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10267,7 +10267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t566D05A9DE75BCD8F12F1E09AC3F8A4BC01
 		return L_1;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 Vector_1_Equals_m6F913845CB1E8A1A753B3C187A8EB840C36F5ADF_gshared (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 Vector_1_Equals_mB90E00E8DE7D49F8C6A4952F1041F0753A579264_gshared (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10637,7 +10637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector_1_tACF5C606E327928B31CCD8E09C9224DCA70
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_6;
-		L_6 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_6 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		uintptr_t L_7 = ((uintptr_t)L_6);
 		int8_t* L_8 = (int8_t*) (L_7 ? alloca(L_7) : NULL);
 		memset(L_8, 0, L_7);
@@ -10652,13 +10652,13 @@ IL_0032:
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_12;
-		L_12 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_11, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_12;
+		L_12 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_11, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_13 = V_1;
-		uint16_t L_14;
-		L_14 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_14;
+		L_14 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_13, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_15;
-		L_15 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_12, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_15 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_12, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_15)
 		{
 			G_B5_0 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_9, L_10));
@@ -10692,7 +10692,7 @@ IL_0059:
 		int32_t L_18 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_19;
-		L_19 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_19 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_18) < ((int32_t)L_19)))
 		{
 			goto IL_0032;
@@ -10700,9 +10700,9 @@ IL_0059:
 	}
 	{
 		uint8_t* L_20 = V_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_21;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_21;
 		memset((&L_21), 0, sizeof(L_21));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_21), (void*)L_20, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_21), (void*)L_20, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_21;
 	}
 
@@ -10725,7 +10725,7 @@ IL_0068:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_27;
-		L_27 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_27 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		uintptr_t L_28 = ((uintptr_t)L_27);
 		int8_t* L_29 = (int8_t*) (L_28 ? alloca(L_28) : NULL);
 		memset(L_29, 0, L_28);
@@ -10740,13 +10740,13 @@ IL_0090:
 		int32_t L_31 = V_3;
 		int32_t L_32 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_33;
-		L_33 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_32, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_33;
+		L_33 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_32, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_34 = V_3;
-		uint16_t L_35;
-		L_35 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_34, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_35;
+		L_35 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_34, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_36;
-		L_36 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_33, L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_36 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_33, L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_36)
 		{
 			G_B13_0 = ((int8_t*)il2cpp_codegen_add((intptr_t)L_30, L_31));
@@ -10780,7 +10780,7 @@ IL_00b7:
 		int32_t L_39 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_40;
-		L_40 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_40 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_39) < ((int32_t)L_40)))
 		{
 			goto IL_0090;
@@ -10788,9 +10788,9 @@ IL_00b7:
 	}
 	{
 		int8_t* L_41 = V_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_42;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_42;
 		memset((&L_42), 0, sizeof(L_42));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_42), (void*)L_41, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_42), (void*)L_41, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_42;
 	}
 
@@ -10813,7 +10813,7 @@ IL_00c6:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_48;
-		L_48 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_48 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_48) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_49 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_48), 2));
@@ -10830,13 +10830,13 @@ IL_00f2:
 		int32_t L_52 = V_5;
 		int32_t L_53 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_54;
-		L_54 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_53, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_54;
+		L_54 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_53, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_55 = V_5;
-		uint16_t L_56;
-		L_56 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_56;
+		L_56 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_55, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_57;
-		L_57 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_54, L_56, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_57 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_54, L_56, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_57)
 		{
 			G_B21_0 = ((uint16_t*)il2cpp_codegen_add((intptr_t)L_51, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_52), 2))));
@@ -10870,7 +10870,7 @@ IL_0122:
 		int32_t L_60 = V_5;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_61;
-		L_61 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_61 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_60) < ((int32_t)L_61)))
 		{
 			goto IL_00f2;
@@ -10878,9 +10878,9 @@ IL_0122:
 	}
 	{
 		uint16_t* L_62 = V_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_63;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_63;
 		memset((&L_63), 0, sizeof(L_63));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_63), (void*)L_62, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_63), (void*)L_62, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_63;
 	}
 
@@ -10903,7 +10903,7 @@ IL_0133:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_69;
-		L_69 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_69 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_69) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_70 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_69), 2));
@@ -10920,13 +10920,13 @@ IL_015f:
 		int32_t L_73 = V_7;
 		int32_t L_74 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_75;
-		L_75 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_74, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_75;
+		L_75 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_74, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_76 = V_7;
-		uint16_t L_77;
-		L_77 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_76, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_77;
+		L_77 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_76, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_78;
-		L_78 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_75, L_77, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_78 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_75, L_77, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_78)
 		{
 			G_B29_0 = ((int16_t*)il2cpp_codegen_add((intptr_t)L_72, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_73), 2))));
@@ -10960,7 +10960,7 @@ IL_018f:
 		int32_t L_81 = V_7;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_82;
-		L_82 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_82 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_81) < ((int32_t)L_82)))
 		{
 			goto IL_015f;
@@ -10968,9 +10968,9 @@ IL_018f:
 	}
 	{
 		int16_t* L_83 = V_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_84;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_84;
 		memset((&L_84), 0, sizeof(L_84));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_84), (void*)L_83, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_84), (void*)L_83, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_84;
 	}
 
@@ -10993,7 +10993,7 @@ IL_01a0:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_90;
-		L_90 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_90 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_90) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_91 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_90), 4));
@@ -11010,13 +11010,13 @@ IL_01cc:
 		int32_t L_94 = V_9;
 		int32_t L_95 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_96;
-		L_96 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_95, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_96;
+		L_96 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_95, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_97 = V_9;
-		uint16_t L_98;
-		L_98 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_97, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_98;
+		L_98 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_97, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_99;
-		L_99 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_96, L_98, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_99 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_96, L_98, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_99)
 		{
 			G_B37_0 = ((uint32_t*)il2cpp_codegen_add((intptr_t)L_93, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_94), 4))));
@@ -11050,7 +11050,7 @@ IL_01fc:
 		int32_t L_102 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_103;
-		L_103 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_103 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_102) < ((int32_t)L_103)))
 		{
 			goto IL_01cc;
@@ -11058,9 +11058,9 @@ IL_01fc:
 	}
 	{
 		uint32_t* L_104 = V_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_105;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_105;
 		memset((&L_105), 0, sizeof(L_105));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_105), (void*)L_104, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_105), (void*)L_104, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_105;
 	}
 
@@ -11083,7 +11083,7 @@ IL_020d:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_111;
-		L_111 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_111 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_111) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_112 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_111), 4));
@@ -11100,13 +11100,13 @@ IL_0239:
 		int32_t L_115 = V_11;
 		int32_t L_116 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_117;
-		L_117 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_116, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_117;
+		L_117 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_116, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_118 = V_11;
-		uint16_t L_119;
-		L_119 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_118, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_119;
+		L_119 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_118, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_120;
-		L_120 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_117, L_119, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_120 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_117, L_119, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_120)
 		{
 			G_B45_0 = ((int32_t*)il2cpp_codegen_add((intptr_t)L_114, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_115), 4))));
@@ -11140,7 +11140,7 @@ IL_0269:
 		int32_t L_123 = V_11;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_124;
-		L_124 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_124 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_123) < ((int32_t)L_124)))
 		{
 			goto IL_0239;
@@ -11148,9 +11148,9 @@ IL_0269:
 	}
 	{
 		int32_t* L_125 = V_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_126;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_126;
 		memset((&L_126), 0, sizeof(L_126));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_126), (void*)L_125, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_126), (void*)L_125, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_126;
 	}
 
@@ -11173,7 +11173,7 @@ IL_027a:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_132;
-		L_132 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_132 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_132) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_133 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_132), 8));
@@ -11190,13 +11190,13 @@ IL_02a6:
 		int32_t L_136 = V_13;
 		int32_t L_137 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_138;
-		L_138 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_137, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_138;
+		L_138 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_137, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_139 = V_13;
-		uint16_t L_140;
-		L_140 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_139, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_140;
+		L_140 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_139, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_141;
-		L_141 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_138, L_140, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_141 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_138, L_140, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_141)
 		{
 			G_B53_0 = ((uint64_t*)il2cpp_codegen_add((intptr_t)L_135, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_136), 8))));
@@ -11230,7 +11230,7 @@ IL_02d7:
 		int32_t L_144 = V_13;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_145;
-		L_145 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_145 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_144) < ((int32_t)L_145)))
 		{
 			goto IL_02a6;
@@ -11238,9 +11238,9 @@ IL_02d7:
 	}
 	{
 		uint64_t* L_146 = V_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_147;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_147;
 		memset((&L_147), 0, sizeof(L_147));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_147), (void*)L_146, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_147), (void*)L_146, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_147;
 	}
 
@@ -11263,7 +11263,7 @@ IL_02e8:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_153;
-		L_153 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_153 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_153) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_154 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_153), 8));
@@ -11280,13 +11280,13 @@ IL_0314:
 		int32_t L_157 = V_15;
 		int32_t L_158 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_159;
-		L_159 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_158, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_159;
+		L_159 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_158, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_160 = V_15;
-		uint16_t L_161;
-		L_161 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_160, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_161;
+		L_161 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_160, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_162;
-		L_162 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_159, L_161, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_162 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_159, L_161, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_162)
 		{
 			G_B61_0 = ((int64_t*)il2cpp_codegen_add((intptr_t)L_156, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_157), 8))));
@@ -11320,7 +11320,7 @@ IL_0345:
 		int32_t L_165 = V_15;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_166;
-		L_166 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_166 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_165) < ((int32_t)L_166)))
 		{
 			goto IL_0314;
@@ -11328,9 +11328,9 @@ IL_0345:
 	}
 	{
 		int64_t* L_167 = V_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_168;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_168;
 		memset((&L_168), 0, sizeof(L_168));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_168), (void*)L_167, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_168), (void*)L_167, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_168;
 	}
 
@@ -11353,7 +11353,7 @@ IL_0356:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_174;
-		L_174 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_174 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_174) * (uintptr_t)4 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_175 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_174), 4));
@@ -11370,13 +11370,13 @@ IL_0382:
 		int32_t L_178 = V_17;
 		int32_t L_179 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_180;
-		L_180 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_179, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_180;
+		L_180 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_179, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_181 = V_17;
-		uint16_t L_182;
-		L_182 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_181, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_182;
+		L_182 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_181, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_183;
-		L_183 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_180, L_182, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_183 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_180, L_182, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_183)
 		{
 			G_B69_0 = ((float*)il2cpp_codegen_add((intptr_t)L_177, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_178), 4))));
@@ -11410,7 +11410,7 @@ IL_03b6:
 		int32_t L_186 = V_17;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_187;
-		L_187 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_187 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_186) < ((int32_t)L_187)))
 		{
 			goto IL_0382;
@@ -11418,9 +11418,9 @@ IL_03b6:
 	}
 	{
 		float* L_188 = V_16;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_189;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_189;
 		memset((&L_189), 0, sizeof(L_189));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_189), (void*)L_188, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_189), (void*)L_188, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_189;
 	}
 
@@ -11443,7 +11443,7 @@ IL_03c7:
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_195;
-		L_195 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_195 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((uintptr_t)((uintptr_t)L_195) * (uintptr_t)8 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), method);
 		intptr_t L_196 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)L_195), 8));
@@ -11460,13 +11460,13 @@ IL_03f3:
 		int32_t L_199 = V_19;
 		int32_t L_200 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		uint16_t L_201;
-		L_201 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___0_left), L_200, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_201;
+		L_201 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___0_left), L_200, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		int32_t L_202 = V_19;
-		uint16_t L_203;
-		L_203 = Vector_1_get_Item_m248FFF521980A3A43D237B8C5CA2ABD5C62D4D27((&___1_right), L_202, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		float L_203;
+		L_203 = Vector_1_get_Item_m6C450D7AB413FF5813BC2B26ACB714B8AC8119ED((&___1_right), L_202, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		bool L_204;
-		L_204 = Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_inline(L_201, L_203, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
+		L_204 = Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_inline(L_201, L_203, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		if (L_204)
 		{
 			G_B77_0 = ((double*)il2cpp_codegen_add((intptr_t)L_198, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)L_199), 8))));
@@ -11500,7 +11500,7 @@ IL_042b:
 		int32_t L_207 = V_19;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		int32_t L_208;
-		L_208 = Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
+		L_208 = Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 5));
 		if ((((int32_t)L_207) < ((int32_t)L_208)))
 		{
 			goto IL_03f3;
@@ -11508,9 +11508,9 @@ IL_042b:
 	}
 	{
 		double* L_209 = V_18;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_210;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_210;
 		memset((&L_210), 0, sizeof(L_210));
-		Vector_1__ctor_m46ADEA122EFBA7AEF487716891A8ADD284FD12E3((&L_210), (void*)L_209, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		Vector_1__ctor_m59AB5A4F7D72228FC722C6E95A35AC1D3A492F4F((&L_210), (void*)L_209, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		return L_210;
 	}
 
@@ -11539,10 +11539,10 @@ IL_0447:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_217 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_217 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_218 = L_217.___register;
 		uint8_t L_219 = L_218.___byte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_220 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_220 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_221 = L_220.___register;
 		uint8_t L_222 = L_221.___byte_0;
 		if ((((int32_t)L_219) == ((int32_t)L_222)))
@@ -11569,10 +11569,10 @@ IL_048a:
 IL_048f:
 	{
 		G_B86_1->___byte_0 = (uint8_t)G_B86_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_224 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_224 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_225 = L_224.___register;
 		uint8_t L_226 = L_225.___byte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_227 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_227 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_228 = L_227.___register;
 		uint8_t L_229 = L_228.___byte_1;
 		if ((((int32_t)L_226) == ((int32_t)L_229)))
@@ -11599,10 +11599,10 @@ IL_04b1:
 IL_04b6:
 	{
 		G_B89_1->___byte_1 = (uint8_t)G_B89_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_231 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_231 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_232 = L_231.___register;
 		uint8_t L_233 = L_232.___byte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_234 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_234 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_235 = L_234.___register;
 		uint8_t L_236 = L_235.___byte_2;
 		if ((((int32_t)L_233) == ((int32_t)L_236)))
@@ -11629,10 +11629,10 @@ IL_04d8:
 IL_04dd:
 	{
 		G_B92_1->___byte_2 = (uint8_t)G_B92_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_238 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_238 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_239 = L_238.___register;
 		uint8_t L_240 = L_239.___byte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_241 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_241 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_242 = L_241.___register;
 		uint8_t L_243 = L_242.___byte_3;
 		if ((((int32_t)L_240) == ((int32_t)L_243)))
@@ -11659,10 +11659,10 @@ IL_04ff:
 IL_0504:
 	{
 		G_B95_1->___byte_3 = (uint8_t)G_B95_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_245 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_245 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_246 = L_245.___register;
 		uint8_t L_247 = L_246.___byte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_248 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_248 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_249 = L_248.___register;
 		uint8_t L_250 = L_249.___byte_4;
 		if ((((int32_t)L_247) == ((int32_t)L_250)))
@@ -11689,10 +11689,10 @@ IL_0526:
 IL_052b:
 	{
 		G_B98_1->___byte_4 = (uint8_t)G_B98_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_252 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_252 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_253 = L_252.___register;
 		uint8_t L_254 = L_253.___byte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_255 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_255 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_256 = L_255.___register;
 		uint8_t L_257 = L_256.___byte_5;
 		if ((((int32_t)L_254) == ((int32_t)L_257)))
@@ -11719,10 +11719,10 @@ IL_054d:
 IL_0552:
 	{
 		G_B101_1->___byte_5 = (uint8_t)G_B101_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_259 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_259 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_260 = L_259.___register;
 		uint8_t L_261 = L_260.___byte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_262 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_262 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_263 = L_262.___register;
 		uint8_t L_264 = L_263.___byte_6;
 		if ((((int32_t)L_261) == ((int32_t)L_264)))
@@ -11749,10 +11749,10 @@ IL_0574:
 IL_0579:
 	{
 		G_B104_1->___byte_6 = (uint8_t)G_B104_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_266 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_266 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_267 = L_266.___register;
 		uint8_t L_268 = L_267.___byte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_269 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_269 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_270 = L_269.___register;
 		uint8_t L_271 = L_270.___byte_7;
 		if ((((int32_t)L_268) == ((int32_t)L_271)))
@@ -11779,10 +11779,10 @@ IL_059b:
 IL_05a0:
 	{
 		G_B107_1->___byte_7 = (uint8_t)G_B107_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_273 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_273 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_274 = L_273.___register;
 		uint8_t L_275 = L_274.___byte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_276 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_276 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_277 = L_276.___register;
 		uint8_t L_278 = L_277.___byte_8;
 		if ((((int32_t)L_275) == ((int32_t)L_278)))
@@ -11809,10 +11809,10 @@ IL_05c2:
 IL_05c7:
 	{
 		G_B110_1->___byte_8 = (uint8_t)G_B110_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_280 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_280 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_281 = L_280.___register;
 		uint8_t L_282 = L_281.___byte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_283 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_283 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_284 = L_283.___register;
 		uint8_t L_285 = L_284.___byte_9;
 		if ((((int32_t)L_282) == ((int32_t)L_285)))
@@ -11839,10 +11839,10 @@ IL_05e9:
 IL_05ee:
 	{
 		G_B113_1->___byte_9 = (uint8_t)G_B113_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_287 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_287 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_288 = L_287.___register;
 		uint8_t L_289 = L_288.___byte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_290 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_290 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_291 = L_290.___register;
 		uint8_t L_292 = L_291.___byte_10;
 		if ((((int32_t)L_289) == ((int32_t)L_292)))
@@ -11869,10 +11869,10 @@ IL_0610:
 IL_0615:
 	{
 		G_B116_1->___byte_10 = (uint8_t)G_B116_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_294 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_294 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_295 = L_294.___register;
 		uint8_t L_296 = L_295.___byte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_297 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_297 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_298 = L_297.___register;
 		uint8_t L_299 = L_298.___byte_11;
 		if ((((int32_t)L_296) == ((int32_t)L_299)))
@@ -11899,10 +11899,10 @@ IL_0637:
 IL_063c:
 	{
 		G_B119_1->___byte_11 = (uint8_t)G_B119_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_301 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_301 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_302 = L_301.___register;
 		uint8_t L_303 = L_302.___byte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_304 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_304 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_305 = L_304.___register;
 		uint8_t L_306 = L_305.___byte_12;
 		if ((((int32_t)L_303) == ((int32_t)L_306)))
@@ -11929,10 +11929,10 @@ IL_065e:
 IL_0663:
 	{
 		G_B122_1->___byte_12 = (uint8_t)G_B122_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_308 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_308 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_309 = L_308.___register;
 		uint8_t L_310 = L_309.___byte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_311 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_311 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_312 = L_311.___register;
 		uint8_t L_313 = L_312.___byte_13;
 		if ((((int32_t)L_310) == ((int32_t)L_313)))
@@ -11959,10 +11959,10 @@ IL_0685:
 IL_068a:
 	{
 		G_B125_1->___byte_13 = (uint8_t)G_B125_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_315 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_315 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_316 = L_315.___register;
 		uint8_t L_317 = L_316.___byte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_318 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_318 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_319 = L_318.___register;
 		uint8_t L_320 = L_319.___byte_14;
 		if ((((int32_t)L_317) == ((int32_t)L_320)))
@@ -11989,10 +11989,10 @@ IL_06ac:
 IL_06b1:
 	{
 		G_B128_1->___byte_14 = (uint8_t)G_B128_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_322 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_322 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_323 = L_322.___register;
 		uint8_t L_324 = L_323.___byte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_325 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_325 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_326 = L_325.___register;
 		uint8_t L_327 = L_326.___byte_15;
 		if ((((int32_t)L_324) == ((int32_t)L_327)))
@@ -12019,9 +12019,9 @@ IL_06d3:
 IL_06d8:
 	{
 		G_B131_1->___byte_15 = (uint8_t)G_B131_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_329;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_329;
 		memset((&L_329), 0, sizeof(L_329));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_329), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_329), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_329;
 	}
 
@@ -12042,10 +12042,10 @@ IL_06e5:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_335 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_335 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_336 = L_335.___register;
 		int8_t L_337 = L_336.___sbyte_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_338 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_338 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_339 = L_338.___register;
 		int8_t L_340 = L_339.___sbyte_0;
 		if ((((int32_t)L_337) == ((int32_t)L_340)))
@@ -12072,10 +12072,10 @@ IL_0720:
 IL_0725:
 	{
 		G_B136_1->___sbyte_0 = (int8_t)G_B136_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_342 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_342 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_343 = L_342.___register;
 		int8_t L_344 = L_343.___sbyte_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_345 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_345 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_346 = L_345.___register;
 		int8_t L_347 = L_346.___sbyte_1;
 		if ((((int32_t)L_344) == ((int32_t)L_347)))
@@ -12102,10 +12102,10 @@ IL_0747:
 IL_074c:
 	{
 		G_B139_1->___sbyte_1 = (int8_t)G_B139_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_349 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_349 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_350 = L_349.___register;
 		int8_t L_351 = L_350.___sbyte_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_352 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_352 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_353 = L_352.___register;
 		int8_t L_354 = L_353.___sbyte_2;
 		if ((((int32_t)L_351) == ((int32_t)L_354)))
@@ -12132,10 +12132,10 @@ IL_076e:
 IL_0773:
 	{
 		G_B142_1->___sbyte_2 = (int8_t)G_B142_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_356 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_356 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_357 = L_356.___register;
 		int8_t L_358 = L_357.___sbyte_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_359 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_359 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_360 = L_359.___register;
 		int8_t L_361 = L_360.___sbyte_3;
 		if ((((int32_t)L_358) == ((int32_t)L_361)))
@@ -12162,10 +12162,10 @@ IL_0795:
 IL_079a:
 	{
 		G_B145_1->___sbyte_3 = (int8_t)G_B145_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_363 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_363 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_364 = L_363.___register;
 		int8_t L_365 = L_364.___sbyte_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_366 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_366 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_367 = L_366.___register;
 		int8_t L_368 = L_367.___sbyte_4;
 		if ((((int32_t)L_365) == ((int32_t)L_368)))
@@ -12192,10 +12192,10 @@ IL_07bc:
 IL_07c1:
 	{
 		G_B148_1->___sbyte_4 = (int8_t)G_B148_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_370 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_370 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_371 = L_370.___register;
 		int8_t L_372 = L_371.___sbyte_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_373 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_373 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_374 = L_373.___register;
 		int8_t L_375 = L_374.___sbyte_5;
 		if ((((int32_t)L_372) == ((int32_t)L_375)))
@@ -12222,10 +12222,10 @@ IL_07e3:
 IL_07e8:
 	{
 		G_B151_1->___sbyte_5 = (int8_t)G_B151_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_377 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_377 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_378 = L_377.___register;
 		int8_t L_379 = L_378.___sbyte_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_380 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_380 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_381 = L_380.___register;
 		int8_t L_382 = L_381.___sbyte_6;
 		if ((((int32_t)L_379) == ((int32_t)L_382)))
@@ -12252,10 +12252,10 @@ IL_080a:
 IL_080f:
 	{
 		G_B154_1->___sbyte_6 = (int8_t)G_B154_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_384 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_384 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_385 = L_384.___register;
 		int8_t L_386 = L_385.___sbyte_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_387 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_387 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_388 = L_387.___register;
 		int8_t L_389 = L_388.___sbyte_7;
 		if ((((int32_t)L_386) == ((int32_t)L_389)))
@@ -12282,10 +12282,10 @@ IL_0831:
 IL_0836:
 	{
 		G_B157_1->___sbyte_7 = (int8_t)G_B157_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_391 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_391 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_392 = L_391.___register;
 		int8_t L_393 = L_392.___sbyte_8;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_394 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_394 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_395 = L_394.___register;
 		int8_t L_396 = L_395.___sbyte_8;
 		if ((((int32_t)L_393) == ((int32_t)L_396)))
@@ -12312,10 +12312,10 @@ IL_0858:
 IL_085d:
 	{
 		G_B160_1->___sbyte_8 = (int8_t)G_B160_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_398 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_398 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_399 = L_398.___register;
 		int8_t L_400 = L_399.___sbyte_9;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_401 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_401 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_402 = L_401.___register;
 		int8_t L_403 = L_402.___sbyte_9;
 		if ((((int32_t)L_400) == ((int32_t)L_403)))
@@ -12342,10 +12342,10 @@ IL_087f:
 IL_0884:
 	{
 		G_B163_1->___sbyte_9 = (int8_t)G_B163_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_405 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_405 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_406 = L_405.___register;
 		int8_t L_407 = L_406.___sbyte_10;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_408 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_408 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_409 = L_408.___register;
 		int8_t L_410 = L_409.___sbyte_10;
 		if ((((int32_t)L_407) == ((int32_t)L_410)))
@@ -12372,10 +12372,10 @@ IL_08a6:
 IL_08ab:
 	{
 		G_B166_1->___sbyte_10 = (int8_t)G_B166_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_412 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_412 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_413 = L_412.___register;
 		int8_t L_414 = L_413.___sbyte_11;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_415 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_415 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_416 = L_415.___register;
 		int8_t L_417 = L_416.___sbyte_11;
 		if ((((int32_t)L_414) == ((int32_t)L_417)))
@@ -12402,10 +12402,10 @@ IL_08cd:
 IL_08d2:
 	{
 		G_B169_1->___sbyte_11 = (int8_t)G_B169_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_419 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_419 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_420 = L_419.___register;
 		int8_t L_421 = L_420.___sbyte_12;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_422 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_422 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_423 = L_422.___register;
 		int8_t L_424 = L_423.___sbyte_12;
 		if ((((int32_t)L_421) == ((int32_t)L_424)))
@@ -12432,10 +12432,10 @@ IL_08f4:
 IL_08f9:
 	{
 		G_B172_1->___sbyte_12 = (int8_t)G_B172_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_426 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_426 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_427 = L_426.___register;
 		int8_t L_428 = L_427.___sbyte_13;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_429 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_429 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_430 = L_429.___register;
 		int8_t L_431 = L_430.___sbyte_13;
 		if ((((int32_t)L_428) == ((int32_t)L_431)))
@@ -12462,10 +12462,10 @@ IL_091b:
 IL_0920:
 	{
 		G_B175_1->___sbyte_13 = (int8_t)G_B175_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_433 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_433 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_434 = L_433.___register;
 		int8_t L_435 = L_434.___sbyte_14;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_436 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_436 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_437 = L_436.___register;
 		int8_t L_438 = L_437.___sbyte_14;
 		if ((((int32_t)L_435) == ((int32_t)L_438)))
@@ -12492,10 +12492,10 @@ IL_0942:
 IL_0947:
 	{
 		G_B178_1->___sbyte_14 = (int8_t)G_B178_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_440 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_440 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_441 = L_440.___register;
 		int8_t L_442 = L_441.___sbyte_15;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_443 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_443 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_444 = L_443.___register;
 		int8_t L_445 = L_444.___sbyte_15;
 		if ((((int32_t)L_442) == ((int32_t)L_445)))
@@ -12522,9 +12522,9 @@ IL_0969:
 IL_096e:
 	{
 		G_B181_1->___sbyte_15 = (int8_t)G_B181_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_447;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_447;
 		memset((&L_447), 0, sizeof(L_447));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_447), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_447), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_447;
 	}
 
@@ -12545,10 +12545,10 @@ IL_097b:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_453 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_453 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_454 = L_453.___register;
 		uint16_t L_455 = L_454.___uint16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_456 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_456 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_457 = L_456.___register;
 		uint16_t L_458 = L_457.___uint16_0;
 		if ((((int32_t)L_455) == ((int32_t)L_458)))
@@ -12575,10 +12575,10 @@ IL_09b6:
 IL_09bb:
 	{
 		G_B186_1->___uint16_0 = (uint16_t)G_B186_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_460 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_460 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_461 = L_460.___register;
 		uint16_t L_462 = L_461.___uint16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_463 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_463 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_464 = L_463.___register;
 		uint16_t L_465 = L_464.___uint16_1;
 		if ((((int32_t)L_462) == ((int32_t)L_465)))
@@ -12605,10 +12605,10 @@ IL_09dd:
 IL_09e2:
 	{
 		G_B189_1->___uint16_1 = (uint16_t)G_B189_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_467 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_467 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_468 = L_467.___register;
 		uint16_t L_469 = L_468.___uint16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_470 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_470 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_471 = L_470.___register;
 		uint16_t L_472 = L_471.___uint16_2;
 		if ((((int32_t)L_469) == ((int32_t)L_472)))
@@ -12635,10 +12635,10 @@ IL_0a04:
 IL_0a09:
 	{
 		G_B192_1->___uint16_2 = (uint16_t)G_B192_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_474 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_474 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_475 = L_474.___register;
 		uint16_t L_476 = L_475.___uint16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_477 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_477 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_478 = L_477.___register;
 		uint16_t L_479 = L_478.___uint16_3;
 		if ((((int32_t)L_476) == ((int32_t)L_479)))
@@ -12665,10 +12665,10 @@ IL_0a2b:
 IL_0a30:
 	{
 		G_B195_1->___uint16_3 = (uint16_t)G_B195_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_481 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_481 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_482 = L_481.___register;
 		uint16_t L_483 = L_482.___uint16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_484 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_484 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_485 = L_484.___register;
 		uint16_t L_486 = L_485.___uint16_4;
 		if ((((int32_t)L_483) == ((int32_t)L_486)))
@@ -12695,10 +12695,10 @@ IL_0a52:
 IL_0a57:
 	{
 		G_B198_1->___uint16_4 = (uint16_t)G_B198_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_488 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_488 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_489 = L_488.___register;
 		uint16_t L_490 = L_489.___uint16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_491 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_491 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_492 = L_491.___register;
 		uint16_t L_493 = L_492.___uint16_5;
 		if ((((int32_t)L_490) == ((int32_t)L_493)))
@@ -12725,10 +12725,10 @@ IL_0a79:
 IL_0a7e:
 	{
 		G_B201_1->___uint16_5 = (uint16_t)G_B201_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_495 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_495 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_496 = L_495.___register;
 		uint16_t L_497 = L_496.___uint16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_498 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_498 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_499 = L_498.___register;
 		uint16_t L_500 = L_499.___uint16_6;
 		if ((((int32_t)L_497) == ((int32_t)L_500)))
@@ -12755,10 +12755,10 @@ IL_0aa0:
 IL_0aa5:
 	{
 		G_B204_1->___uint16_6 = (uint16_t)G_B204_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_502 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_502 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_503 = L_502.___register;
 		uint16_t L_504 = L_503.___uint16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_505 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_505 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_506 = L_505.___register;
 		uint16_t L_507 = L_506.___uint16_7;
 		if ((((int32_t)L_504) == ((int32_t)L_507)))
@@ -12785,9 +12785,9 @@ IL_0ac7:
 IL_0acc:
 	{
 		G_B207_1->___uint16_7 = (uint16_t)G_B207_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_509;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_509;
 		memset((&L_509), 0, sizeof(L_509));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_509), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_509), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_509;
 	}
 
@@ -12808,10 +12808,10 @@ IL_0ad9:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_515 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_515 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_516 = L_515.___register;
 		int16_t L_517 = L_516.___int16_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_518 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_518 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_519 = L_518.___register;
 		int16_t L_520 = L_519.___int16_0;
 		if ((((int32_t)L_517) == ((int32_t)L_520)))
@@ -12838,10 +12838,10 @@ IL_0b14:
 IL_0b19:
 	{
 		G_B212_1->___int16_0 = (int16_t)G_B212_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_522 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_522 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_523 = L_522.___register;
 		int16_t L_524 = L_523.___int16_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_525 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_525 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_526 = L_525.___register;
 		int16_t L_527 = L_526.___int16_1;
 		if ((((int32_t)L_524) == ((int32_t)L_527)))
@@ -12868,10 +12868,10 @@ IL_0b3b:
 IL_0b40:
 	{
 		G_B215_1->___int16_1 = (int16_t)G_B215_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_529 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_529 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_530 = L_529.___register;
 		int16_t L_531 = L_530.___int16_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_532 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_532 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_533 = L_532.___register;
 		int16_t L_534 = L_533.___int16_2;
 		if ((((int32_t)L_531) == ((int32_t)L_534)))
@@ -12898,10 +12898,10 @@ IL_0b62:
 IL_0b67:
 	{
 		G_B218_1->___int16_2 = (int16_t)G_B218_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_536 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_536 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_537 = L_536.___register;
 		int16_t L_538 = L_537.___int16_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_539 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_539 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_540 = L_539.___register;
 		int16_t L_541 = L_540.___int16_3;
 		if ((((int32_t)L_538) == ((int32_t)L_541)))
@@ -12928,10 +12928,10 @@ IL_0b89:
 IL_0b8e:
 	{
 		G_B221_1->___int16_3 = (int16_t)G_B221_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_543 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_543 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_544 = L_543.___register;
 		int16_t L_545 = L_544.___int16_4;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_546 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_546 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_547 = L_546.___register;
 		int16_t L_548 = L_547.___int16_4;
 		if ((((int32_t)L_545) == ((int32_t)L_548)))
@@ -12958,10 +12958,10 @@ IL_0bb0:
 IL_0bb5:
 	{
 		G_B224_1->___int16_4 = (int16_t)G_B224_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_550 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_550 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_551 = L_550.___register;
 		int16_t L_552 = L_551.___int16_5;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_553 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_553 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_554 = L_553.___register;
 		int16_t L_555 = L_554.___int16_5;
 		if ((((int32_t)L_552) == ((int32_t)L_555)))
@@ -12988,10 +12988,10 @@ IL_0bd7:
 IL_0bdc:
 	{
 		G_B227_1->___int16_5 = (int16_t)G_B227_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_557 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_557 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_558 = L_557.___register;
 		int16_t L_559 = L_558.___int16_6;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_560 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_560 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_561 = L_560.___register;
 		int16_t L_562 = L_561.___int16_6;
 		if ((((int32_t)L_559) == ((int32_t)L_562)))
@@ -13018,10 +13018,10 @@ IL_0bfe:
 IL_0c03:
 	{
 		G_B230_1->___int16_6 = (int16_t)G_B230_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_564 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_564 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_565 = L_564.___register;
 		int16_t L_566 = L_565.___int16_7;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_567 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_567 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_568 = L_567.___register;
 		int16_t L_569 = L_568.___int16_7;
 		if ((((int32_t)L_566) == ((int32_t)L_569)))
@@ -13048,9 +13048,9 @@ IL_0c25:
 IL_0c2a:
 	{
 		G_B233_1->___int16_7 = (int16_t)G_B233_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_571;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_571;
 		memset((&L_571), 0, sizeof(L_571));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_571), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_571), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_571;
 	}
 
@@ -13071,10 +13071,10 @@ IL_0c37:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_577 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_577 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_578 = L_577.___register;
 		uint32_t L_579 = L_578.___uint32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_580 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_580 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_581 = L_580.___register;
 		uint32_t L_582 = L_581.___uint32_0;
 		if ((((int32_t)L_579) == ((int32_t)L_582)))
@@ -13101,10 +13101,10 @@ IL_0c72:
 IL_0c77:
 	{
 		G_B238_1->___uint32_0 = G_B238_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_584 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_584 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_585 = L_584.___register;
 		uint32_t L_586 = L_585.___uint32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_587 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_587 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_588 = L_587.___register;
 		uint32_t L_589 = L_588.___uint32_1;
 		if ((((int32_t)L_586) == ((int32_t)L_589)))
@@ -13131,10 +13131,10 @@ IL_0c99:
 IL_0c9e:
 	{
 		G_B241_1->___uint32_1 = G_B241_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_591 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_591 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_592 = L_591.___register;
 		uint32_t L_593 = L_592.___uint32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_594 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_594 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_595 = L_594.___register;
 		uint32_t L_596 = L_595.___uint32_2;
 		if ((((int32_t)L_593) == ((int32_t)L_596)))
@@ -13161,10 +13161,10 @@ IL_0cc0:
 IL_0cc5:
 	{
 		G_B244_1->___uint32_2 = G_B244_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_598 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_598 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_599 = L_598.___register;
 		uint32_t L_600 = L_599.___uint32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_601 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_601 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_602 = L_601.___register;
 		uint32_t L_603 = L_602.___uint32_3;
 		if ((((int32_t)L_600) == ((int32_t)L_603)))
@@ -13191,9 +13191,9 @@ IL_0ce7:
 IL_0cec:
 	{
 		G_B247_1->___uint32_3 = G_B247_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_605;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_605;
 		memset((&L_605), 0, sizeof(L_605));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_605), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_605), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_605;
 	}
 
@@ -13214,10 +13214,10 @@ IL_0cf9:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_611 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_611 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_612 = L_611.___register;
 		int32_t L_613 = L_612.___int32_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_614 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_614 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_615 = L_614.___register;
 		int32_t L_616 = L_615.___int32_0;
 		if ((((int32_t)L_613) == ((int32_t)L_616)))
@@ -13244,10 +13244,10 @@ IL_0d34:
 IL_0d39:
 	{
 		G_B252_1->___int32_0 = G_B252_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_618 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_618 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_619 = L_618.___register;
 		int32_t L_620 = L_619.___int32_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_621 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_621 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_622 = L_621.___register;
 		int32_t L_623 = L_622.___int32_1;
 		if ((((int32_t)L_620) == ((int32_t)L_623)))
@@ -13274,10 +13274,10 @@ IL_0d5b:
 IL_0d60:
 	{
 		G_B255_1->___int32_1 = G_B255_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_625 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_625 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_626 = L_625.___register;
 		int32_t L_627 = L_626.___int32_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_628 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_628 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_629 = L_628.___register;
 		int32_t L_630 = L_629.___int32_2;
 		if ((((int32_t)L_627) == ((int32_t)L_630)))
@@ -13304,10 +13304,10 @@ IL_0d82:
 IL_0d87:
 	{
 		G_B258_1->___int32_2 = G_B258_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_632 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_632 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_633 = L_632.___register;
 		int32_t L_634 = L_633.___int32_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_635 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_635 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_636 = L_635.___register;
 		int32_t L_637 = L_636.___int32_3;
 		if ((((int32_t)L_634) == ((int32_t)L_637)))
@@ -13334,9 +13334,9 @@ IL_0da9:
 IL_0dae:
 	{
 		G_B261_1->___int32_3 = G_B261_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_639;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_639;
 		memset((&L_639), 0, sizeof(L_639));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_639), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_639), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_639;
 	}
 
@@ -13357,10 +13357,10 @@ IL_0dbb:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_645 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_645 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_646 = L_645.___register;
 		uint64_t L_647 = L_646.___uint64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_648 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_648 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_649 = L_648.___register;
 		uint64_t L_650 = L_649.___uint64_0;
 		if ((((int64_t)L_647) == ((int64_t)L_650)))
@@ -13387,10 +13387,10 @@ IL_0df4:
 IL_0df9:
 	{
 		G_B266_1->___uint64_0 = G_B266_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_652 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_652 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_653 = L_652.___register;
 		uint64_t L_654 = L_653.___uint64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_655 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_655 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_656 = L_655.___register;
 		uint64_t L_657 = L_656.___uint64_1;
 		if ((((int64_t)L_654) == ((int64_t)L_657)))
@@ -13417,9 +13417,9 @@ IL_0e1c:
 IL_0e21:
 	{
 		G_B269_1->___uint64_1 = G_B269_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_659;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_659;
 		memset((&L_659), 0, sizeof(L_659));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_659), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_659), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_659;
 	}
 
@@ -13440,10 +13440,10 @@ IL_0e2e:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_665 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_665 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_666 = L_665.___register;
 		int64_t L_667 = L_666.___int64_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_668 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_668 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_669 = L_668.___register;
 		int64_t L_670 = L_669.___int64_0;
 		if ((((int64_t)L_667) == ((int64_t)L_670)))
@@ -13470,10 +13470,10 @@ IL_0e67:
 IL_0e6c:
 	{
 		G_B274_1->___int64_0 = G_B274_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_672 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_672 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_673 = L_672.___register;
 		int64_t L_674 = L_673.___int64_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_675 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_675 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_676 = L_675.___register;
 		int64_t L_677 = L_676.___int64_1;
 		if ((((int64_t)L_674) == ((int64_t)L_677)))
@@ -13500,9 +13500,9 @@ IL_0e8f:
 IL_0e94:
 	{
 		G_B277_1->___int64_1 = G_B277_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_679;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_679;
 		memset((&L_679), 0, sizeof(L_679));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_679), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_679), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_679;
 	}
 
@@ -13523,10 +13523,10 @@ IL_0ea1:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_685 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_685 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_686 = L_685.___register;
 		float L_687 = L_686.___single_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_688 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_688 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_689 = L_688.___register;
 		float L_690 = L_689.___single_0;
 		if ((((float)L_687) == ((float)L_690)))
@@ -13553,10 +13553,10 @@ IL_0ee0:
 IL_0ee5:
 	{
 		G_B282_1->___single_0 = G_B282_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_692 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_692 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_693 = L_692.___register;
 		float L_694 = L_693.___single_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_695 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_695 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_696 = L_695.___register;
 		float L_697 = L_696.___single_1;
 		if ((((float)L_694) == ((float)L_697)))
@@ -13583,10 +13583,10 @@ IL_0f0b:
 IL_0f10:
 	{
 		G_B285_1->___single_1 = G_B285_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_699 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_699 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_700 = L_699.___register;
 		float L_701 = L_700.___single_2;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_702 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_702 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_703 = L_702.___register;
 		float L_704 = L_703.___single_2;
 		if ((((float)L_701) == ((float)L_704)))
@@ -13613,10 +13613,10 @@ IL_0f36:
 IL_0f3b:
 	{
 		G_B288_1->___single_2 = G_B288_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_706 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_706 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_707 = L_706.___register;
 		float L_708 = L_707.___single_3;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_709 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_709 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_710 = L_709.___register;
 		float L_711 = L_710.___single_3;
 		if ((((float)L_708) == ((float)L_711)))
@@ -13643,9 +13643,9 @@ IL_0f61:
 IL_0f66:
 	{
 		G_B291_1->___single_3 = G_B291_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_713;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_713;
 		memset((&L_713), 0, sizeof(L_713));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_713), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_713), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_713;
 	}
 
@@ -13666,10 +13666,10 @@ IL_0f73:
 		}
 	}
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_719 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_719 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_720 = L_719.___register;
 		double L_721 = L_720.___double_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_722 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_722 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_723 = L_722.___register;
 		double L_724 = L_723.___double_0;
 		if ((((double)L_721) == ((double)L_724)))
@@ -13696,10 +13696,10 @@ IL_0fb3:
 IL_0fb8:
 	{
 		G_B296_1->___double_0 = G_B296_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_726 = ___0_left;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_726 = ___0_left;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_727 = L_726.___register;
 		double L_728 = L_727.___double_1;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_729 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_729 = ___1_right;
 		Register_t483055A1DB8634BA3FBF01BB15D4E94E186A2E7A L_730 = L_729.___register;
 		double L_731 = L_730.___double_1;
 		if ((((double)L_728) == ((double)L_731)))
@@ -13726,9 +13726,9 @@ IL_0fe2:
 IL_0fe7:
 	{
 		G_B299_1->___double_1 = G_B299_0;
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_733;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_733;
 		memset((&L_733), 0, sizeof(L_733));
-		Vector_1__ctor_m48CD7847B9597F3193C9C0BA97ED64E276F4340A((&L_733), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		Vector_1__ctor_mD2AC0B4F036880B6070CF29119238F365159304F((&L_733), (&V_20), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		return L_733;
 	}
 
@@ -13739,7 +13739,7 @@ IL_0ff4:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_734, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_gshared (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_gshared (float ___0_left, float ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13783,11 +13783,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_m4E13E30219B0D2AAD
 		}
 	}
 	{
-		uint16_t L_5 = ___0_left;
-		uint16_t L_6 = L_5;
+		float L_5 = ___0_left;
+		float L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_6);
-		uint16_t L_8 = ___1_right;
-		uint16_t L_9 = L_8;
+		float L_8 = ___1_right;
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		return (bool)((((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_7, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))) == ((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13809,11 +13809,11 @@ IL_0034:
 		}
 	}
 	{
-		uint16_t L_16 = ___0_left;
-		uint16_t L_17 = L_16;
+		float L_16 = ___0_left;
+		float L_17 = L_16;
 		RuntimeObject* L_18 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_17);
-		uint16_t L_19 = ___1_right;
-		uint16_t L_20 = L_19;
+		float L_19 = ___1_right;
+		float L_20 = L_19;
 		RuntimeObject* L_21 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_20);
 		return (bool)((((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_18, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))))) == ((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_21, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13835,11 +13835,11 @@ IL_0068:
 		}
 	}
 	{
-		uint16_t L_27 = ___0_left;
-		uint16_t L_28 = L_27;
+		float L_27 = ___0_left;
+		float L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_28);
-		uint16_t L_30 = ___1_right;
-		uint16_t L_31 = L_30;
+		float L_30 = ___1_right;
+		float L_31 = L_30;
 		RuntimeObject* L_32 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_31);
 		return (bool)((((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_29, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))) == ((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_32, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13861,11 +13861,11 @@ IL_009c:
 		}
 	}
 	{
-		uint16_t L_38 = ___0_left;
-		uint16_t L_39 = L_38;
+		float L_38 = ___0_left;
+		float L_39 = L_38;
 		RuntimeObject* L_40 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_39);
-		uint16_t L_41 = ___1_right;
-		uint16_t L_42 = L_41;
+		float L_41 = ___1_right;
+		float L_42 = L_41;
 		RuntimeObject* L_43 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_42);
 		return (bool)((((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_40, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))))) == ((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_43, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13887,11 +13887,11 @@ IL_00d0:
 		}
 	}
 	{
-		uint16_t L_49 = ___0_left;
-		uint16_t L_50 = L_49;
+		float L_49 = ___0_left;
+		float L_50 = L_49;
 		RuntimeObject* L_51 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_50);
-		uint16_t L_52 = ___1_right;
-		uint16_t L_53 = L_52;
+		float L_52 = ___1_right;
+		float L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_53);
 		return (bool)((((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_51, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))) == ((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_54, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13913,11 +13913,11 @@ IL_0104:
 		}
 	}
 	{
-		uint16_t L_60 = ___0_left;
-		uint16_t L_61 = L_60;
+		float L_60 = ___0_left;
+		float L_61 = L_60;
 		RuntimeObject* L_62 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_61);
-		uint16_t L_63 = ___1_right;
-		uint16_t L_64 = L_63;
+		float L_63 = ___1_right;
+		float L_64 = L_63;
 		RuntimeObject* L_65 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_64);
 		return (bool)((((int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_62, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))) == ((int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_65, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13939,11 +13939,11 @@ IL_0138:
 		}
 	}
 	{
-		uint16_t L_71 = ___0_left;
-		uint16_t L_72 = L_71;
+		float L_71 = ___0_left;
+		float L_72 = L_71;
 		RuntimeObject* L_73 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_72);
-		uint16_t L_74 = ___1_right;
-		uint16_t L_75 = L_74;
+		float L_74 = ___1_right;
+		float L_75 = L_74;
 		RuntimeObject* L_76 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_75);
 		return (bool)((((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_73, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))))) == ((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_76, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13965,11 +13965,11 @@ IL_016c:
 		}
 	}
 	{
-		uint16_t L_82 = ___0_left;
-		uint16_t L_83 = L_82;
+		float L_82 = ___0_left;
+		float L_83 = L_82;
 		RuntimeObject* L_84 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_83);
-		uint16_t L_85 = ___1_right;
-		uint16_t L_86 = L_85;
+		float L_85 = ___1_right;
+		float L_86 = L_85;
 		RuntimeObject* L_87 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_86);
 		return (bool)((((int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_84, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))) == ((int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_87, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -13991,11 +13991,11 @@ IL_01a0:
 		}
 	}
 	{
-		uint16_t L_93 = ___0_left;
-		uint16_t L_94 = L_93;
+		float L_93 = ___0_left;
+		float L_94 = L_93;
 		RuntimeObject* L_95 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_94);
-		uint16_t L_96 = ___1_right;
-		uint16_t L_97 = L_96;
+		float L_96 = ___1_right;
+		float L_97 = L_96;
 		RuntimeObject* L_98 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_97);
 		return (bool)((((float)((*(float*)((float*)(float*)UnBox(L_95, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))) == ((float)((*(float*)((float*)(float*)UnBox(L_98, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -14017,11 +14017,11 @@ IL_01d4:
 		}
 	}
 	{
-		uint16_t L_104 = ___0_left;
-		uint16_t L_105 = L_104;
+		float L_104 = ___0_left;
+		float L_105 = L_104;
 		RuntimeObject* L_106 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_105);
-		uint16_t L_107 = ___1_right;
-		uint16_t L_108 = L_107;
+		float L_107 = ___1_right;
+		float L_108 = L_107;
 		RuntimeObject* L_109 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_108);
 		return (bool)((((double)((*(double*)((double*)(double*)UnBox(L_106, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))))) == ((double)((*(double*)((double*)(double*)UnBox(L_109, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -14033,7 +14033,7 @@ IL_0208:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_110, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_gshared (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_gshared (float ___0_left, float ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14077,15 +14077,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarAdd_mD7B9A48B259BE050
 		}
 	}
 	{
-		uint16_t L_5 = ___0_left;
-		uint16_t L_6 = L_5;
+		float L_5 = ___0_left;
+		float L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_6);
-		uint16_t L_8 = ___1_right;
-		uint16_t L_9 = L_8;
+		float L_8 = ___1_right;
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		uint8_t L_11 = ((uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_7, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))), (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_12 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_11);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_003e:
@@ -14105,15 +14105,15 @@ IL_003e:
 		}
 	}
 	{
-		uint16_t L_18 = ___0_left;
-		uint16_t L_19 = L_18;
+		float L_18 = ___0_left;
+		float L_19 = L_18;
 		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_19);
-		uint16_t L_21 = ___1_right;
-		uint16_t L_22 = L_21;
+		float L_21 = ___1_right;
+		float L_22 = L_21;
 		RuntimeObject* L_23 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_22);
 		int8_t L_24 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_20, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))), (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_23, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_25 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_24);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_007c:
@@ -14133,15 +14133,15 @@ IL_007c:
 		}
 	}
 	{
-		uint16_t L_31 = ___0_left;
-		uint16_t L_32 = L_31;
+		float L_31 = ___0_left;
+		float L_32 = L_31;
 		RuntimeObject* L_33 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_32);
-		uint16_t L_34 = ___1_right;
-		uint16_t L_35 = L_34;
+		float L_34 = ___1_right;
+		float L_35 = L_34;
 		RuntimeObject* L_36 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_35);
 		uint16_t L_37 = ((uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_33, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))), (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_36, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_38 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_37);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ba:
@@ -14161,15 +14161,15 @@ IL_00ba:
 		}
 	}
 	{
-		uint16_t L_44 = ___0_left;
-		uint16_t L_45 = L_44;
+		float L_44 = ___0_left;
+		float L_45 = L_44;
 		RuntimeObject* L_46 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_45);
-		uint16_t L_47 = ___1_right;
-		uint16_t L_48 = L_47;
+		float L_47 = ___1_right;
+		float L_48 = L_47;
 		RuntimeObject* L_49 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_48);
 		int16_t L_50 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_46, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))), (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_49, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_51 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_50);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00f8:
@@ -14189,15 +14189,15 @@ IL_00f8:
 		}
 	}
 	{
-		uint16_t L_57 = ___0_left;
-		uint16_t L_58 = L_57;
+		float L_57 = ___0_left;
+		float L_58 = L_57;
 		RuntimeObject* L_59 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_58);
-		uint16_t L_60 = ___1_right;
-		uint16_t L_61 = L_60;
+		float L_60 = ___1_right;
+		float L_61 = L_60;
 		RuntimeObject* L_62 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_61);
 		uint32_t L_63 = ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_59, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))), (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_62, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_64 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_63);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0135:
@@ -14217,15 +14217,15 @@ IL_0135:
 		}
 	}
 	{
-		uint16_t L_70 = ___0_left;
-		uint16_t L_71 = L_70;
+		float L_70 = ___0_left;
+		float L_71 = L_70;
 		RuntimeObject* L_72 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_71);
-		uint16_t L_73 = ___1_right;
-		uint16_t L_74 = L_73;
+		float L_73 = ___1_right;
+		float L_74 = L_73;
 		RuntimeObject* L_75 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_74);
 		int32_t L_76 = ((int32_t)il2cpp_codegen_add(((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_72, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_75, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_77 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_76);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0172:
@@ -14245,15 +14245,15 @@ IL_0172:
 		}
 	}
 	{
-		uint16_t L_83 = ___0_left;
-		uint16_t L_84 = L_83;
+		float L_83 = ___0_left;
+		float L_84 = L_83;
 		RuntimeObject* L_85 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_84);
-		uint16_t L_86 = ___1_right;
-		uint16_t L_87 = L_86;
+		float L_86 = ___1_right;
+		float L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_87);
 		uint64_t L_89 = ((uint64_t)((int64_t)il2cpp_codegen_add((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_85, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))), (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_88, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_90 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_89);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01af:
@@ -14273,15 +14273,15 @@ IL_01af:
 		}
 	}
 	{
-		uint16_t L_96 = ___0_left;
-		uint16_t L_97 = L_96;
+		float L_96 = ___0_left;
+		float L_97 = L_96;
 		RuntimeObject* L_98 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_97);
-		uint16_t L_99 = ___1_right;
-		uint16_t L_100 = L_99;
+		float L_99 = ___1_right;
+		float L_100 = L_99;
 		RuntimeObject* L_101 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_100);
 		int64_t L_102 = ((int64_t)il2cpp_codegen_add(((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_98, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var)))), ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_101, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_103 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_102);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01ec:
@@ -14301,15 +14301,15 @@ IL_01ec:
 		}
 	}
 	{
-		uint16_t L_109 = ___0_left;
-		uint16_t L_110 = L_109;
+		float L_109 = ___0_left;
+		float L_110 = L_109;
 		RuntimeObject* L_111 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_110);
-		uint16_t L_112 = ___1_right;
-		uint16_t L_113 = L_112;
+		float L_112 = ___1_right;
+		float L_113 = L_112;
 		RuntimeObject* L_114 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_113);
 		float L_115 = ((float)((float)il2cpp_codegen_add(((*(float*)((float*)(float*)UnBox(L_111, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))), ((*(float*)((float*)(float*)UnBox(L_114, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_116 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_115);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_022a:
@@ -14329,15 +14329,15 @@ IL_022a:
 		}
 	}
 	{
-		uint16_t L_122 = ___0_left;
-		uint16_t L_123 = L_122;
+		float L_122 = ___0_left;
+		float L_123 = L_122;
 		RuntimeObject* L_124 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_123);
-		uint16_t L_125 = ___1_right;
-		uint16_t L_126 = L_125;
+		float L_125 = ___1_right;
+		float L_126 = L_125;
 		RuntimeObject* L_127 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_126);
 		double L_128 = ((double)((double)il2cpp_codegen_add(((*(double*)((double*)(double*)UnBox(L_124, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), ((*(double*)((double*)(double*)UnBox(L_127, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_129 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_128);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0268:
@@ -14347,7 +14347,7 @@ IL_0268:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_130, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_gshared (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_gshared (float ___0_left, float ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14391,15 +14391,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarMultiply_m02682DF7B26
 		}
 	}
 	{
-		uint16_t L_5 = ___0_left;
-		uint16_t L_6 = L_5;
+		float L_5 = ___0_left;
+		float L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_6);
-		uint16_t L_8 = ___1_right;
-		uint16_t L_9 = L_8;
+		float L_8 = ___1_right;
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		uint8_t L_11 = ((uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_7, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))), (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_12 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_11);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_003e:
@@ -14419,15 +14419,15 @@ IL_003e:
 		}
 	}
 	{
-		uint16_t L_18 = ___0_left;
-		uint16_t L_19 = L_18;
+		float L_18 = ___0_left;
+		float L_19 = L_18;
 		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_19);
-		uint16_t L_21 = ___1_right;
-		uint16_t L_22 = L_21;
+		float L_21 = ___1_right;
+		float L_22 = L_21;
 		RuntimeObject* L_23 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_22);
 		int8_t L_24 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_20, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))), (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_23, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_25 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_24);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_007c:
@@ -14447,15 +14447,15 @@ IL_007c:
 		}
 	}
 	{
-		uint16_t L_31 = ___0_left;
-		uint16_t L_32 = L_31;
+		float L_31 = ___0_left;
+		float L_32 = L_31;
 		RuntimeObject* L_33 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_32);
-		uint16_t L_34 = ___1_right;
-		uint16_t L_35 = L_34;
+		float L_34 = ___1_right;
+		float L_35 = L_34;
 		RuntimeObject* L_36 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_35);
 		uint16_t L_37 = ((uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_33, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))), (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_36, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_38 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_37);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ba:
@@ -14475,15 +14475,15 @@ IL_00ba:
 		}
 	}
 	{
-		uint16_t L_44 = ___0_left;
-		uint16_t L_45 = L_44;
+		float L_44 = ___0_left;
+		float L_45 = L_44;
 		RuntimeObject* L_46 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_45);
-		uint16_t L_47 = ___1_right;
-		uint16_t L_48 = L_47;
+		float L_47 = ___1_right;
+		float L_48 = L_47;
 		RuntimeObject* L_49 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_48);
 		int16_t L_50 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_46, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))), (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_49, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_51 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_50);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00f8:
@@ -14503,15 +14503,15 @@ IL_00f8:
 		}
 	}
 	{
-		uint16_t L_57 = ___0_left;
-		uint16_t L_58 = L_57;
+		float L_57 = ___0_left;
+		float L_58 = L_57;
 		RuntimeObject* L_59 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_58);
-		uint16_t L_60 = ___1_right;
-		uint16_t L_61 = L_60;
+		float L_60 = ___1_right;
+		float L_61 = L_60;
 		RuntimeObject* L_62 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_61);
 		uint32_t L_63 = ((uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_59, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))), (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_62, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_64 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_63);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0135:
@@ -14531,15 +14531,15 @@ IL_0135:
 		}
 	}
 	{
-		uint16_t L_70 = ___0_left;
-		uint16_t L_71 = L_70;
+		float L_70 = ___0_left;
+		float L_71 = L_70;
 		RuntimeObject* L_72 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_71);
-		uint16_t L_73 = ___1_right;
-		uint16_t L_74 = L_73;
+		float L_73 = ___1_right;
+		float L_74 = L_73;
 		RuntimeObject* L_75 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_74);
 		int32_t L_76 = ((int32_t)il2cpp_codegen_multiply(((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_72, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_75, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_77 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_76);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0172:
@@ -14559,15 +14559,15 @@ IL_0172:
 		}
 	}
 	{
-		uint16_t L_83 = ___0_left;
-		uint16_t L_84 = L_83;
+		float L_83 = ___0_left;
+		float L_84 = L_83;
 		RuntimeObject* L_85 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_84);
-		uint16_t L_86 = ___1_right;
-		uint16_t L_87 = L_86;
+		float L_86 = ___1_right;
+		float L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_87);
 		uint64_t L_89 = ((uint64_t)((int64_t)il2cpp_codegen_multiply((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_85, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))), (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_88, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_90 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_89);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01af:
@@ -14587,15 +14587,15 @@ IL_01af:
 		}
 	}
 	{
-		uint16_t L_96 = ___0_left;
-		uint16_t L_97 = L_96;
+		float L_96 = ___0_left;
+		float L_97 = L_96;
 		RuntimeObject* L_98 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_97);
-		uint16_t L_99 = ___1_right;
-		uint16_t L_100 = L_99;
+		float L_99 = ___1_right;
+		float L_100 = L_99;
 		RuntimeObject* L_101 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_100);
 		int64_t L_102 = ((int64_t)il2cpp_codegen_multiply(((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_98, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var)))), ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_101, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_103 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_102);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01ec:
@@ -14615,15 +14615,15 @@ IL_01ec:
 		}
 	}
 	{
-		uint16_t L_109 = ___0_left;
-		uint16_t L_110 = L_109;
+		float L_109 = ___0_left;
+		float L_110 = L_109;
 		RuntimeObject* L_111 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_110);
-		uint16_t L_112 = ___1_right;
-		uint16_t L_113 = L_112;
+		float L_112 = ___1_right;
+		float L_113 = L_112;
 		RuntimeObject* L_114 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_113);
 		float L_115 = ((float)((float)il2cpp_codegen_multiply(((*(float*)((float*)(float*)UnBox(L_111, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))), ((*(float*)((float*)(float*)UnBox(L_114, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_116 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_115);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_022a:
@@ -14643,15 +14643,15 @@ IL_022a:
 		}
 	}
 	{
-		uint16_t L_122 = ___0_left;
-		uint16_t L_123 = L_122;
+		float L_122 = ___0_left;
+		float L_123 = L_122;
 		RuntimeObject* L_124 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_123);
-		uint16_t L_125 = ___1_right;
-		uint16_t L_126 = L_125;
+		float L_125 = ___1_right;
+		float L_126 = L_125;
 		RuntimeObject* L_127 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_126);
 		double L_128 = ((double)((double)il2cpp_codegen_multiply(((*(double*)((double*)(double*)UnBox(L_124, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), ((*(double*)((double*)(double*)UnBox(L_127, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_129 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_128);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0268:
@@ -14661,7 +14661,7 @@ IL_0268:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_130, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_GetOneValue_m7E814AFD17E4D390C12EF731DA01203D262D9953_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector_1_GetOneValue_m36106BB6A0988A8B1B534B437EE992C200D27AF2_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14707,7 +14707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_GetOneValue_m7E814AFD17E4D3
 	{
 		uint8_t L_5 = ((uint8_t)1);
 		RuntimeObject* L_6 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_5);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_6, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_6, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0027:
@@ -14729,7 +14729,7 @@ IL_0027:
 	{
 		int8_t L_12 = ((int8_t)1);
 		RuntimeObject* L_13 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_12);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_13, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_13, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_004e:
@@ -14751,7 +14751,7 @@ IL_004e:
 	{
 		uint16_t L_19 = ((uint16_t)1);
 		RuntimeObject* L_20 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_19);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_20, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_20, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0075:
@@ -14773,7 +14773,7 @@ IL_0075:
 	{
 		int16_t L_26 = ((int16_t)1);
 		RuntimeObject* L_27 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_26);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_27, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_27, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_009c:
@@ -14795,7 +14795,7 @@ IL_009c:
 	{
 		uint32_t L_33 = ((uint32_t)1);
 		RuntimeObject* L_34 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_33);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_34, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_34, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00c3:
@@ -14817,7 +14817,7 @@ IL_00c3:
 	{
 		int32_t L_40 = 1;
 		RuntimeObject* L_41 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_40);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_41, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_41, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ea:
@@ -14839,7 +14839,7 @@ IL_00ea:
 	{
 		uint64_t L_47 = ((uint64_t)((int64_t)1));
 		RuntimeObject* L_48 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_47);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_48, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_48, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0112:
@@ -14861,7 +14861,7 @@ IL_0112:
 	{
 		int64_t L_54 = ((int64_t)1);
 		RuntimeObject* L_55 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_54);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_013a:
@@ -14883,7 +14883,7 @@ IL_013a:
 	{
 		float L_61 = (1.0f);
 		RuntimeObject* L_62 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_61);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_62, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_62, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0165:
@@ -14905,7 +14905,7 @@ IL_0165:
 	{
 		double L_68 = (1.0);
 		RuntimeObject* L_69 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_68);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_69, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_69, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0194:
@@ -14915,7 +14915,7 @@ IL_0194:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_70, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_GetAllBitsSetValue_m854DE079EA89F97089D3EF29D7C31F081F420580_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector_1_GetAllBitsSetValue_m98B418BFAC0D02B9175F85386B50AA7CCA14BF06_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14963,7 +14963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t Vector_1_GetAllBitsSetValue_m854DE07
 		L_5 = ConstantHelper_GetByteWithAllBitsSet_m38E318296F5FB9BAE51C97C1AE058716CFC889D7_inline(NULL);
 		uint8_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_6);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_002b:
@@ -14987,7 +14987,7 @@ IL_002b:
 		L_13 = ConstantHelper_GetSByteWithAllBitsSet_mB6B97526769DCCB7B78CCF446F28AAB0D1B5CAE3_inline(NULL);
 		int8_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_14);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_15, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_15, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0056:
@@ -15011,7 +15011,7 @@ IL_0056:
 		L_21 = ConstantHelper_GetUInt16WithAllBitsSet_mD3E13D933A06059499F0E0CBE6798D72D175464A_inline(NULL);
 		uint16_t L_22 = L_21;
 		RuntimeObject* L_23 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_22);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_23, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_23, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0081:
@@ -15035,7 +15035,7 @@ IL_0081:
 		L_29 = ConstantHelper_GetInt16WithAllBitsSet_m70C5F99E624490970E2D4093FE6E800D1849DDFC_inline(NULL);
 		int16_t L_30 = L_29;
 		RuntimeObject* L_31 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_30);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_31, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_31, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ac:
@@ -15059,7 +15059,7 @@ IL_00ac:
 		L_37 = ConstantHelper_GetUInt32WithAllBitsSet_m78CBFE0C29CF227C16D2A9021972A0D54744BCAF_inline(NULL);
 		uint32_t L_38 = L_37;
 		RuntimeObject* L_39 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_38);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_39, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_39, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00d7:
@@ -15083,7 +15083,7 @@ IL_00d7:
 		L_45 = ConstantHelper_GetInt32WithAllBitsSet_m245101340DDE7277600327D319DF86F1FFEA4FD0_inline(NULL);
 		int32_t L_46 = L_45;
 		RuntimeObject* L_47 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_46);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_47, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_47, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0102:
@@ -15107,7 +15107,7 @@ IL_0102:
 		L_53 = ConstantHelper_GetUInt64WithAllBitsSet_mB7F3E046EE6B1B20C552BF7CF619416E239A5A96_inline(NULL);
 		uint64_t L_54 = L_53;
 		RuntimeObject* L_55 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_54);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_012d:
@@ -15131,7 +15131,7 @@ IL_012d:
 		L_61 = ConstantHelper_GetInt64WithAllBitsSet_m56A9AB64BA5DDD9ECC99424875824591DEFD5C40_inline(NULL);
 		int64_t L_62 = L_61;
 		RuntimeObject* L_63 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_62);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_63, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_63, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0158:
@@ -15155,7 +15155,7 @@ IL_0158:
 		L_69 = ConstantHelper_GetSingleWithAllBitsSet_m66FC11C0680F744EB8315278910061C9535818C0_inline(NULL);
 		float L_70 = L_69;
 		RuntimeObject* L_71 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_70);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_71, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_71, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0183:
@@ -15179,7 +15179,7 @@ IL_0183:
 		L_77 = ConstantHelper_GetDoubleWithAllBitsSet_mF43AF77A6C93B7590B35B20458E80F2BC66AD5F2_inline(NULL);
 		double L_78 = L_77;
 		RuntimeObject* L_79 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_78);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_79, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_79, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01ae:
@@ -15189,25 +15189,25 @@ IL_01ae:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_80, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__cctor_m6764AA686DE7E188C362C5B3E96AB2F5AB09F3CA_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector_1__cctor_m94F577003B80943D0D8D83FF8EF34788A25046B1_gshared (const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0;
-		L_0 = Vector_1_InitializeCount_m43BBDDA05FDAB290038584331DB79CB33C523B83(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_count = L_0;
-		il2cpp_codegen_initobj((&((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_zero), sizeof(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489));
-		uint16_t L_1;
-		L_1 = Vector_1_GetOneValue_m7E814AFD17E4D390C12EF731DA01203D262D9953_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_2;
+		L_0 = Vector_1_InitializeCount_m16B02D3BFD2C2B6FA27197C7E8B7D469141F3FA6(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
+		((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_count = L_0;
+		il2cpp_codegen_initobj((&((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_zero), sizeof(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241));
+		float L_1;
+		L_1 = Vector_1_GetOneValue_m36106BB6A0988A8B1B534B437EE992C200D27AF2_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_2;
 		memset((&L_2), 0, sizeof(L_2));
-		Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427((&L_2), L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_one = L_2;
-		uint16_t L_3;
-		L_3 = Vector_1_GetAllBitsSetValue_m854DE079EA89F97089D3EF29D7C31F081F420580_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20));
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_4;
+		Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93((&L_2), L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_one = L_2;
+		float L_3;
+		L_3 = Vector_1_GetAllBitsSetValue_m98B418BFAC0D02B9175F85386B50AA7CCA14BF06_inline(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 20));
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_4;
 		memset((&L_4), 0, sizeof(L_4));
-		Vector_1__ctor_mDA4A6115C4120BFDD773FD4D3753FD3EC2B10427((&L_4), L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_allOnes = L_4;
+		Vector_1__ctor_m084C09BF70865EAC712F08DD82810AA394113C93((&L_4), L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_allOnes = L_4;
 		return;
 	}
 }
@@ -15347,15 +15347,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double ConstantHelper_GetDoubleWi
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector_1_get_Count_m6DF09E4443FC90521D33C892BE69D32B04D85A15_gshared_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Vector_1_get_Count_m5C8AFE56C8ABF94CC111770A890C877FA622BB69_gshared_inline (const RuntimeMethod* method) 
 {
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
-		int32_t L_0 = ((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_count;
+		int32_t L_0 = ((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)))->___s_count;
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_Equals_mD7F4E0B493DD44E2685BC17F8D6EAD92342CBC29_gshared_inline (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_Equals_mA8A7FAF14C999E8CD5562BADB4FA27AB2FC2F196_gshared_inline (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
 		RuntimeObject* L_0 = ___0_obj;
@@ -15373,11 +15373,11 @@ IL_000a:
 		RuntimeObject* L_1 = ___0_obj;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_2;
-		L_2 = Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8(__this, ((*(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)((Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)(Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489*)UnBox(L_1, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0))))), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
+		L_2 = Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8(__this, ((*(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)((Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)(Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241*)UnBox(L_1, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0))))), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		return L_2;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_m4E13E30219B0D2AADB58AD6E5CB2B54B9FCBFAAE_gshared_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_mD12F21854CC09DAD10146ADB3D2D069473F3CE78_gshared_inline (float ___0_left, float ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15421,11 +15421,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_ScalarEquals_m4E13E
 		}
 	}
 	{
-		uint16_t L_5 = ___0_left;
-		uint16_t L_6 = L_5;
+		float L_5 = ___0_left;
+		float L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_6);
-		uint16_t L_8 = ___1_right;
-		uint16_t L_9 = L_8;
+		float L_8 = ___1_right;
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		return (bool)((((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_7, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))) == ((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15447,11 +15447,11 @@ IL_0034:
 		}
 	}
 	{
-		uint16_t L_16 = ___0_left;
-		uint16_t L_17 = L_16;
+		float L_16 = ___0_left;
+		float L_17 = L_16;
 		RuntimeObject* L_18 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_17);
-		uint16_t L_19 = ___1_right;
-		uint16_t L_20 = L_19;
+		float L_19 = ___1_right;
+		float L_20 = L_19;
 		RuntimeObject* L_21 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_20);
 		return (bool)((((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_18, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))))) == ((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_21, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15473,11 +15473,11 @@ IL_0068:
 		}
 	}
 	{
-		uint16_t L_27 = ___0_left;
-		uint16_t L_28 = L_27;
+		float L_27 = ___0_left;
+		float L_28 = L_27;
 		RuntimeObject* L_29 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_28);
-		uint16_t L_30 = ___1_right;
-		uint16_t L_31 = L_30;
+		float L_30 = ___1_right;
+		float L_31 = L_30;
 		RuntimeObject* L_32 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_31);
 		return (bool)((((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_29, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))) == ((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_32, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15499,11 +15499,11 @@ IL_009c:
 		}
 	}
 	{
-		uint16_t L_38 = ___0_left;
-		uint16_t L_39 = L_38;
+		float L_38 = ___0_left;
+		float L_39 = L_38;
 		RuntimeObject* L_40 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_39);
-		uint16_t L_41 = ___1_right;
-		uint16_t L_42 = L_41;
+		float L_41 = ___1_right;
+		float L_42 = L_41;
 		RuntimeObject* L_43 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_42);
 		return (bool)((((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_40, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))))) == ((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_43, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15525,11 +15525,11 @@ IL_00d0:
 		}
 	}
 	{
-		uint16_t L_49 = ___0_left;
-		uint16_t L_50 = L_49;
+		float L_49 = ___0_left;
+		float L_50 = L_49;
 		RuntimeObject* L_51 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_50);
-		uint16_t L_52 = ___1_right;
-		uint16_t L_53 = L_52;
+		float L_52 = ___1_right;
+		float L_53 = L_52;
 		RuntimeObject* L_54 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_53);
 		return (bool)((((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_51, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))) == ((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_54, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15551,11 +15551,11 @@ IL_0104:
 		}
 	}
 	{
-		uint16_t L_60 = ___0_left;
-		uint16_t L_61 = L_60;
+		float L_60 = ___0_left;
+		float L_61 = L_60;
 		RuntimeObject* L_62 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_61);
-		uint16_t L_63 = ___1_right;
-		uint16_t L_64 = L_63;
+		float L_63 = ___1_right;
+		float L_64 = L_63;
 		RuntimeObject* L_65 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_64);
 		return (bool)((((int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_62, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))) == ((int32_t)((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_65, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15577,11 +15577,11 @@ IL_0138:
 		}
 	}
 	{
-		uint16_t L_71 = ___0_left;
-		uint16_t L_72 = L_71;
+		float L_71 = ___0_left;
+		float L_72 = L_71;
 		RuntimeObject* L_73 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_72);
-		uint16_t L_74 = ___1_right;
-		uint16_t L_75 = L_74;
+		float L_74 = ___1_right;
+		float L_75 = L_74;
 		RuntimeObject* L_76 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_75);
 		return (bool)((((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_73, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))))) == ((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_76, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15603,11 +15603,11 @@ IL_016c:
 		}
 	}
 	{
-		uint16_t L_82 = ___0_left;
-		uint16_t L_83 = L_82;
+		float L_82 = ___0_left;
+		float L_83 = L_82;
 		RuntimeObject* L_84 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_83);
-		uint16_t L_85 = ___1_right;
-		uint16_t L_86 = L_85;
+		float L_85 = ___1_right;
+		float L_86 = L_85;
 		RuntimeObject* L_87 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_86);
 		return (bool)((((int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_84, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))) == ((int64_t)((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_87, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15629,11 +15629,11 @@ IL_01a0:
 		}
 	}
 	{
-		uint16_t L_93 = ___0_left;
-		uint16_t L_94 = L_93;
+		float L_93 = ___0_left;
+		float L_94 = L_93;
 		RuntimeObject* L_95 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_94);
-		uint16_t L_96 = ___1_right;
-		uint16_t L_97 = L_96;
+		float L_96 = ___1_right;
+		float L_97 = L_96;
 		RuntimeObject* L_98 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_97);
 		return (bool)((((float)((*(float*)((float*)(float*)UnBox(L_95, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))) == ((float)((*(float*)((float*)(float*)UnBox(L_98, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15655,11 +15655,11 @@ IL_01d4:
 		}
 	}
 	{
-		uint16_t L_104 = ___0_left;
-		uint16_t L_105 = L_104;
+		float L_104 = ___0_left;
+		float L_105 = L_104;
 		RuntimeObject* L_106 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_105);
-		uint16_t L_107 = ___1_right;
-		uint16_t L_108 = L_107;
+		float L_107 = ___1_right;
+		float L_108 = L_107;
 		RuntimeObject* L_109 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_108);
 		return (bool)((((double)((*(double*)((double*)(double*)UnBox(L_106, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))))) == ((double)((*(double*)((double*)(double*)UnBox(L_109, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var))))))? 1 : 0);
 	}
@@ -15671,7 +15671,7 @@ IL_0208:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_110, method);
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarAdd_mD7B9A48B259BE05096C3D71233E737D0A6CBDF9F_gshared_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_ScalarAdd_m51172AA613DC5214D8DB1768B686B904E5D8EE66_gshared_inline (float ___0_left, float ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15715,15 +15715,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarAdd_mD7B9
 		}
 	}
 	{
-		uint16_t L_5 = ___0_left;
-		uint16_t L_6 = L_5;
+		float L_5 = ___0_left;
+		float L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_6);
-		uint16_t L_8 = ___1_right;
-		uint16_t L_9 = L_8;
+		float L_8 = ___1_right;
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		uint8_t L_11 = ((uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_7, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))), (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_12 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_11);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_003e:
@@ -15743,15 +15743,15 @@ IL_003e:
 		}
 	}
 	{
-		uint16_t L_18 = ___0_left;
-		uint16_t L_19 = L_18;
+		float L_18 = ___0_left;
+		float L_19 = L_18;
 		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_19);
-		uint16_t L_21 = ___1_right;
-		uint16_t L_22 = L_21;
+		float L_21 = ___1_right;
+		float L_22 = L_21;
 		RuntimeObject* L_23 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_22);
 		int8_t L_24 = ((int8_t)((int32_t)il2cpp_codegen_add((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_20, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))), (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_23, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_25 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_24);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_007c:
@@ -15771,15 +15771,15 @@ IL_007c:
 		}
 	}
 	{
-		uint16_t L_31 = ___0_left;
-		uint16_t L_32 = L_31;
+		float L_31 = ___0_left;
+		float L_32 = L_31;
 		RuntimeObject* L_33 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_32);
-		uint16_t L_34 = ___1_right;
-		uint16_t L_35 = L_34;
+		float L_34 = ___1_right;
+		float L_35 = L_34;
 		RuntimeObject* L_36 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_35);
 		uint16_t L_37 = ((uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_33, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))), (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_36, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_38 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_37);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ba:
@@ -15799,15 +15799,15 @@ IL_00ba:
 		}
 	}
 	{
-		uint16_t L_44 = ___0_left;
-		uint16_t L_45 = L_44;
+		float L_44 = ___0_left;
+		float L_45 = L_44;
 		RuntimeObject* L_46 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_45);
-		uint16_t L_47 = ___1_right;
-		uint16_t L_48 = L_47;
+		float L_47 = ___1_right;
+		float L_48 = L_47;
 		RuntimeObject* L_49 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_48);
 		int16_t L_50 = ((int16_t)((int32_t)il2cpp_codegen_add((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_46, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))), (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_49, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_51 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_50);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00f8:
@@ -15827,15 +15827,15 @@ IL_00f8:
 		}
 	}
 	{
-		uint16_t L_57 = ___0_left;
-		uint16_t L_58 = L_57;
+		float L_57 = ___0_left;
+		float L_58 = L_57;
 		RuntimeObject* L_59 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_58);
-		uint16_t L_60 = ___1_right;
-		uint16_t L_61 = L_60;
+		float L_60 = ___1_right;
+		float L_61 = L_60;
 		RuntimeObject* L_62 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_61);
 		uint32_t L_63 = ((uint32_t)((int32_t)il2cpp_codegen_add((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_59, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))), (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_62, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_64 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_63);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0135:
@@ -15855,15 +15855,15 @@ IL_0135:
 		}
 	}
 	{
-		uint16_t L_70 = ___0_left;
-		uint16_t L_71 = L_70;
+		float L_70 = ___0_left;
+		float L_71 = L_70;
 		RuntimeObject* L_72 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_71);
-		uint16_t L_73 = ___1_right;
-		uint16_t L_74 = L_73;
+		float L_73 = ___1_right;
+		float L_74 = L_73;
 		RuntimeObject* L_75 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_74);
 		int32_t L_76 = ((int32_t)il2cpp_codegen_add(((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_72, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_75, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_77 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_76);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0172:
@@ -15883,15 +15883,15 @@ IL_0172:
 		}
 	}
 	{
-		uint16_t L_83 = ___0_left;
-		uint16_t L_84 = L_83;
+		float L_83 = ___0_left;
+		float L_84 = L_83;
 		RuntimeObject* L_85 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_84);
-		uint16_t L_86 = ___1_right;
-		uint16_t L_87 = L_86;
+		float L_86 = ___1_right;
+		float L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_87);
 		uint64_t L_89 = ((uint64_t)((int64_t)il2cpp_codegen_add((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_85, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))), (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_88, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_90 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_89);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01af:
@@ -15911,15 +15911,15 @@ IL_01af:
 		}
 	}
 	{
-		uint16_t L_96 = ___0_left;
-		uint16_t L_97 = L_96;
+		float L_96 = ___0_left;
+		float L_97 = L_96;
 		RuntimeObject* L_98 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_97);
-		uint16_t L_99 = ___1_right;
-		uint16_t L_100 = L_99;
+		float L_99 = ___1_right;
+		float L_100 = L_99;
 		RuntimeObject* L_101 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_100);
 		int64_t L_102 = ((int64_t)il2cpp_codegen_add(((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_98, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var)))), ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_101, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_103 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_102);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01ec:
@@ -15939,15 +15939,15 @@ IL_01ec:
 		}
 	}
 	{
-		uint16_t L_109 = ___0_left;
-		uint16_t L_110 = L_109;
+		float L_109 = ___0_left;
+		float L_110 = L_109;
 		RuntimeObject* L_111 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_110);
-		uint16_t L_112 = ___1_right;
-		uint16_t L_113 = L_112;
+		float L_112 = ___1_right;
+		float L_113 = L_112;
 		RuntimeObject* L_114 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_113);
 		float L_115 = ((float)((float)il2cpp_codegen_add(((*(float*)((float*)(float*)UnBox(L_111, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))), ((*(float*)((float*)(float*)UnBox(L_114, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_116 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_115);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_022a:
@@ -15967,15 +15967,15 @@ IL_022a:
 		}
 	}
 	{
-		uint16_t L_122 = ___0_left;
-		uint16_t L_123 = L_122;
+		float L_122 = ___0_left;
+		float L_123 = L_122;
 		RuntimeObject* L_124 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_123);
-		uint16_t L_125 = ___1_right;
-		uint16_t L_126 = L_125;
+		float L_125 = ___1_right;
+		float L_126 = L_125;
 		RuntimeObject* L_127 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_126);
 		double L_128 = ((double)((double)il2cpp_codegen_add(((*(double*)((double*)(double*)UnBox(L_124, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), ((*(double*)((double*)(double*)UnBox(L_127, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_129 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_128);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0268:
@@ -15985,7 +15985,7 @@ IL_0268:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_130, method);
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarMultiply_m02682DF7B2667480D8D315FB0886934D7DA144BC_gshared_inline (uint16_t ___0_left, uint16_t ___1_right, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_ScalarMultiply_mD58AB989E945E1EDE6EEB10156FB51290FF66A8A_gshared_inline (float ___0_left, float ___1_right, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16029,15 +16029,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_ScalarMultiply_
 		}
 	}
 	{
-		uint16_t L_5 = ___0_left;
-		uint16_t L_6 = L_5;
+		float L_5 = ___0_left;
+		float L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_6);
-		uint16_t L_8 = ___1_right;
-		uint16_t L_9 = L_8;
+		float L_8 = ___1_right;
+		float L_9 = L_8;
 		RuntimeObject* L_10 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_9);
 		uint8_t L_11 = ((uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_7, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var)))), (int32_t)((*(uint8_t*)((uint8_t*)(uint8_t*)UnBox(L_10, Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_12 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_11);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_12, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_003e:
@@ -16057,15 +16057,15 @@ IL_003e:
 		}
 	}
 	{
-		uint16_t L_18 = ___0_left;
-		uint16_t L_19 = L_18;
+		float L_18 = ___0_left;
+		float L_19 = L_18;
 		RuntimeObject* L_20 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_19);
-		uint16_t L_21 = ___1_right;
-		uint16_t L_22 = L_21;
+		float L_21 = ___1_right;
+		float L_22 = L_21;
 		RuntimeObject* L_23 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_22);
 		int8_t L_24 = ((int8_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_20, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))), (int32_t)((*(int8_t*)((int8_t*)(int8_t*)UnBox(L_23, SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_25 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_24);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_25, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_007c:
@@ -16085,15 +16085,15 @@ IL_007c:
 		}
 	}
 	{
-		uint16_t L_31 = ___0_left;
-		uint16_t L_32 = L_31;
+		float L_31 = ___0_left;
+		float L_32 = L_31;
 		RuntimeObject* L_33 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_32);
-		uint16_t L_34 = ___1_right;
-		uint16_t L_35 = L_34;
+		float L_34 = ___1_right;
+		float L_35 = L_34;
 		RuntimeObject* L_36 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_35);
 		uint16_t L_37 = ((uint16_t)((int32_t)(uint16_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_33, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var)))), (int32_t)((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_36, UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var))))))));
 		RuntimeObject* L_38 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_37);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_38, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ba:
@@ -16113,15 +16113,15 @@ IL_00ba:
 		}
 	}
 	{
-		uint16_t L_44 = ___0_left;
-		uint16_t L_45 = L_44;
+		float L_44 = ___0_left;
+		float L_45 = L_44;
 		RuntimeObject* L_46 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_45);
-		uint16_t L_47 = ___1_right;
-		uint16_t L_48 = L_47;
+		float L_47 = ___1_right;
+		float L_48 = L_47;
 		RuntimeObject* L_49 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_48);
 		int16_t L_50 = ((int16_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_46, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))), (int32_t)((*(int16_t*)((int16_t*)(int16_t*)UnBox(L_49, Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_51 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_50);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_51, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00f8:
@@ -16141,15 +16141,15 @@ IL_00f8:
 		}
 	}
 	{
-		uint16_t L_57 = ___0_left;
-		uint16_t L_58 = L_57;
+		float L_57 = ___0_left;
+		float L_58 = L_57;
 		RuntimeObject* L_59 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_58);
-		uint16_t L_60 = ___1_right;
-		uint16_t L_61 = L_60;
+		float L_60 = ___1_right;
+		float L_61 = L_60;
 		RuntimeObject* L_62 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_61);
 		uint32_t L_63 = ((uint32_t)((int32_t)il2cpp_codegen_multiply((int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_59, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))), (int32_t)((*(uint32_t*)((uint32_t*)(uint32_t*)UnBox(L_62, UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_64 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_63);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_64, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0135:
@@ -16169,15 +16169,15 @@ IL_0135:
 		}
 	}
 	{
-		uint16_t L_70 = ___0_left;
-		uint16_t L_71 = L_70;
+		float L_70 = ___0_left;
+		float L_71 = L_70;
 		RuntimeObject* L_72 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_71);
-		uint16_t L_73 = ___1_right;
-		uint16_t L_74 = L_73;
+		float L_73 = ___1_right;
+		float L_74 = L_73;
 		RuntimeObject* L_75 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_74);
 		int32_t L_76 = ((int32_t)il2cpp_codegen_multiply(((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_72, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var)))), ((*(int32_t*)((int32_t*)(int32_t*)UnBox(L_75, Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_77 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_76);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_77, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0172:
@@ -16197,15 +16197,15 @@ IL_0172:
 		}
 	}
 	{
-		uint16_t L_83 = ___0_left;
-		uint16_t L_84 = L_83;
+		float L_83 = ___0_left;
+		float L_84 = L_83;
 		RuntimeObject* L_85 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_84);
-		uint16_t L_86 = ___1_right;
-		uint16_t L_87 = L_86;
+		float L_86 = ___1_right;
+		float L_87 = L_86;
 		RuntimeObject* L_88 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_87);
 		uint64_t L_89 = ((uint64_t)((int64_t)il2cpp_codegen_multiply((int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_85, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))), (int64_t)((*(uint64_t*)((uint64_t*)(uint64_t*)UnBox(L_88, UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_90 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_89);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_90, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01af:
@@ -16225,15 +16225,15 @@ IL_01af:
 		}
 	}
 	{
-		uint16_t L_96 = ___0_left;
-		uint16_t L_97 = L_96;
+		float L_96 = ___0_left;
+		float L_97 = L_96;
 		RuntimeObject* L_98 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_97);
-		uint16_t L_99 = ___1_right;
-		uint16_t L_100 = L_99;
+		float L_99 = ___1_right;
+		float L_100 = L_99;
 		RuntimeObject* L_101 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_100);
 		int64_t L_102 = ((int64_t)il2cpp_codegen_multiply(((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_98, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var)))), ((*(int64_t*)((int64_t*)(int64_t*)UnBox(L_101, Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var))))));
 		RuntimeObject* L_103 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_102);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_103, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01ec:
@@ -16253,15 +16253,15 @@ IL_01ec:
 		}
 	}
 	{
-		uint16_t L_109 = ___0_left;
-		uint16_t L_110 = L_109;
+		float L_109 = ___0_left;
+		float L_110 = L_109;
 		RuntimeObject* L_111 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_110);
-		uint16_t L_112 = ___1_right;
-		uint16_t L_113 = L_112;
+		float L_112 = ___1_right;
+		float L_113 = L_112;
 		RuntimeObject* L_114 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_113);
 		float L_115 = ((float)((float)il2cpp_codegen_multiply(((*(float*)((float*)(float*)UnBox(L_111, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))), ((*(float*)((float*)(float*)UnBox(L_114, Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_116 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_115);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_116, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_022a:
@@ -16281,15 +16281,15 @@ IL_022a:
 		}
 	}
 	{
-		uint16_t L_122 = ___0_left;
-		uint16_t L_123 = L_122;
+		float L_122 = ___0_left;
+		float L_123 = L_122;
 		RuntimeObject* L_124 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_123);
-		uint16_t L_125 = ___1_right;
-		uint16_t L_126 = L_125;
+		float L_125 = ___1_right;
+		float L_126 = L_125;
 		RuntimeObject* L_127 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 4), &L_126);
 		double L_128 = ((double)((double)il2cpp_codegen_multiply(((*(double*)((double*)(double*)UnBox(L_124, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))), ((*(double*)((double*)(double*)UnBox(L_127, Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var)))))));
 		RuntimeObject* L_129 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_128);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_129, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0268:
@@ -16299,17 +16299,17 @@ IL_0268:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_130, method);
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_op_Equality_mB42F3DAE52C3BC7579B302E623196C45A5DEAC6B_gshared_inline (Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___0_left, Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 ___1_right, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector_1_op_Equality_m77E3A0C2F3E3C8CF8089131D9EB950D7ED1570A6_gshared_inline (Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___0_left, Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 ___1_right, const RuntimeMethod* method) 
 {
 	{
-		Vector_1_tACF5C606E327928B31CCD8E09C9224DCA7065489 L_0 = ___1_right;
+		Vector_1_t0A7E4A8A4704F8E1E7C3DF592BB50E687CFA9241 L_0 = ___1_right;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		bool L_1;
-		L_1 = Vector_1_Equals_m729FD34A0F43A7C8A8DF285BCED9B5B31D579FE8((&___0_left), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
+		L_1 = Vector_1_Equals_m5D2C3A5577EB964A70437916395C6355E6AA3BE8((&___0_left), L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 7));
 		return L_1;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_GetOneValue_m7E814AFD17E4D390C12EF731DA01203D262D9953_gshared_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_GetOneValue_m36106BB6A0988A8B1B534B437EE992C200D27AF2_gshared_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16355,7 +16355,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_GetOneValue_m7E
 	{
 		uint8_t L_5 = ((uint8_t)1);
 		RuntimeObject* L_6 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_5);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_6, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_6, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0027:
@@ -16377,7 +16377,7 @@ IL_0027:
 	{
 		int8_t L_12 = ((int8_t)1);
 		RuntimeObject* L_13 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_12);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_13, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_13, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_004e:
@@ -16399,7 +16399,7 @@ IL_004e:
 	{
 		uint16_t L_19 = ((uint16_t)1);
 		RuntimeObject* L_20 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_19);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_20, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_20, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0075:
@@ -16421,7 +16421,7 @@ IL_0075:
 	{
 		int16_t L_26 = ((int16_t)1);
 		RuntimeObject* L_27 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_26);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_27, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_27, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_009c:
@@ -16443,7 +16443,7 @@ IL_009c:
 	{
 		uint32_t L_33 = ((uint32_t)1);
 		RuntimeObject* L_34 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_33);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_34, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_34, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00c3:
@@ -16465,7 +16465,7 @@ IL_00c3:
 	{
 		int32_t L_40 = 1;
 		RuntimeObject* L_41 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_40);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_41, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_41, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ea:
@@ -16487,7 +16487,7 @@ IL_00ea:
 	{
 		uint64_t L_47 = ((uint64_t)((int64_t)1));
 		RuntimeObject* L_48 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_47);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_48, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_48, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0112:
@@ -16509,7 +16509,7 @@ IL_0112:
 	{
 		int64_t L_54 = ((int64_t)1);
 		RuntimeObject* L_55 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_54);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_013a:
@@ -16531,7 +16531,7 @@ IL_013a:
 	{
 		float L_61 = (1.0f);
 		RuntimeObject* L_62 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_61);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_62, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_62, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0165:
@@ -16553,7 +16553,7 @@ IL_0165:
 	{
 		double L_68 = (1.0);
 		RuntimeObject* L_69 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_68);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_69, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_69, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0194:
@@ -16563,7 +16563,7 @@ IL_0194:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_70, method);
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_GetAllBitsSetValue_m854DE079EA89F97089D3EF29D7C31F081F420580_gshared_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector_1_GetAllBitsSetValue_m98B418BFAC0D02B9175F85386B50AA7CCA14BF06_gshared_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16611,7 +16611,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t Vector_1_GetAllBitsSetVa
 		L_5 = ConstantHelper_GetByteWithAllBitsSet_m38E318296F5FB9BAE51C97C1AE058716CFC889D7_inline(NULL);
 		uint8_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_il2cpp_TypeInfo_var, &L_6);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_002b:
@@ -16635,7 +16635,7 @@ IL_002b:
 		L_13 = ConstantHelper_GetSByteWithAllBitsSet_mB6B97526769DCCB7B78CCF446F28AAB0D1B5CAE3_inline(NULL);
 		int8_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_il2cpp_TypeInfo_var, &L_14);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_15, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_15, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0056:
@@ -16659,7 +16659,7 @@ IL_0056:
 		L_21 = ConstantHelper_GetUInt16WithAllBitsSet_mD3E13D933A06059499F0E0CBE6798D72D175464A_inline(NULL);
 		uint16_t L_22 = L_21;
 		RuntimeObject* L_23 = Box(UInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_il2cpp_TypeInfo_var, &L_22);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_23, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_23, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0081:
@@ -16683,7 +16683,7 @@ IL_0081:
 		L_29 = ConstantHelper_GetInt16WithAllBitsSet_m70C5F99E624490970E2D4093FE6E800D1849DDFC_inline(NULL);
 		int16_t L_30 = L_29;
 		RuntimeObject* L_31 = Box(Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175_il2cpp_TypeInfo_var, &L_30);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_31, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_31, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00ac:
@@ -16707,7 +16707,7 @@ IL_00ac:
 		L_37 = ConstantHelper_GetUInt32WithAllBitsSet_m78CBFE0C29CF227C16D2A9021972A0D54744BCAF_inline(NULL);
 		uint32_t L_38 = L_37;
 		RuntimeObject* L_39 = Box(UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_il2cpp_TypeInfo_var, &L_38);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_39, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_39, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_00d7:
@@ -16731,7 +16731,7 @@ IL_00d7:
 		L_45 = ConstantHelper_GetInt32WithAllBitsSet_m245101340DDE7277600327D319DF86F1FFEA4FD0_inline(NULL);
 		int32_t L_46 = L_45;
 		RuntimeObject* L_47 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_46);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_47, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_47, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0102:
@@ -16755,7 +16755,7 @@ IL_0102:
 		L_53 = ConstantHelper_GetUInt64WithAllBitsSet_mB7F3E046EE6B1B20C552BF7CF619416E239A5A96_inline(NULL);
 		uint64_t L_54 = L_53;
 		RuntimeObject* L_55 = Box(UInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_il2cpp_TypeInfo_var, &L_54);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_55, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_012d:
@@ -16779,7 +16779,7 @@ IL_012d:
 		L_61 = ConstantHelper_GetInt64WithAllBitsSet_m56A9AB64BA5DDD9ECC99424875824591DEFD5C40_inline(NULL);
 		int64_t L_62 = L_61;
 		RuntimeObject* L_63 = Box(Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_il2cpp_TypeInfo_var, &L_62);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_63, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_63, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0158:
@@ -16803,7 +16803,7 @@ IL_0158:
 		L_69 = ConstantHelper_GetSingleWithAllBitsSet_m66FC11C0680F744EB8315278910061C9535818C0_inline(NULL);
 		float L_70 = L_69;
 		RuntimeObject* L_71 = Box(Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_il2cpp_TypeInfo_var, &L_70);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_71, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_71, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_0183:
@@ -16827,7 +16827,7 @@ IL_0183:
 		L_77 = ConstantHelper_GetDoubleWithAllBitsSet_mF43AF77A6C93B7590B35B20458E80F2BC66AD5F2_inline(NULL);
 		double L_78 = L_77;
 		RuntimeObject* L_79 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_78);
-		return ((*(uint16_t*)((uint16_t*)(uint16_t*)UnBox(L_79, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
+		return ((*(float*)((float*)(float*)UnBox(L_79, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)))));
 	}
 
 IL_01ae:

@@ -261,6 +261,7 @@
 		317B44F3876EC140C859BDEB /* Generics__11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__11.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__11.cpp; sourceTree = SOURCE_ROOT; };
 		31B87AF94D0FCE4F2238BC4D /* Generics__21.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__21.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__21.cpp; sourceTree = SOURCE_ROOT; };
 		325555CE8DEBEC25FFFE051F /* Generics__48.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__48.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__48.cpp; sourceTree = SOURCE_ROOT; };
+		32794631EAE2A26E05869F6E /* Generics__105.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__105.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__105.cpp; sourceTree = SOURCE_ROOT; };
 		327EA6C72E3500D1EA7B8114 /* Unity.Multiplayer.Tools.MetricEvents_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Multiplayer.Tools.MetricEvents_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Multiplayer.Tools.MetricEvents_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		32A7FB46D815D924327323F8 /* Unity.Mathematics__3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Mathematics__3.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Mathematics__3.cpp; sourceTree = SOURCE_ROOT; };
 		334180F2099CA4932596C6A5 /* Unity.Services.Core.Internal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Unity.Services.Core.Internal.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Services.Core.Internal.cpp; sourceTree = SOURCE_ROOT; };
@@ -315,6 +316,7 @@
 		4EEAF035005D81C6A49A7C45 /* UnityEngine.TextCoreTextEngineModule__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.TextCoreTextEngineModule__2.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp; sourceTree = SOURCE_ROOT; };
 		4F220071BD34BF6BF75F1125 /* UnityEngine.TerrainModule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.TerrainModule.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.TerrainModule.cpp; sourceTree = SOURCE_ROOT; };
 		4F97D266790DB44CD01959EC /* Assembly-CSharp__4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__4.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__4.cpp"; sourceTree = SOURCE_ROOT; };
+		504F10354AA6664ACC10AE55 /* Assembly-CSharp__7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "Assembly-CSharp__7.cpp"; path = "Il2CppOutputProject/Source/il2cppOutput/Assembly-CSharp__7.cpp"; sourceTree = SOURCE_ROOT; };
 		525CDBA21FAADF221B8950A5 /* Generics__5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__5.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__5.cpp; sourceTree = SOURCE_ROOT; };
 		5390DEEE9EABDA6BF3A9E027 /* Unity.Services.Core.Threading_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = Unity.Services.Core.Threading_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/Unity.Services.Core.Threading_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		53D50B1E0F71DFEBC9CABD14 /* UnityEngine.UIElementsModule__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityEngine.UIElementsModule__2.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UIElementsModule__2.cpp; sourceTree = SOURCE_ROOT; };
@@ -907,6 +909,7 @@
 				4F97D266790DB44CD01959EC /* Assembly-CSharp__4.cpp */,
 				A34734E12320BFE93D77614B /* Assembly-CSharp__5.cpp */,
 				E0994B957EB074EB69BD9ABA /* Assembly-CSharp__6.cpp */,
+				504F10354AA6664ACC10AE55 /* Assembly-CSharp__7.cpp */,
 				DC641E85B09D087E3E294418 /* GenericMethods.cpp */,
 				CF08E8E4A81091C5FDB9F66D /* GenericMethods__1.cpp */,
 				CFD9F8BCEB8E8AB7DDA7F121 /* GenericMethods__10.cpp */,
@@ -945,6 +948,7 @@
 				E9E737023C985231D6E1BEF0 /* Generics__102.cpp */,
 				230A99F19203C8EE40A9F40A /* Generics__103.cpp */,
 				4B84640EEFDECB4DA28446F7 /* Generics__104.cpp */,
+				32794631EAE2A26E05869F6E /* Generics__105.cpp */,
 				317B44F3876EC140C859BDEB /* Generics__11.cpp */,
 				BF026C43C97DF354A316F9F4 /* Generics__12.cpp */,
 				848BF6A7383F7523CFD9F1F2 /* Generics__13.cpp */,

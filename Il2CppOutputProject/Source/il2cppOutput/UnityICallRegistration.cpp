@@ -902,6 +902,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
 
+		//System.Void UnityEngine.Animator::set_speed(System.Single)
+		void Register_UnityEngine_Animator_set_speed();
+		Register_UnityEngine_Animator_set_speed();
+
 		//UnityEngine.AnimatorControllerParameter[] UnityEngine.Animator::get_parameters()
 		void Register_UnityEngine_Animator_get_parameters();
 		Register_UnityEngine_Animator_get_parameters();
@@ -2526,9 +2530,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Light_get_color_Injected();
 		Register_UnityEngine_Light_get_color_Injected();
 
+		//System.Void UnityEngine.Light::set_color_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_Light_set_color_Injected();
+		Register_UnityEngine_Light_set_color_Injected();
+
+		//System.Void UnityEngine.Light::set_intensity(System.Single)
+		void Register_UnityEngine_Light_set_intensity();
+		Register_UnityEngine_Light_set_intensity();
+
 		//System.Void UnityEngine.Light::set_range(System.Single)
 		void Register_UnityEngine_Light_set_range();
 		Register_UnityEngine_Light_set_range();
+
+		//System.Void UnityEngine.Light::set_type(UnityEngine.LightType)
+		void Register_UnityEngine_Light_set_type();
+		Register_UnityEngine_Light_set_type();
 
 		//UnityEngine.LightShadows UnityEngine.Light::get_shadows()
 		void Register_UnityEngine_Light_get_shadows();
@@ -3466,6 +3482,22 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_RectOffset_InternalDestroy();
 		Register_UnityEngine_RectOffset_InternalDestroy();
 
+		//System.Void UnityEngine.RectOffset::set_bottom(System.Int32)
+		void Register_UnityEngine_RectOffset_set_bottom();
+		Register_UnityEngine_RectOffset_set_bottom();
+
+		//System.Void UnityEngine.RectOffset::set_left(System.Int32)
+		void Register_UnityEngine_RectOffset_set_left();
+		Register_UnityEngine_RectOffset_set_left();
+
+		//System.Void UnityEngine.RectOffset::set_right(System.Int32)
+		void Register_UnityEngine_RectOffset_set_right();
+		Register_UnityEngine_RectOffset_set_right();
+
+		//System.Void UnityEngine.RectOffset::set_top(System.Int32)
+		void Register_UnityEngine_RectOffset_set_top();
+		Register_UnityEngine_RectOffset_set_top();
+
 	//End Registrations for type : UnityEngine.RectOffset
 
 	//Start Registrations for type : UnityEngine.RectTransform
@@ -3630,13 +3662,37 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.RenderSettings
 
+		//System.Boolean UnityEngine.RenderSettings::get_fog()
+		void Register_UnityEngine_RenderSettings_get_fog();
+		Register_UnityEngine_RenderSettings_get_fog();
+
 		//System.Void UnityEngine.RenderSettings::get_ambientLight_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_RenderSettings_get_ambientLight_Injected();
 		Register_UnityEngine_RenderSettings_get_ambientLight_Injected();
 
+		//System.Void UnityEngine.RenderSettings::get_fogColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_RenderSettings_get_fogColor_Injected();
+		Register_UnityEngine_RenderSettings_get_fogColor_Injected();
+
 		//System.Void UnityEngine.RenderSettings::set_ambientLight_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_RenderSettings_set_ambientLight_Injected();
 		Register_UnityEngine_RenderSettings_set_ambientLight_Injected();
+
+		//System.Void UnityEngine.RenderSettings::set_fog(System.Boolean)
+		void Register_UnityEngine_RenderSettings_set_fog();
+		Register_UnityEngine_RenderSettings_set_fog();
+
+		//System.Void UnityEngine.RenderSettings::set_fogColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_RenderSettings_set_fogColor_Injected();
+		Register_UnityEngine_RenderSettings_set_fogColor_Injected();
+
+		//System.Void UnityEngine.RenderSettings::set_fogDensity(System.Single)
+		void Register_UnityEngine_RenderSettings_set_fogDensity();
+		Register_UnityEngine_RenderSettings_set_fogDensity();
+
+		//System.Void UnityEngine.RenderSettings::set_fogMode(UnityEngine.FogMode)
+		void Register_UnityEngine_RenderSettings_set_fogMode();
+		Register_UnityEngine_RenderSettings_set_fogMode();
 
 		//System.Void UnityEngine.RenderSettings::set_skybox(UnityEngine.Material)
 		void Register_UnityEngine_RenderSettings_set_skybox();
