@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          lfs: true # Tells the cloud to download your 202MB library file
+          lfs: true
 
       - name: Build Xcode Project
         run: |
@@ -29,13 +29,11 @@ jobs:
       - name: Package into IPA
         run: |
           mkdir Payload
-          cp -r build/Unity-iPhone.app Payload/
+          # Automatically find the .app folder wherever Xcode put it and whatever it's named
+          APP_PATH=$(find build -name "*.app" -type d | head -n 1)
+          echo "Found compiled app folder at: $APP_PATH"
+          cp -r "$APP_PATH" Payload/
           zip -r Game.ipa Payload
-
-          # Quick fallback if the path structure varies
-          if [ ! -f Game.ipa ]; then
-            echo "An error occurred packaging the app." && exit 1
-          fi
 
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
